@@ -1,0 +1,36 @@
+{
+  "itemName" : "peglacitier9railgun",
+  "inventoryIcon" : "peglacitier9railgunicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Dense Violium rounds deals increased damage - charge to launch an explosive shell.",
+  "shortdescription" : "Crevasse Grenade Rifle II",
+  "image" : "peglacitier9railgun.png:<frame>",
+  "imageFrameSelector" : "peglacitier9railgunImageSelector",
+  "handPosition" : [-5, -1],
+  "firePosition" : [12, 0],
+  "classMultiplier" : 0.03,
+  "fireTime" : 0.35,
+  "twoHanded" : true,
+  "recoilTime" : 0.2,
+  "hands" : [2, 2],
+  "rateOfFire" : [2, 7],
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+  },
+
+  "fireOnRelease" : true,
+  
+   "projectileType" : "peglacitier9railgunshot",
+   "powerProjectileType" : "peglacitier9railgunshotpower",
+  "powerProjectileTime" : [0.5, 50],
+  "projectile" : {
+    "power" : 712,
+    "powerCurve" : "peglacitier9railgunTimeMultiplier",
+    "color" : [10, 255, 10]
+	}
+
+
+}

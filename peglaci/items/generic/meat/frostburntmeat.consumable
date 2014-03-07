@@ -1,0 +1,12 @@
+{
+  "itemName" : "frostburntmeat",
+  "rarity" : "Common",
+  "inventoryIcon" : "frostburntmeat.png",
+  "description" : "A Peglaci delicacy. An accident for everyone else.",
+  "shortdescription" : "Frostburnt Alien Meat",
+  "effects" : [ [
+      { "kind" : "food","amount" : 30},
+	  { "kind" : "health","amount" : 10},
+	  { "kind" : "warmth","amount" : -10}
+    ] ]
+}

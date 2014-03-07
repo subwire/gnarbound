@@ -1,0 +1,15 @@
+{
+  "materialId" : 13008,
+  "materialName" : "testplatform",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "avaliteststairs.png",
+  "platformVariants" : 3,
+  "platformImage" : "avalitestplatform.png",
+  "itemDrop" : "avalitestplatform",
+  "shortdescription" : "Avali Platform",
+  "description" : "A hardened aerogel platform, suitable for cookie jars and people alike.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav"
+   
+}

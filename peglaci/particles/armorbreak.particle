@@ -1,0 +1,15 @@
+{
+  "kind" : "armorbreak",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/effects/armorbreak/armorbreak.animation",
+    "position" : [0, -1],
+    "finalVelocity" : [0, 4],
+    "approach" : [0, 50],
+    "size" : 1.0,
+    "timeToLive" : 2,
+    "variance" : {
+      "initialVelocity" : [0, -3.0]
+    }
+  }
+}

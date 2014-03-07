@@ -1,0 +1,16 @@
+{
+  "id" : "peglacitutorial4.gearup",
+  "title" : "^#9be3d6;The Trap is Set!",
+  "text" : "Place the ^orange;Distress Beacon^white; on your chosen ambush site - ^red;Dreadwing^white; won't be expecting a Peacekeeper to be waiting for him when he arrives. You'll make short work of him.",
+  "completionText" : "Way to go - the sector is now safe from his depredations... until his clone backup takes hold, anyhow.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "moltencore", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "moltencore", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "peglacitier7icethrower",
+  "inventoryIcon" : "peglacitier7icethrowericon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Blasts a freezing mist - prolonged use will slow the targets movement while lowering their temperature.",
+  "shortdescription" : "Mistral Icethrower",
+  "image" : "peglacitier7icethrower.png:<frame>",
+  "imageFrameSelector" : "peglacitier7icethrowerImageSelector",
+  "handPosition" : [-5, -1],
+  "firePosition" : [12, -1],
+  "classMultiplier" : 0.05,
+  "fireTime" : 0.1,
+  "twoHanded" : true,
+  "hands" : [2, 2],
+  "rateOfFire" : [2, 7],
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+  },
+  
+   "projectileType" : "peglacitier7icethrowershot",
+  "projectile" : {
+    "speed" : 40,
+    "power" : 91,
+    "powerCurve" : "peglacitier7icethrowerTimeMultiplier",
+    "color" : [10, 255, 10]
+	}
+
+
+}

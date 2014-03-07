@@ -1,0 +1,20 @@
+{
+  "kind" : "energydrainpeglaci",
+  "mode" : "max",
+  "duration" : 15,
+  "initialTick" : false,
+  "interval" : 2,
+  "primitives" : [
+    { "name" : "periodic" }
+  ],
+  "effectSources" : [ "energydrain" ],
+  "tick" : {
+    "statusEffects" : [
+      {
+        "kind" : "energy",	  
+		"amount" : -0.4
+      }
+    ]
+  },
+  "mainInterfaceIcon" : "/interface/statuses/energydrain.png"
+}

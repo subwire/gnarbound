@@ -1,0 +1,16 @@
+{
+  "id" : "peglacitutorial3.gearup",
+  "title" : "^#9be3d6;Time to Smelt!",
+  "text" : "The ^orange;crafting table^white; will allow you to create a ^orange;stone furnace^white;, a low tech but highly effective method of producing the refined metals you require for the beacon. Some iron should first be used to repair your ^orange;faulty pistol^white;, then subsequently put to use in creating the ^orange;beacon^white;.",
+  "completionText" : "Good work. Now that you have the ^orange;beacon^white;, it's time to set the ambush.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "ironbeacon", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "ironbeacon", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "peglacitutorial4.gearup"
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "aerogel", "count" : 1 },
+    { "item" : "steelbar", "count" : 1 }	
+  ],
+  "output" : { "item" : "avalicrystal1", "count" : 1 },
+  "groups" : [ "objects", "avalilathe", "all" ]
+}

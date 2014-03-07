@@ -1,0 +1,14 @@
+{
+  "itemName" : "slushpaste",
+  "rarity" : "Common",
+  "inventoryIcon" : "slushpaste.png",
+  "description" : "A pureed mixture of snow and vegetable matter that can barely be termed food. It'll keep you from starving, but only just.",
+  "shortdescription" : "Slushpaste",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "peglacihungerstop"
+      }
+     
+    ] ]
+}

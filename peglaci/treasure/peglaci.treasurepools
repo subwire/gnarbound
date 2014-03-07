@@ -1,0 +1,28 @@
+{
+  "peglaciStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "copperpickaxe",
+		  "peglacifuelcell",
+          "flashlight",
+		  "snowberryseed",
+		  "spongeweedseed",
+		  "peglacitier1chest",
+		  "peglacitier1pants",
+		  "peglacitier1head",
+		  "peglacitier1cestus",
+		  
+		  "brokenemergpistol",		
+		  
+		  [ "peglacitier1knife", 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}
+
+	
+
+  
+			

@@ -1,0 +1,16 @@
+{
+  "id" : "peglacitutorial.gearup",
+  "title" : "^#9be3d6;Dispatched for Peace!",
+  "text" : "Peacekeeper, you have been dispatched to this sector to patrol and seek out those who need aid. ^red;Dreadwing the Pirate^white; is in the area, and you are to end his reign of terror. Seek out an appropriate planet to set up an ambush; you have been supplied with a ^orange;Fuel Cell^white; - retrieve it from the storage to the right of your chair.",
+  "completionText" : "Well done. Now you can fuel up - the hatch is the orange crescent immediately above your storage.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "peglacifuelcell", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "peglacifuelcell", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "peglacitutorial2.gearup"
+}

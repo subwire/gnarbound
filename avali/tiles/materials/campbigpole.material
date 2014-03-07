@@ -1,0 +1,14 @@
+{
+  "materialId" : 12503,
+  "materialName" : "campbigpole",
+  "frames" : "campbigpole.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 5,
+  "itemDrop" : "campbigpole",
+  "description" : "A really immovable stick in the mud.",
+  "shortdescription" : "Big Tent Pole",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "health" : 1.0
+}
+

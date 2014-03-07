@@ -1,0 +1,16 @@
+{
+  "id" : "peglacigunfix.gearup",
+  "title" : "^#9be3d6;A Broken Sidearm!",
+  "text" : "While every Peacekeeper is sent out with a full suite of equipment and an emergency pistol, it seems like your sidearm has malfunctioned. Acquire an ^orange;Iron Bar^white; to make a quick repair to your ^orange;Broken Pistol^white;.",
+  "completionText" : "The pistol can be charged; with a ^green;full charge^white;, projectiles gain ^green;piercing power^white; and the ability to ^green;bank off walls^white;.",
+  "conditions" : [
+	{ "kind" : "gather", "item" : [ "ironbar", 1] },
+	{ "kind" : "gather", "item" : [ "brokenemergpistol", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "emergpistol", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ]
+}

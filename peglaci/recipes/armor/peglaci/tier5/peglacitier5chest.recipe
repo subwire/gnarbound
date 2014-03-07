@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "aegisaltbar", "count" : 35 }
+  ],
+  "output" : { "item" : "peglacitier5chest", "count" : 1 },
+  "groups" : [ "metalworkstation", "armors", "all" ]
+}

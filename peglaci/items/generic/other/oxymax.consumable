@@ -1,0 +1,13 @@
+{
+  "itemName" : "oxymax",
+  "rarity" : "Common",
+  "inventoryIcon" : "oxymax.png",
+  "description" : "This concoction hyperoxygenates the blood while reducing the body's requirement for air, allowing survival in airless environments for a time.",
+  "shortdescription" : "Oxymax",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+     
+        {"kind" : "peglacibreathboost"}
+     
+    ] ]
+}

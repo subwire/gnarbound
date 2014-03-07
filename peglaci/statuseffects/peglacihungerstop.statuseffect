@@ -1,0 +1,19 @@
+{
+  "kind" : "peglacihungerstop",
+  "mode" : "max",
+  "duration" : 300,
+  "initialTick" : false,
+  "interval" : 2,
+  "primitives" : [
+    { "name" : "periodic" }
+  ],
+  "effectSources" : [ "peglacihungerstop" ],
+  "tick" : {
+    "statusEffects" : [
+      {
+        "kind" : "fooddepletionsuppressed"
+      }
+    ]
+  },
+  "mainInterfaceIcon" : "/interface/statuses/hungerstop.png"
+}

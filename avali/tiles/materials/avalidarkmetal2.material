@@ -1,0 +1,13 @@
+{
+  "materialId" : 12505,
+  "materialName" : "avalidarkmetal2",
+  "frames" : "avalidarkmetal2.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "avalidarkmetal2",
+  "description" : "Metal, darkly",
+  "shortdescription" : "Dark Metal Beam",
+  "multicolored" : false,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 1.0
+}

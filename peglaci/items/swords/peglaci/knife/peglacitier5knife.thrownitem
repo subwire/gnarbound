@@ -1,0 +1,21 @@
+{
+  "itemName" : "peglacitier5knife",
+  "rarity" : "Common",
+    "inventoryIcon" : "peglacitier5knife.png",
+  "image" : "peglacitier5knife.png",
+  "shortdescription" : "Fanblade",
+  "description" : "Throws a spread of deadly razor-sharp darts.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "peglacitier5knife",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 71
+  }
+}
+

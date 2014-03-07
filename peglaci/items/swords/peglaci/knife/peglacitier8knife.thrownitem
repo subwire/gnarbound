@@ -1,0 +1,21 @@
+{
+  "itemName" : "peglacitier8knife",
+  "rarity" : "Common",
+  "inventoryIcon" : "peglacitier8knife.png",
+  "image" : "peglacitier8knife.png",
+  "shortdescription" : "Backscatter",
+  "description" : "Launches a grenade that accelerates before firing off three missiles the other way.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "peglacitier8knife",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 457
+  }
+}
+

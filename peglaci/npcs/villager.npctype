@@ -1,0 +1,377 @@
+{
+	"__merge" : [],
+	"scriptConfig" : {
+		"converse" : {
+			"dialog" : {
+				"apex" : {
+					"peglaci" : [
+						"Your fur is so luxurious!",
+						"How do you keep your fur so shaggy, I can't bear to wear it long.",
+						"I've heard your homeworld is a frozen ball of ice - what's it like travelling to warmer planets?",
+						"I've heard you Peacekeepers have helped the rebels out... Thank you.",
+						"What does the world look like without color vision?",
+						"Sometimes you Peacekeepers meddle too much in other species' affairs.",
+						"Your smaller secondary limbs are quite intriguing.",
+						"Your species sees into the infrared spectrum, I've heard - how do I look?",
+						"For a race of peacekeepers, you certainly look built for fighting.",
+						"I know you support us against our oppressors - thank you.",
+						"So, are you male or female? I can never tell.",
+						"If the Miniknog comes for me, I know you'll stand between them and me.",
+						"The Miniknog's not that bad, you know. At least you know what to expect from them.",
+						"Nice to see you, sir... or ma'am?",
+						"I've always thought the Peglaci were kind of cute.",
+						"I don't know if this is true or not, but apparently there's some giant red citadels in the more dangerous regions of space. People say they're full of treasure.",
+						"The Hyotl hate you guys, you know. I don't think they quite know how to deal with you.",
+						"I bet a Floran would think twice about taking you on",
+						"Hey, I have a Peglaci blanket at home - it's sooo comfortable.",
+						"I doubt the Avian government takes too kindly to your talk about secularism.",
+						"The Humans keep calling you names behind your backs, you know.",
+						"You Peglaci tend to keep to ice planets - is it really so uncomfortable in the heat or do you just dislike other races?",
+						"Your horns are pretty sharp looking.",
+						"I hear you guys don't have toilets - what do you use instead?",
+						"Big Ape will take you down, eventually - stop fighting him while you have the chance.",
+						"So, do you want to get a drink later?",
+						"The Miniknog has been trying to suppress a report that your Peacekeepers helped smuggle rebels out of a penal colony - you have my thanks."
+					]
+				},
+				"floran" : {
+					"peglaci" : [
+						"Hello Whale-hunter!",
+						"Floran wants to eat one of these whales you ssspeak of.",
+						"You are covered in fur! Like dandelion!",
+						"Floran not like the cold - you visit me instead.",
+						"Your planets are too cold for Floran.",
+						"Floran tried to make a snowman once.",
+						"Peglaci eat frozen, raw, meat. Two out of three not ssso bad!",
+						"Floran met Peglaci Cannibalsss once - they ate coccoon-kin!",
+						"Ssstay away from me, you smell like fish.",
+						"Jussst looking at you makes me cold!",
+						"Your sssettlements are too cold for us.",
+						"Peacccekeeper.",
+						"Floran like ssspicy food. Floran food make Peglaci cry..",
+						"Floran bought a whale bone once. Made good soup!.",
+						"Peacekeeper!",
+						"What'sss new, Peacekeeper?",
+						"Floran hear your kind are great hunters of big game.",
+						"Floran fought a Peglaci once - he tore off my arm. We good friends now.",
+						"No flowers on your planetsss, ssso sad.",
+						"Hyotl don't like your kind. Floran think you alright!",
+						"Why tell others not to fight? Life without fighting isss just existing.",
+						"Others sssay your food is not so good. I say others are misssing out! ",
+						"You eat your meatsss frozen, paaah! Ruined! Raw, at least.",
+						"Raw meat make hunters ssstrong.",
+						"The Giantsss live on.",
+						"Hey! Want to fight?",
+						"You make trouble, Floran ssstab.",
+						"Greenguard don't trust Peacekeepers.",
+						"Peglaci make good weapons! Many booms and frozen prey!.",
+						"May Floran try your weapon in target practice?",
+						"You have no nose! How do you sssmell? Terrible! Ha ha ha!",
+						"Your eyesss are gorgeousss.",
+						"I hear your speciesss doesn't like to fight! Fighting is the bessst!",
+						"You like fish? We have fishesss here for you to eat!"
+					]
+				},
+				"human" : {
+					"peglaci" : [
+						"Hey, man. Uh, sorry, are you a guy or a girl?",
+						"I've been to one of your settlements, you know - very beautiful, but I can't hold my breath long enough to really enjoy it.",	
+						"It's good to know I can always call on the Peacekeepers if I'm in trouble.",						
+						"Sometimes you Peacekeepers meddle too much in other species' affairs.",						
+						"If you call yourselves the Peacekeepers, why do you carry so many weapons?",
+						"You have fur like an alpaca!",
+						"What's up, four-eyes?",
+						"I bet you guys make awesome snowmen.",
+						"Is it true you guys can't get drunk on alcohol You're missing out!?",
+						"A friend of mine tried to keep a juvenile Peglaci as a pet. Once it pupated, it tried to eat her!",
+						"Your language looks so pretty!",
+						"The Floran seem to think your kind is pretty great. That makes me suspicious just on the face of it.",
+						"I hear tell you guys make some pretty interesting weaponry. None of you will sell it to me though. ",
+						"So you guys were created, eh? How does that feel?",
+						"I can't imagine your species' history - it's like going from ape to medieval to space age in the span of a few generations!",
+						"Did you ever talk to one of the Giants?",
+						"I've been to one of your settlements to visit a friend of mine. Really nice, but really cold.",
+						"It doesn't surprise me you don't see a lot of Peglaci restaurants.",
+						"I challenged one of you folks to an arm wrestle - damn near took my arm off!!",
+						"So either of your sexes can have a child, and your kids aren't even sentient until adolescence? How bizarre!",
+						"So juvenile Peglaci aren't sentient eh? Just like human children.",
+						"You have infrared vision right? So you can see how hot I am? Bazinga.",
+						"You have fur like an alpaca!",
+						"Your teeth kinda freak me out.",
+						"Those little arms of yours are a bit unsettling.",		
+						"You guys are alright, but your cooking leaves something to be desired. I like my food warm, thank you very much!",
+						"So do you guys see in black and white, or what?",
+						"What's it like to hunt a whale?",			
+						"Yeah, losing Earth really sucked. I'd rather you guys stopped bringing it up.",
+						"I feel safer with you guys around - you're tough as hell but so chill. Sort of a pun?",
+						"Which set of eyes am I supposed to look into?",
+						"Why do you guys have four arms?"
+					]
+				},
+				"glitch" : {
+					"peglaci" : [
+						"Curious. How do you swim with all that fur?",
+						"Frightened. Please, Peacekeeper, I've done nothing wrong.",
+						"Peaceful. I feel safer with you here.",
+						"Inquisitive. Your secondary arms look very dextrous.",		
+						"Defiant. I am not merely a machine - I know your people look down upon us.",			
+						"Incisive. How can your people determine how best to bring peace to other races?.",
+						"Incisive. Your people were uplifted from apex predators to a space-faring civilization in a scant few millenia - what gives you the right to lay down law for others?",
+						"Friendly. Welcome, traveller. And such a curious traveller, too!",
+						"Thoughtful. Do you ever miss your creators?",
+						"Thoughtful. The Glitch were created, also.",
+						"Sarcastic. How lovely it is for the machine-haters to visit.",
+						"Derisive. How can you expect to keep the peace for other races if you can't even keep your own kind from joining the Cannibals?",
+						"Friendly. It is good to see you, Peacekeeper.",
+						"Congenial. There is much our species can teach one another.",
+						"Impressed. Nothing is warmer than a suit of Peglaci armor.",
+						"Congenial. Our optics can see into infrared as well!",
+						"Jocular. Have you heard the one about the Peglaci art critic and the outhouse?",
+						"Sarcastic. It is good to see you, Peacekeeper.",
+						"Flirtatious. My, your eyes sparkle so nicely in the light.",
+						"Appreciative. We are sure to be safe from bandits with you here, Peacekeeper.",
+						"Incredulous. Your kind never developped swords? However did you vanquish your foes?",
+						"Awestruck. I have seen archival footage of the Giants on your home planet - truly amazing.",
+						"Playful. With all those arms and eyes, I bet you're a wonderful juggler.",
+						"Amused. The Glitch have no noses either.",
+						"Fearful. Please, do not smile - your teeth look rather frightful.",
+						"Intrigued. I can't help but wonder what effects your kind having spoken to their creators has had on your species.",
+						"Playful. Your fur is so soft-looking."
+					]
+				},
+				"hylotl" : {
+					"peglaci" : [
+						"Ah, one of our aquatic brethren. Care for a swim?",
+						"It's nice to be in the presence of another species that enjoys the water as we do... even if they do have fur.",
+						"Whale-killer.",
+						"For whatever reason, you make me think of one of our ancestral predators. Keep your distance.",
+						"I wish my eyes had the same lovely hue as yours.",
+						"With such limited color vision, I'm sure everything appears as dull as you look.",
+						"What are you doing here, Whale-killer?",
+						"Everything's all right here, Peacekeeper, there's no need for you to snoop around.",
+						"At least the Hyotl can say that everything we have we've earned.",
+						"Your guided evolution must have left your kind with some serious issues.",
+						"My family will hate me for this... would you like to get dinner sometime?",
+						"The Peglaci palate lacks a certain amount of discrimination when it comes to flavor and texture.",
+						"All of your advanced technology is nothing more than hand-me-downs from your betters.",
+						"Hyotls had to earn their stature. Peglaci had it thrust upon them.",
+						"I don't care what everyone else says about you, I think the Peglaci are adorable!",
+						"You don't deserve all of the garbage they say about you.",
+						"Killed any whales recently?",
+						"Four eyes, eh? Think you're better than us?",
+						"I can't believe that your species hunts and kills whales - so disrespectful!",
+						"Fur is a primitive trait for one who spends much of their time in that water. I'm sure if your species had evolved properly, you would appear closer to our image.",
+						"Our species share so much in common, but we always seem to disagree for some reason.",
+						"Despite our differences, I will admit that you Peacekeepers do a good job of defusing conflict.",
+						"How can you stand to swim in such frigid waters?",
+						"Do you really believe that anything your species does is earned? Everything was given to you by your gods."						
+					]
+				},
+				"avian" : {
+					"peglaci" : [
+						"You know, the Stargazers are furious at your species. I guess they don't like you guys telling people to 'cast down religion and its shackles'.",
+						"You guys don't believe in Kluex, do you?",
+						"I can't believe your species spoke with their gods and had them answer you. What luck...",
+						"Your ancestors met your creators - you have physical evidence of this - and you still don't believe in gods? What madness.",
+						"You would be executed if you set foot on Avos. Then again, so would I, so welcome!",
+						"What deep truths do you see with those four eyes?",
+						"So what can you do with those cute little arms on your torso?",
+						"Do you think you could ever be friends with a believer in Kluex?",
+						"Do you think that you're better than us believers?",
+						"How can you tell between the male and female of your species? How does that work?",
+						"Your eyes are so beautiful!",
+						"Uh, no thanks, I'll pass on Peglaci food.",
+						"Isn't it exciting to explore other cultures?",
+						"How do you enjoy our food? A little warm for your tastes?",
+						"Isn't it exciting to explore other cultures?",
+						"Your young are so adorable! Like little angry kittens!",
+						"I hear there's a Peacekeeper Stationhouse somewhere nearby - all distress calls get routed through there so you can dispatch help.",
+						"Aren't you hot under all those clothes - and all that fur?",
+						"I hope you don't look down on us for our beliefs.",
+						"I met one of your kind years ago - they were very tolerant and wise.",
+						"Gods, creators, what's the difference?",
+						"What's wrong with our religion, huh?",
+						"I've been to one of your outposts - by Kluex, you keep it cold in there.",
+						"I think the Peglaci are alright, despite what the Hyotl say. I think they're jealous.",
+						"I've heard tell of Peglaci Cannibals out in the asteroid fields - they're a scary bunch. Certainly not interested in peace.",
+						"What's the use of peace, anyhow? A little uncertainty is exciting.",
+						"Kluex will forgive you your disbelief.",
+						"Your fur looks very warm and cozy - the chill must not get to you at all.",
+						"I've heard that Peglaci cuisine is terrible, but I'm still anxious to try it one day."
+					]
+				},
+				"peglaci" : {
+					"default" : [
+						"Greetings.",
+						"Hello. I'm <name>. Welcome to our humble outpost.",
+						"Hope you aren't too cold.",
+						"Try not to get your tongue stuck to the ice.",
+						"Tread carefully - don't want to slip and fall!",
+						"You look damp.",
+						"Make sure you hold your breath if you go down deep!"
+					],
+					"apex" : [
+						"Greetings.",
+						"Hello. I'm <name>. Welcome to our humble outpost.",
+						"You're free of tyranny here, friend - the Peacekeepers will watch over you.",
+						"Life under Big Ape is no life at all - you ought to come live among us!"
+					],
+					"human" : [
+						"Greetings.",
+						"Hello. I'm <name>. Welcome to our humble outpost."
+					],
+					"avian" : [
+						"Greetings.",
+						"Hello. I'm <name>. Welcome to our humble outpost."
+					],
+					"peglaci" : [
+						"Greetings.",
+						"Hello. I'm <name>. Welcome to our humble outpost."
+					]
+				}
+			}
+		},
+
+		"flee" : {
+			"dialog" : {
+				"helpme" : {
+					"peglaci" : [
+						"Greetings.",
+						"Hello. I'm <name>. Welcome to our humble outpost."
+					]
+				},
+				"helpthem" : {
+					"peglaci" : [
+						"Greetings.",
+						"Hello. I'm <name>. Welcome to our humble outpost."
+					]
+				},
+				"encourage" : {
+					"peglaci" : [
+						"Greetings.",
+						"Hello. I'm <name>. Welcome to our humble outpost."
+					]
+				}
+			}
+		}
+
+	},
+
+
+	"items" : {
+		"peglaci" : [
+			[0, [
+				{
+					"chest" : [
+						//{ "name" : "greatcoatjacket", "data" : { "colorIndex" : "random" } },
+						{ "name" : "greatcoatjacket", "data" : { "colorIndex" : 1 } },
+						{ "name" : "greatcoatjacket", "data" : { "colorIndex" : 2 } },
+						{ "name" : "greatcoatjacket", "data" : { "colorIndex" : 3 } },
+						{ "name" : "greatcoatjacket", "data" : { "colorIndex" : 4 } },
+						{ "name" : "greatcoatjacket", "data" : { "colorIndex" : 5 } },
+						{ "name" : "greatcoatjacket", "data" : { "colorIndex" : 6 } },
+						{ "name" : "greatcoatjacket", "data" : { "colorIndex" : 7 } },
+						{ "name" : "greatcoatjacket", "data" : { "colorIndex" : 8 } },
+						{ "name" : "greatcoatjacket", "data" : { "colorIndex" : 9 } },
+						{ "name" : "greatcoatjacket", "data" : { "colorIndex" :10 } },
+						{ "name" : "greatcoatjacket", "data" : { "colorIndex" :11 } },
+						
+						//{ "name" : "skijacketjacket", "data" : { "colorIndex" : "random" } },
+						{ "name" : "skijacketjacket", "data" : { "colorIndex" : 1 } },
+						{ "name" : "skijacketjacket", "data" : { "colorIndex" : 2 } },
+						{ "name" : "skijacketjacket", "data" : { "colorIndex" : 3 } },
+						{ "name" : "skijacketjacket", "data" : { "colorIndex" : 4 } },
+						{ "name" : "skijacketjacket", "data" : { "colorIndex" : 5 } },
+						{ "name" : "skijacketjacket", "data" : { "colorIndex" : 6 } },
+						{ "name" : "skijacketjacket", "data" : { "colorIndex" : 7 } },
+						{ "name" : "skijacketjacket", "data" : { "colorIndex" : 8 } },
+						{ "name" : "skijacketjacket", "data" : { "colorIndex" : 9 } },
+						{ "name" : "skijacketjacket", "data" : { "colorIndex" :10 } },
+						{ "name" : "skijacketjacket", "data" : { "colorIndex" :11 } },
+						
+						//{ "name" : "snowrobejacket", "data" : { "colorIndex" : "random" } },
+						{ "name" : "snowrobejacket", "data" : { "colorIndex" : 1 } },
+						{ "name" : "snowrobejacket", "data" : { "colorIndex" : 2 } },
+						{ "name" : "snowrobejacket", "data" : { "colorIndex" : 3 } },
+						{ "name" : "snowrobejacket", "data" : { "colorIndex" : 4 } },
+						{ "name" : "snowrobejacket", "data" : { "colorIndex" : 5 } },
+						{ "name" : "snowrobejacket", "data" : { "colorIndex" : 6 } },
+						{ "name" : "snowrobejacket", "data" : { "colorIndex" : 7 } },
+						{ "name" : "snowrobejacket", "data" : { "colorIndex" : 8 } },
+						{ "name" : "snowrobejacket", "data" : { "colorIndex" : 9 } },
+						{ "name" : "snowrobejacket", "data" : { "colorIndex" :10 } },
+						{ "name" : "snowrobejacket", "data" : { "colorIndex" :11 } },
+						
+						//{ "name" : "snowsuitjacket", "data" : { "colorIndex" : "random" } }
+						{ "name" : "snowsuitjacket", "data" : { "colorIndex" : 1 } },
+						{ "name" : "snowsuitjacket", "data" : { "colorIndex" : 2 } },
+						{ "name" : "snowsuitjacket", "data" : { "colorIndex" : 3 } },
+						{ "name" : "snowsuitjacket", "data" : { "colorIndex" : 4 } },
+						{ "name" : "snowsuitjacket", "data" : { "colorIndex" : 5 } },
+						{ "name" : "snowsuitjacket", "data" : { "colorIndex" : 6 } },
+						{ "name" : "snowsuitjacket", "data" : { "colorIndex" : 7 } },
+						{ "name" : "snowsuitjacket", "data" : { "colorIndex" : 8 } },
+						{ "name" : "snowsuitjacket", "data" : { "colorIndex" : 9 } },
+						{ "name" : "snowsuitjacket", "data" : { "colorIndex" :10 } },
+						{ "name" : "snowsuitjacket", "data" : { "colorIndex" :11 } }
+					],
+
+					"legs" : [
+						//{ "name" : "greatcoatpants", "data" : { "colorIndex" : "random" } },
+						{ "name" : "greatcoatpants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "greatcoatpants", "data" : { "colorIndex" : 2 } },
+						{ "name" : "greatcoatpants", "data" : { "colorIndex" : 3 } },
+						{ "name" : "greatcoatpants", "data" : { "colorIndex" : 4 } },
+						{ "name" : "greatcoatpants", "data" : { "colorIndex" : 5 } },
+						{ "name" : "greatcoatpants", "data" : { "colorIndex" : 6 } },
+						{ "name" : "greatcoatpants", "data" : { "colorIndex" : 7 } },
+						{ "name" : "greatcoatpants", "data" : { "colorIndex" : 8 } },
+						{ "name" : "greatcoatpants", "data" : { "colorIndex" : 9 } },
+						{ "name" : "greatcoatpants", "data" : { "colorIndex" :10 } },
+						{ "name" : "greatcoatpants", "data" : { "colorIndex" :11 } },
+						
+						//{ "name" : "skijacketpants", "data" : { "colorIndex" : "random" } },
+						{ "name" : "skijacketpants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "skijacketpants", "data" : { "colorIndex" : 2 } },
+						{ "name" : "skijacketpants", "data" : { "colorIndex" : 3 } },
+						{ "name" : "skijacketpants", "data" : { "colorIndex" : 4 } },
+						{ "name" : "skijacketpants", "data" : { "colorIndex" : 5 } },
+						{ "name" : "skijacketpants", "data" : { "colorIndex" : 6 } },
+						{ "name" : "skijacketpants", "data" : { "colorIndex" : 7 } },
+						{ "name" : "skijacketpants", "data" : { "colorIndex" : 8 } },
+						{ "name" : "skijacketpants", "data" : { "colorIndex" : 9 } },
+						{ "name" : "skijacketpants", "data" : { "colorIndex" :10 } },
+						{ "name" : "skijacketpants", "data" : { "colorIndex" :11 } },
+						
+						//{ "name" : "snowrobepants", "data" : { "colorIndex" : "random" } },
+						{ "name" : "snowrobepants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "snowrobepants", "data" : { "colorIndex" : 2 } },
+						{ "name" : "snowrobepants", "data" : { "colorIndex" : 3 } },
+						{ "name" : "snowrobepants", "data" : { "colorIndex" : 4 } },
+						{ "name" : "snowrobepants", "data" : { "colorIndex" : 5 } },
+						{ "name" : "snowrobepants", "data" : { "colorIndex" : 6 } },
+						{ "name" : "snowrobepants", "data" : { "colorIndex" : 7 } },
+						{ "name" : "snowrobepants", "data" : { "colorIndex" : 8 } },
+						{ "name" : "snowrobepants", "data" : { "colorIndex" : 9 } },
+						{ "name" : "snowrobepants", "data" : { "colorIndex" :10 } },
+						{ "name" : "snowrobepants", "data" : { "colorIndex" :11 } },
+						
+						//{ "name" : "snowsuitpants", "data" : { "colorIndex" : "random" } }
+						{ "name" : "snowsuitpants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "snowsuitpants", "data" : { "colorIndex" : 2 } },
+						{ "name" : "snowsuitpants", "data" : { "colorIndex" : 3 } },
+						{ "name" : "snowsuitpants", "data" : { "colorIndex" : 4 } },
+						{ "name" : "snowsuitpants", "data" : { "colorIndex" : 5 } },
+						{ "name" : "snowsuitpants", "data" : { "colorIndex" : 6 } },
+						{ "name" : "snowsuitpants", "data" : { "colorIndex" : 7 } },
+						{ "name" : "snowsuitpants", "data" : { "colorIndex" : 8 } },
+						{ "name" : "snowsuitpants", "data" : { "colorIndex" : 9 } },
+						{ "name" : "snowsuitpants", "data" : { "colorIndex" :10 } },
+						{ "name" : "snowsuitpants", "data" : { "colorIndex" :11 } }
+					]
+				}
+			] ]
+		]
+	}
+
+}

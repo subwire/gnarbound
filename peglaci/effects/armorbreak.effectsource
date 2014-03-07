@@ -1,0 +1,29 @@
+{
+  "kind" : "armorbreak",
+  "definition" : {
+    "duration" : 0.6,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "armorbreakmessage" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "armorbreak" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "armorbreak", "armorbreak", "armorbreak", "armorbreak" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

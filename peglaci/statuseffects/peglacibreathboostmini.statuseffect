@@ -1,0 +1,19 @@
+{
+  "kind" : "peglacibreathboostmini",
+  "mode" : "max",
+  "duration" : 0.5,
+  "initialTick" : false,
+  "interval" : 2,
+  "primitives" : [
+    { "name" : "periodic" }
+  ],
+  "effectSources" : [ "breathboost" ],
+  "tick" : {
+    "statusEffects" : [
+      {
+        "kind" : "breathprotection"
+      }
+    ]
+  },
+  "mainInterfaceIcon" : "/interface/statuses/breathboost.png"
+}

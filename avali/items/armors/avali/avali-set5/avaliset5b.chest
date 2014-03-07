@@ -1,0 +1,98 @@
+{
+  "itemName" : "avaliset5bchest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "^green;Avali, Chest Slot. ^white; A cloak for the eternal nomad",
+  "shortdescription" : "Nomad's Cloak",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : 1
+    }
+  ],
+
+  "colorOptions" : [
+
+	/* AVALI COLOUR SETS NOTES:
+	Avali gear has *3* colour masks per set. As such all 3 are defined in each colour grouping. 
+	This is because there is multiple versions exist of each outfit, each with their own seperate set of
+	colours.*/
+	
+	{ 	// DEFAULT (ORANGE)
+		"464646" : "F3A307", "363636" : "D27701", "242424" : "9E5501", "1c1c1c" : "7C3801",		// Black -> Orange (Avali)
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	},
+	{ 	// BLACK
+		"464646" : "838383", "363636" : "555555", "242424" : "383838", "1c1c1c" : "151515",		// Black -> Black
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	},	
+	{ 	// GREY
+		"464646" : "b5b5b5", "363636" : "808080", "242424" : "555555", "1c1c1c" : "303030",		// Black -> Grey
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	},	
+	{ 	// WHITE
+		"464646" : "e6e6e6", "363636" : "b6b6b6", "242424" : "7b7b7b", "1c1c1c" : "373737",		// Black -> White
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	},	
+	{ 	// RED
+		"464646" : "f4988c", "363636" : "d93a3a", "242424" : "932625", "1c1c1c" : "601119",		// Black -> Red
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	},
+	{ 	// ORANGE
+		"464646" : "ffd495", "363636" : "ea9931", "242424" : "af4e00", "1c1c1c" : "6e2900",		// Black -> Orange (Standard)
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	},
+	{ 	// YELLOW
+		"464646" : "ffffa7", "363636" : "e2c344", "242424" : "a46e06", "1c1c1c" : "642f00",		// Black -> Yellow
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	},
+	{ 	// GREEN
+		"464646" : "b2e89d", "363636" : "51bd3b", "242424" : "247824", "1c1c1c" : "144216",		// Black -> Green
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	},
+	{ 	// BLUE
+		"464646" : "96cbe7", "363636" : "5588d4", "242424" : "344495", "1c1c1c" : "1a1c51",		// Black -> Blue
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	},
+	{ 	// PURPLE
+		"464646" : "d29ce7", "363636" : "a451c4", "242424" : "6a2284", "1c1c1c" : "320c40",		// Black -> Purple
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	},
+	{ 	// PINK
+		"464646" : "eab3db", "363636" : "d35eae", "242424" : "97276d", "1c1c1c" : "59163f",		// Black -> Pink
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	},
+	{ 	// BROWN
+		"464646" : "ccae7c", "363636" : "a47844", "242424" : "754c23", "1c1c1c" : "472b13",		// Black -> Brown
+		"F3A308" : "414141", "D27702" : "313131", "9E5500" : "1f1f1f", "7C3800" : "181818",		// Orange -> Black
+		"e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "808080"		// White -> White
+	}	
+  ]
+}

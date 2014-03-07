@@ -1,0 +1,19 @@
+{
+  "kind" : "protectiondrainpeglaci",
+  "mode" : "max",
+  "duration" : 2,
+  "initialTick" : true,
+  "interval" : 0.01,
+  "primitives" : [
+    { "name" : "periodic" }
+  ],
+  "effectSources" : [ "armorbreak" ],
+  "tick" : {
+    "statusEffects" : [
+      {
+        "kind" : "Protection","amount" : -1
+      }
+    ]
+  },
+  "mainInterfaceIcon" : "/interface/statuses/armorbreak.png"
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "peglacicaptainschair",
+  "rarity" : "Common",  
+  "objectType" : "loungeable",
+  "description" : "ENGAGE!",
+  "shortdescription" : "Captain's Chair",
+  "race" : "apex",
+  "category" : "furniture",
+
+  "apexDescription" : "Quite oddly designed, and not exactly comfortable. What are all these probes for?",
+  "avianDescription" : "A Peglaci control chair. Looks very advanced, and somewhat comfortable.",
+  "floranDescription" : "Chair takesss hunger away with no foodsss!",
+  "glitchDescription" : "Observant. This chair provides nourishment and medical care for long journeys.",
+  "humanDescription" : "Funky chair! It looks like it has some sort of life-support built in.",
+  "hylotlDescription" : "A command chair with built-in life support systems. Quite elegant.",
+  "peglaciDescription" : "The utmost in comfort and efficiency of design for long journeys.",
+
+  "inventoryIcon" : "captainschairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "captainschair.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 5,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "interactAction" : "openCockpitInterface",
+  "sitStatusEffects" : [
+	//{ "kind" : "food", "amount" : 0.001},
+    { "kind" : "Health", "amount" : 0.06 }
+  ],
+
+  "sitFlipDirection" : true,
+  "sitPosition" : [8, 18]
+}

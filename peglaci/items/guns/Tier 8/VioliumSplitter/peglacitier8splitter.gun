@@ -1,0 +1,36 @@
+{
+  "itemName" : "peglacitier8splitter",
+  "inventoryIcon" : "peglacitier8splittericon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Improved Violium rounds fracture to cover a wide area. Charge to launch in grenade form.",
+  "shortdescription" : "Fissure Splitrifle II",
+  "image" : "peglacitier8splitter.png:<frame>",
+  "imageFrameSelector" : "peglacitier8splitterImageSelector",
+  "handPosition" : [-5, -1],
+  "firePosition" : [12, 0],
+  "classMultiplier" : 0.03,
+  "fireTime" : 0.35,
+  "twoHanded" : true,
+  "recoilTime" : 0.2,
+  "hands" : [2, 2],
+  "rateOfFire" : [2, 7],
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+  },
+
+  "fireOnRelease" : true,
+  
+   "projectileType" : "peglacitier8splittershot1",
+   "powerProjectileType" : "peglacitier8splittershotpower",
+  "powerProjectileTime" : [0.3, 50],
+  "projectile" : {
+    "power" : 712,
+    "powerCurve" : "peglacitier8splitterTimeMultiplier",
+    "color" : [10, 255, 10]
+	}
+
+
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "coldmarrowpanini",
+  "rarity" : "Common",
+  "inventoryIcon" : "coldmarrowpanini.png",
+  "description" : "A frozen meat and Boneboo sandwich, cooked to perfection - then served cold.",
+  "shortdescription" : "Coldmarrow Panini",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+       {"kind" : "food","amount" : 100},
+      {"kind" : "mollyhealing3" },
+      {"kind" : "powerboost",     "amount" : 15}
+    ] ]
+}

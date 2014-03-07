@@ -1,0 +1,21 @@
+{
+  "itemName" : "peglacitier9knife",
+  "rarity" : "Common",
+    "inventoryIcon" : "peglacitier9knife.png",
+  "image" : "peglacitier9knife.png",
+  "shortdescription" : "Witherblade",
+  "description" : "Pierces through foes while draining their very energy!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "peglacitier9knife",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 857
+  }
+}
+

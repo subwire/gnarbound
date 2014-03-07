@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "peglacitier5smg", "count" : 1 },
+    { "item" : "Feroziumbar", "count" : 3},
+	{ "item" : "money", "count" : 400}
+  ],
+ "output" : { "item" : "peglacitier6smg", "count" : 1 },
+  "groups" : [ "metalworkstation", "weapons", "all" ]
+}

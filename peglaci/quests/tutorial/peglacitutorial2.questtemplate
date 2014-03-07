@@ -1,0 +1,16 @@
+{
+  "id" : "peglacitutorial2.gearup",
+  "title" : "^#9be3d6;Get Crafty!",
+  "text" : "Now that you have some mobility, you can start work on creating a ^orange;Distress Beacon^white; to lure ^red;Dreadwing^white; in. First, you'll need a ^orange;crafting table^white;, so beam down, acquire some wood, and set one up.",
+  "completionText" : "Well done. The next step is to refine some ^orange;metal^white;.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "woodencraftingtable1", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "woodencraftingtable1", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "peglacitutorial3.gearup"
+}

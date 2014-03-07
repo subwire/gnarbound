@@ -1,0 +1,13 @@
+{
+  "itemName" : "snowberry",
+  "rarity" : "Common",
+  "inventoryIcon" : "snowberry.png",
+  "description" : "Cold, crunchy and poisonous. The trifecta of qualities for a delicious fruit.",
+  "shortdescription" : "Snowberry",
+  "effects" : [ [
+      {"kind" : "food","amount" : -5},
+	  {"kind" : "slow"},
+	  {"kind" : "testpoison"},
+	  {"kind" : "warmth","amount" : 10}
+    ] ]
+}

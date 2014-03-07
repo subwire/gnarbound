@@ -1,0 +1,13 @@
+{
+  "itemName" : "acutaque",
+  "rarity" : "Common",
+  "inventoryIcon" : "acutaque.png",
+  "description" : "A tangy, creamy mixture of frozen Oculemon and pureed fat. Oddly quite delicious!",
+  "shortdescription" : "Acutaque",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {"kind" : "warmth", "amount" : -20},
+	  {"kind" : "food", "amount" : 100},
+	  {"kind" : "peglacidoping", "amount" : 1.2}	  
+    ] ]
+}

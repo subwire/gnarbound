@@ -1,0 +1,13 @@
+{
+  "kind" : "peglacislowregen",
+  "duration" : 600,
+  "primitives" : [
+    {
+      "name" : "Health",
+      "mode" : "max",
+      "amount" : 0.02
+    }
+  ],
+  "effectSources" : [ "healthstim" ],
+  "mainInterfaceIcon" : "/interface/statuses/heal.png"
+}
