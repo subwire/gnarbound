@@ -1,0 +1,7 @@
+{
+  "itemName" : "grenademmn",
+  "rarity" : "Common",
+  "inventoryIcon" : "grenademmn.png",
+  "description" : "A standard grenade, explodes with a short delay after impact.",
+  "shortdescription" : "Grenades"
+}

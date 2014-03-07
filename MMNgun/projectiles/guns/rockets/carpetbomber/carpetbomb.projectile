@@ -1,0 +1,19 @@
+{
+  "projectileName" : "carpetbomb",
+  "physics" : "grenadenobounce",
+  "level" : 1,
+  "frames" : "carpetbomb.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 15,
+  "animationCycle" : 1,
+  "frameNumber" : 4,
+  "power" : 5,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    }
+  ],
+  "damageType" : "hitTest",
+  "damageKind" : "plasma"
+}

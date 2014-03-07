@@ -1,0 +1,33 @@
+{
+  "name" : "mmneyegun",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "inspectionKind" : "gun",
+  "handPosition" : [9, 3],
+  "firePosition" : [-18, 6.5],
+  "weaponType" : "Living Gatling Laser",
+  "baseDps" : [2, 2],
+  "rateOfFire" : [7.5, 13.5],
+  "hands" : [2, 2],
+  "recoilTime" : 0.2,
+  "spread" : [1, 1],
+  "multiplier" : 0.1,
+  "accuracy" : 100,
+  "muzzleFlashes" : [ "/animations/muzzleflash/blankmuzzle/blankmuzzle.animation" ],
+  "projectileTypes" : [ "mmneyebeam" ],
+  "fireSound" : [ "/sfx/gun/pulsecannon2.wav" ],
+  "palette" : [
+    { "5d3a1f" : "5d3a1f", "be9f55" : "be9f55", "dac782" : "dac782", //main colour
+      "510011" : "510011", "a80014" : "a80014", "d4003c" : "d4003c", "ff063f" : "ff063f" //crystals
+    },
+    { "5d3a1f" : "5d3a1f", "be9f55" : "be9f55", "dac782" : "dac782", //main colour
+      "510011" : "001e51", "a80014" : "255f9a", "d4003c" : "6196cc", "ff063f" : "a2d9ef" //crystals
+    },
+    { "5d3a1f" : "712c57", "be9f55" : "9a477a", "dac782" : "c472a3", //main colour
+      "510011" : "2b3c0e", "a80014" : "5a7728", "d4003c" : "86a74d", "ff063f" : "c2e18b" //crystals
+    }
+	],
+  "directories" : [ "/items/guns/randomgenerated/mmneyegun/" ],
+  "nameGenerator" : "mmneyegunnames.config:nameGen"
+
+}

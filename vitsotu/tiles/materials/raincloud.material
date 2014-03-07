@@ -1,0 +1,15 @@
+{
+  "materialId" : 3066,
+  "materialName" : "raincloud",
+  "frames" : "raincloud.png",
+  "particleColor" : [121, 128, 183, 255],
+  "variants" : 5,
+  "itemDrop" : "raincloudmat",
+  "description" : "Somewhat solid clouds! You can even walk on them! They're pretty wet, though.",
+  "shortdescription" : "Cloud Block",
+  "glitchDescription" : "Curious. A block of clouds. Wet.",
+  "floranDescription" : "Mushy wet clouds.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 1.0
+}

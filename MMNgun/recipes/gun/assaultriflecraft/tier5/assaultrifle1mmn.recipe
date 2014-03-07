@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltassaultriflemmn", "count" : 1 },
+	{ "item" : "arbulletmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonassaultrifle", "level" : 5 } },
+ "groups" : [ "gunassemblymmn" ]
+}

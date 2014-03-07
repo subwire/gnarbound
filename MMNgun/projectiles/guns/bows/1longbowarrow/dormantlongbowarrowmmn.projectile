@@ -1,0 +1,13 @@
+{
+  "projectileName" : "dormantlongbowarrowmmn",
+  "physics" : "stickybomb",
+  "frames" : "longbowarrowmmn.png",
+  "level" : 1,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 20,
+  "pointLight" : false,
+  "power" : 5,
+  "damageKind" : "bow"
+}

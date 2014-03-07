@@ -1,0 +1,31 @@
+{
+  "objectName" : "evilchair",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "An Evil chair.",
+  "shortdescription" : "Evil Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 500,
+
+  "inventoryIcon" : "evilchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "evilchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

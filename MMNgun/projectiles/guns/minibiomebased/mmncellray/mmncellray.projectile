@@ -1,0 +1,14 @@
+{
+  "projectileName" : "mmncellray",
+  "frames" : "mmncellray.png",
+  "animationCycle" : 0.31,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 3,
+  "level" : 1,
+  "power" : 5,
+  "speed" : 50,
+  "timeToLive" : 0.3,
+  "bounces" : 0,
+  "lightColor" : [200, 222, 219],
+  "damageKind" : "electroshock"
+}

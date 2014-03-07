@@ -1,0 +1,33 @@
+{
+  "projectileName" : "splittermp",
+  "frames" : "splittermp.png",
+  "physics" : "arrow",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "shrapnelmp",
+      "inheritDamageFactor" : 0.4,
+      "fuzzAngle" : 5
+    },
+	{
+      "action" : "projectile",
+      "type" : "shrapnelmp",
+      "inheritDamageFactor" : 0.4
+    },
+    {
+      "action" : "projectile",
+      "type" : "shrapnelmp",
+      "inheritDamageFactor" : 0.4,
+	  "fuzzAngle" : -5
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

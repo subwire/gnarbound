@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Violiummachinepistolmmn", "count" : 1 },
+	{ "item" : "ravagermagazinemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "legendarymachinepistol", "level" : 8 } },
+  "groups" : [ "gunassemblymmn" ]
+}

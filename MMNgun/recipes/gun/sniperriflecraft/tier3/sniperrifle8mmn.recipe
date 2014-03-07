@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumsniperriflemmn", "count" : 1 },
+	{ "item" : "icesniperbulletmmnmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "icesniperstartermmn", "level" : 3 } },
+  "groups" : [ "gunassemblymmn" ]
+}

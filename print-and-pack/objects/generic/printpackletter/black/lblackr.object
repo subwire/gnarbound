@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblackr",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The letter 'R'.",
+  "shortdescription" : "R",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblackricon.png",
+  "orientations" : [
+    {
+      "image" : "lblackr.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

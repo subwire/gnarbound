@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "gravelmaterial", "count" : 5 },
+	{ "item" : "ironore", "count" : 2 },
+	{ "item" : "oculemon", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "sonicboomshellsmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

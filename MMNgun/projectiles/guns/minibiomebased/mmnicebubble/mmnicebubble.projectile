@@ -1,0 +1,21 @@
+{
+  "projectileName" : "mmnicebubble",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "level" : 1,
+  "timeToLive" : 3,
+  "speed" : 80,
+  "damageKindImage" : "icon.png",
+  "frames" : "mmnicebubble.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/mmnicebubblepop/mmnicebubblepop.config"
+    }
+  ],
+  "power" : 5,
+  "damageType" : "hitTest",
+  "damageKind" : "slash"
+}

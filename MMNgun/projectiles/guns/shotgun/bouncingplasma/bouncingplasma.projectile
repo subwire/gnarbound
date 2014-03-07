@@ -1,0 +1,35 @@
+{
+  "projectileName" : "bouncingplasma",
+  "physics" : "fireball",
+  "bounces" : -1,
+  "level" : 1,
+  "timeToLive" : 0.001,
+  "frames" : "bouncingplasma.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 19,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "plasmaorb",
+      "inheritDamageFactor" : 0.33,
+	  "angleAdjust" : 5
+    },
+	{
+      "action" : "projectile",
+      "type" : "plasmaorb",
+      "inheritDamageFactor" : 0.33,
+	  "angleAdjust" : 10
+    },
+	{
+      "action" : "projectile",
+      "type" : "plasmaorb",
+      "inheritDamageFactor" : 0.33,
+	  "angleAdjust" : 15
+    }
+  ],
+  "power" : 5,
+  "lightColor" : [78, 202, 223],
+  "damageKind" : "plasma"
+}

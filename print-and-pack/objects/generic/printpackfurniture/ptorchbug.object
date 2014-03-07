@@ -1,0 +1,28 @@
+{
+  "objectName" : "ptorchbug",
+  "rarity" : "Common",
+  "description" : "A purple torchbug in a mason jar.",
+  "shortdescription" : "A Purple Torchbug",
+  "race" : "generic",
+
+  "category" : "furniture",
+  "price" : 500,
+
+  "lightColor" : [100, 3, 166],
+  "flickerDistance" : 3.0,
+  "flickerStrength" : 0.25,
+  "flickerTiming" : 1.0,
+
+  "inventoryIcon" : "ptorchbugicon.png",
+  "orientations" : [
+    {
+      "image" : "ptorchbug.png:<color>.<frame>",
+      "imagePosition" : [-4.5, 0],
+      "frames" : 12,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "sportlockerblack",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "locker",
+  "price" : 250,
+  "description" : "A small black sports locker.",
+  "shortdescription" : "Small Black Sports Locker",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "sportlockerblackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sportlockerblack.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+  "slotCount" : 100,
+  "uiConfig" : "/interface/chests/chest100.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

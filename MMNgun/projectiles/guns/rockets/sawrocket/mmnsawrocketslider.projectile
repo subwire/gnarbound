@@ -1,0 +1,22 @@
+{
+  "projectileName" : "mmnsawrocketslider",
+  "frames" : "mmnsawrocket.png",
+  "animationCycle" : 0.25,  
+  "physics" : "slider",
+  "speed" : 20,
+  "level" : 1,
+  "frameNumber" : 3,
+  "piercing" : true,
+  "timeToLive" : 5,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 255, 128],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "slash"
+}

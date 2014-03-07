@@ -1,0 +1,57 @@
+{
+  "projectileName" : "clustergrenademmn",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "level" : 1,
+  "timeToLive" : 0.6,
+  "speed" : 60,
+  "frames" : "clustergrenademmn.png",
+  "damageKindImage" : "icon.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallhalfdmgexplosion/smallhalfdmgexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "clustermmn",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 35
+    },
+    {
+      "action" : "projectile",
+      "type" : "clustermmn",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "clustermmn",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "clustermmn",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : -18
+    },
+    {
+      "action" : "projectile",
+      "type" : "clustermmn",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 18
+    }
+
+  ],
+  "power" : 5,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

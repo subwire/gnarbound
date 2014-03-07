@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltsniperriflemmn", "count" : 1 },
+	{ "item" : "sniperbouncermmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "sniperbouncermmn", "level" : 5 } },
+  "groups" : [ "gunassemblymmn" ]
+}

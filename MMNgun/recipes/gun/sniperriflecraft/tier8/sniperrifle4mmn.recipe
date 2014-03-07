@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Violiumsniperriflemmn", "count" : 1 },
+	{ "item" : "sniperbouncermmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "sniperbouncermmn", "level" : 8 } },
+  "groups" : [ "gunassemblymmn" ]
+}

@@ -1,0 +1,14 @@
+{
+  "projectileName" : "mmnbonesplinter",
+  "frames" : "mmnbonesplinter.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "physics" : "stickybullet",
+  "piercing" : true,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 5.0,
+  "power" : 5.0,
+  "damageKind" : "default"
+}

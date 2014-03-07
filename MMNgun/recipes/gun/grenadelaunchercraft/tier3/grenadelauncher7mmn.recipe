@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "gravitybombmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "gravitybombmmn", "level" : 3 } },
+  "groups" : [ "gunassemblymmn" ]
+}

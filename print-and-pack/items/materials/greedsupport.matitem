@@ -1,0 +1,10 @@
+{
+  "itemName" : "greedsupport",
+  "rarity" : "Common",
+  "inventoryIcon" : "greedsupport.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An greedy green support block.",
+  "shortdescription" : "Greed Support Block",
+
+  "materialId" : 18500
+}

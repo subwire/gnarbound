@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblackf",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The letter 'F'.",
+  "shortdescription" : "F",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblackficon.png",
+  "orientations" : [
+    {
+      "image" : "lblackf.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

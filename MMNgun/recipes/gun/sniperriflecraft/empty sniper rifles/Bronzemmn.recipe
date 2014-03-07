@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Sniperrifleframemmn", "count" : 1 },
+	{ "item" : "Bronzebarrelmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "Bronzesniperriflemmn" },
+  "groups" : [ "gunassemblymmn", "other", "all" ]
+}

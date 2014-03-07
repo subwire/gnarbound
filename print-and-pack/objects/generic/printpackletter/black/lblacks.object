@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblacks",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The letter 'S'.",
+  "shortdescription" : "S",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblacksicon.png",
+  "orientations" : [
+    {
+      "image" : "lblacks.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

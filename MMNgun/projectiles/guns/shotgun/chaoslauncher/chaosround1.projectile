@@ -1,0 +1,35 @@
+{
+  "projectileName" : "chaosround1",
+  "frames" : "chaoslauncher.png",
+  "physics" : "hover",
+  "level" : 1,
+  "animationCycle" : 1,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 1,
+  "power" : 5,
+  "speed" : 40,
+  "timeToLive" : 0.7,
+  "damageKind" : "chaos",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" :  "chaosround4",
+      "inheritDamageFactor" : 0.33,
+	  "fuzzAngle" : 360
+    },
+	{
+      "action" : "projectile",
+      "type" :  "chaosround4",
+      "inheritDamageFactor" : 0.33,
+	  "fuzzAngle" : 360
+    },
+	{
+      "action" : "projectile",
+      "type" :  "chaosround4",
+      "inheritDamageFactor" : 0.33,
+	  "fuzzAngle" : 360
+    }
+  ],
+  "lightColor" : [58, 0, 58]
+}
+

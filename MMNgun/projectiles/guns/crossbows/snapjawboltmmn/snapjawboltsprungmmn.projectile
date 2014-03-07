@@ -1,0 +1,14 @@
+{
+  "projectileName" : "snapjawboltsprungmmn",
+  "physics" : "stickybomb",
+  "frames" : "snapjawboltsprungmmn.png",
+  "speed" : 70,
+  "level" : 3,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "pointLight" : false,
+  "power" : 5.0,
+  "damageKind" : "bow"
+}

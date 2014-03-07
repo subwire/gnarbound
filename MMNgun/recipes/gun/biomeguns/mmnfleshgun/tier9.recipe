@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Rubiumbarrelmmn", "count" : 1 },
+	{ "item" : "fleshstrand", "count" : 15 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnfleshgun", "level" : 9 } },
+ "groups" : [ "gunassemblymmn" ]
+}

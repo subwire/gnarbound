@@ -1,0 +1,40 @@
+{
+  "objectName" : "titaniumpixelator",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "crafting",
+  "price" : 1500,
+  "description" : "Compress soft and smushy blocks into pixels.",
+  "shortdescription" : "Titanium Pixelator",
+  "race" : "generic",
+  "learnBlueprintsOnPickup" : [
+    "money"
+  ],
+  
+  "apexDescription" : "It can turn certain blocks into pixels. Pretty useful.",
+  "avianDescription" : "Another use for dirt. Turn it into pixels!",
+  "floranDescription" : "Floran make boring dirt into ussseful pixelsss!",
+  "glitchDescription" : "Statement. Pixelator. Made of titanium.",
+  "humanDescription" : "Finally! I can use this useless dirt!",
+  "hylotlDescription" : "This machine is used to turn that disgusting dirt into pixels.",
+
+  "inventoryIcon" : "titaniumpixelatoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "titaniumpixelator.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "recipeGroup" : "titaniumpixelator",
+  "slotCount" : 2,
+  "uiConfig" : "/objects/generic/titaniumpixelator/titaniumpixelator.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

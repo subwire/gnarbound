@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblack8",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The number '8'.",
+  "shortdescription" : "Eight",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblack8icon.png",
+  "orientations" : [
+    {
+      "image" : "lblack8.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

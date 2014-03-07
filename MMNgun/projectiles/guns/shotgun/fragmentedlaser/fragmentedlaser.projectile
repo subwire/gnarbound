@@ -1,0 +1,54 @@
+{
+  "projectileName" : "fragmentedlaser",
+  "physics" : "bullet",
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frames" : "fragmentedlaser.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 1,
+  "timeToLive" : 0.001,
+  "piercing" : true,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "redlaser",
+      "inheritDamageFactor" : 0.17,
+	  "angleAdjust" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "redlaser",
+      "inheritDamageFactor" : 0.17,
+	  "angleAdjust" : 6
+    },
+	{
+      "action" : "projectile",
+      "type" : "yellowlaser",
+      "inheritDamageFactor" : 0.17,
+	  "angleAdjust" : 0.5
+    },
+	{
+      "action" : "projectile",
+      "type" : "yellowlaser",
+      "inheritDamageFactor" : 0.17,
+	  "angleAdjust" : -0.5
+    },
+	{
+      "action" : "projectile",
+      "type" : "bluelaser",
+      "inheritDamageFactor" : 0.17,
+	  "angleAdjust" : -6
+    },
+	{
+      "action" : "projectile",
+      "type" : "bluelaser",
+      "inheritDamageFactor" : 0.17,
+	  "angleAdjust" : -7
+    }
+  ],
+  "lightColor" : [0, 73, 0],
+  "damageKind" : "plasma"
+}

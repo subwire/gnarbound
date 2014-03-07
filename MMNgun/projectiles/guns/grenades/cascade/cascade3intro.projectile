@@ -1,0 +1,23 @@
+{
+  "projectileName" : "cascade3intro",
+  "physics" : "bouncer",
+  "bounces" : 1,
+  "level" : 1,
+  "speed" : 30,  
+  "piercing" : true,
+  "damageKindImage" : "icon.png",
+  "frames" : "cascade.png",
+  "timeToLive" : 0.2,
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+     "action" : "projectile",
+     "type" : "cascade3" ,
+	  "inheritDamageFactor" : 1
+	}
+  ],
+  "power" : 5,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

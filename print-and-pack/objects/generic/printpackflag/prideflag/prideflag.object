@@ -1,0 +1,25 @@
+{
+  "objectName" : "prideflag",
+  "rarity" : "Common",
+  "category" : "flag",
+  "price" : 10,
+
+  "description" : "A pride flag.",
+  "shortdescription" : "Pride Flag",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "prideflagicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prideflag.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

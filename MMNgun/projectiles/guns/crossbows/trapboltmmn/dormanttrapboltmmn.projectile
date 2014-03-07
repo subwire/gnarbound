@@ -1,0 +1,13 @@
+{
+  "projectileName" : "dormanttrapboltmmn",
+  "frames" : "trapboltmmn.png",
+  "physics" : "stickybomb",
+  "animationCycle" : 0.5,
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 1,
+  "power" : 5,
+  "speed" : 25,
+  "timeToLive" : 15,
+  "damageKind" : "bow"
+}

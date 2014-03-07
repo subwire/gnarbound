@@ -1,0 +1,21 @@
+{
+  "projectileName" : "mayhemlauncher",
+  "frames" : "mayhem.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "power" : 5,
+  "frameNumber" : 4,
+  "physics" : "arrow",
+  "speed" : 30,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "mayhemracer",
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "damageType" : "hitTest",
+  "damageKind" : "slash"
+}

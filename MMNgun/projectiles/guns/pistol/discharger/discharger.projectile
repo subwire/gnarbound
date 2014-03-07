@@ -1,0 +1,24 @@
+{
+  "projectileName" : "discharger",
+  "frames" : "discharger.png",
+  "animationCycle" : 0.5,
+  "level" : 1,  
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "power" : 5,  
+  "timeToLive" : 0.01,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "electricbullet",
+      "inheritDamageFactor" : 0.75
+    },
+	{
+      "action" : "projectile",
+      "type" : "tesla",
+      "inheritDamageFactor" : 0.75
+    }
+  ],
+  "lightColor" : [255, 180, 0],
+  "damageKind" : "electroshock"
+}

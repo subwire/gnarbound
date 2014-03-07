@@ -1,0 +1,25 @@
+{
+  "objectName" : "girlwithapearlearring",
+  "rarity" : "Common",
+  "category" : "art",
+  "price" : 2500,
+
+  "description" : "Girl With A Pearl Earring - Jan Vermeer.",
+  "shortdescription" : "Girl With A Pearl Earring",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "girlwithapearlearringicon.png",
+  "orientations" : [
+    {
+      "image" : "girlwithapearlearring.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

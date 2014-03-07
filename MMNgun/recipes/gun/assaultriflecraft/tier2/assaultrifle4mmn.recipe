@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Steelassaultriflemmn", "count" : 1 },
+	{ "item" : "tripleburstmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "tripleburstmmn", "level" : 2 } },
+ "groups" : [ "gunassemblymmn" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Feroziumassaultriflemmn", "count" : 1 },
+	{ "item" : "hoverplasmaroundsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "legendaryplasmaassaultrifle", "level" : 6 } },
+ "groups" : [ "gunassemblymmn" ]
+}

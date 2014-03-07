@@ -1,0 +1,59 @@
+{
+  "name" : "tentacledrizzle",
+
+  "particles" : [
+    {
+      "density" : 0.02,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/tentaclerain/1.png",
+        "velocity" : [0, -35.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 100,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/tentaclesplash/1.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.02,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/tentaclerain/2.png",
+        "velocity" : [0, -25.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 100,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/tentaclesplash/1.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.02,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/tentaclerain/3.png",
+        "velocity" : [0, -20.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 100,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/tentaclesplash/1.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    }
+  ],
+
+  "duration" : [120, 360],
+  "lightningFrequency" : 0.00,
+  "maximumWind" : 4.5,
+  "weatherNoises" : [ "/sfx/weather/rain_light.ogg" ]
+}

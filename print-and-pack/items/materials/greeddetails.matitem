@@ -1,0 +1,10 @@
+{
+  "itemName" : "greeddetails",
+  "rarity" : "Common",
+  "inventoryIcon" : "greeddetails.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A little bit of green metal.",
+  "shortdescription" : "Greed Metal object",
+
+  "materialId" : 18400
+}

@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblacka",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The letter 'A'.",
+  "shortdescription" : "A",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblackaicon.png",
+  "orientations" : [
+    {
+      "image" : "lblacka.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

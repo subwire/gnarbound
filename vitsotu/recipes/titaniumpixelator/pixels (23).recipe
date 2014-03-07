@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ice", "count" : 17 }
+  ],
+  "output" : {
+    "item" : "money",
+    "count" : 1
+  },
+  "groups" : [ "aegisaltpixelator", "all" ]
+}

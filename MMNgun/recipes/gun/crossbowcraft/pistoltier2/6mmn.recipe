@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "steelpcrossbowmmn", "count" : 1 },
+	{ "item" : "explosiveboltmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "pistolexplosiveboltmmn", "level" : 2 } },
+  "groups" : [ "gunassemblymmn" ]
+}

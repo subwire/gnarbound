@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "copperore", "count" : 5 },
+	{ "item" : "platinumore", "count" : 2 },
+	{ "item" : "bone", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "tripleburstmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

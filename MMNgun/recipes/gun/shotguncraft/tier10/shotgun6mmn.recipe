@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Imperviumshotgunmmn", "count" : 1 },
+	{ "item" : "explosiveshellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "explosiveshotmmn", "level" : 10 } },
+  "groups" : [ "gunassemblymmn" ]
+}

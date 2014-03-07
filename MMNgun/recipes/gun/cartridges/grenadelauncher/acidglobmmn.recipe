@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "toxictop", "count" : 3 },
+	{ "item" : "dirtmaterial", "count" : 2 },
+	{ "item" : "cellmateria", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "acidglobmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "excartridgemmn" ]
+}

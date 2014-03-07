@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wetdirt", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "money",
+    "count" : 1
+  },
+  "groups" : [ "soiler", "all" ]
+}

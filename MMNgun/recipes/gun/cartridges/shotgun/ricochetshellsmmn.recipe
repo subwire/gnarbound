@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "shroom", "count" : 5 },
+	{ "item" : "coalore", "count" : 2 },
+	{ "item" : "ironore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ricochetshellsmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

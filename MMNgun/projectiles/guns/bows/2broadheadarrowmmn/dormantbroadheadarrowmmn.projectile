@@ -1,0 +1,13 @@
+{
+  "projectileName" : "dormantbroadheadarrowmmn",
+  "physics" : "stickybomb",
+  "frames" : "broadheadarrowmmn.png",
+  "level" : 1,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 20,
+  "pointLight" : false,
+  "power" : 5,
+  "damageKind" : "bow"
+}

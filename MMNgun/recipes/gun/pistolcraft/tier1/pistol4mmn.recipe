@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Bronzepistolmmn", "count" : 1 },
+	{ "item" : "Reapercartridgemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "legendarypistol", "level" : 1 } },
+  "groups" : [ "gunassemblymmn" ]
+}

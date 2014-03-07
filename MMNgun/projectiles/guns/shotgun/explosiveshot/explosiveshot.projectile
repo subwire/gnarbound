@@ -1,0 +1,45 @@
+{
+  "projectileName" : "explosiveshot",
+  "frames" : "explosiveshot.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "explosivepellet",
+      "inheritDamageFactor" : 0.3,
+	  "fuzzAngle" : 10
+    },
+	{
+      "action" : "projectile",
+      "type" : "explosivepellet",
+      "inheritDamageFactor" : 0.3,
+	  "fuzzAngle" : 10
+    },
+	{
+      "action" : "projectile",
+      "type" : "explosivepellet",
+      "inheritDamageFactor" : 0.3,
+	  "fuzzAngle" : 10
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedexplosivepellet",
+      "inheritDamageFactor" : 0.3,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedexplosivepellet",
+      "inheritDamageFactor" : 0.3,
+	  "fuzzAngle" : 7
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

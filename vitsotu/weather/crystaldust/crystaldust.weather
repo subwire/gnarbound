@@ -1,0 +1,48 @@
+{
+  "name" : "crystaldust",
+
+  "particles" : [
+    {
+      "density" : 0.10,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/crystaldust/1.png",
+        "velocity" : [0, -1.5],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.10,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/crystaldust/2.png",
+        "velocity" : [0, -3.75],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.05,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/crystaldust/3.png",
+        "velocity" : [0, -2],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    }
+  ],
+
+  "projectiles" : [ ],
+
+  "duration" : [120, 600],
+  "lightningFrequency" : 0,
+  "weatherNoises" : [ ]
+}

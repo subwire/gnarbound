@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Feroziumshotgunmmn", "count" : 1 },
+	{ "item" : "mayhemshellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mayhemmmn", "level" : 6 } },
+  "groups" : [ "gunassemblymmn" ]
+}

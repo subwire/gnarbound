@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cellmateria", "count" : 5 },
+	{ "item" : "petalblue", "count" : 2 },
+	{ "item" : "plantfibre", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "plasmaroundsmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

@@ -1,0 +1,18 @@
+{
+  "projectileName" : "rubiumarrowmmn",
+  "physics" : "arrow",
+  "frames" : "rubiumarrowmmn.png",
+  "level" : 1,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "pointLight" : true,
+  "piercing" : true,
+  "power" : 5,
+  "statusEffects" : [
+   { "kind" : "testburning" }
+  ],
+  "lightColor" : [139, 7, 16],
+  "damageKind" : "plasma"
+}

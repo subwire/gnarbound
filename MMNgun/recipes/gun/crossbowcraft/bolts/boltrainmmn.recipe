@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 3 },
+	{ "item" : "darkwoodmaterial", "count" : 3 },
+	{ "item" : "rope", "count" : 2 }
+  ],
+  "output" : { "item" : "boltrainmmn", "count": 1 },
+  "groups" : [ "gunmmn", "all", "fcartridgemmn" ]
+}

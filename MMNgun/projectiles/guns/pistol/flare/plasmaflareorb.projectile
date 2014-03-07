@@ -1,0 +1,25 @@
+{
+  "projectileName" : "plasmaflareorb",
+  "physics" : "floatystickybomb",
+  "level" : 1,
+  "timeToLive" : 0.8,
+  "frames" : "plasmaflareorb.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 30,
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "plasmaflare",
+      "inheritDamageFactor" : 1.5
+    }
+  ],
+  "statusEffects" : [
+  { "kind" : "testburning" }
+  ],
+  "power" : 5,
+  "lightColor" : [246, 34, 23],
+  "damageType" : "hitTest",
+  "damageKind" : "plasma"
+}

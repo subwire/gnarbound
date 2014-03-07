@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 250 },
+    { "item" : "aegisaltbar", "count" : 30 },
+    { "item" : "titaniumpixelator", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "aegisaltpixelator",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "objects", "all", "tools" ]
+}

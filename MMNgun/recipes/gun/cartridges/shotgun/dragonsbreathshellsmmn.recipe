@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 5 },
+	{ "item" : "fabric", "count" : 2 },
+	{ "item" : "titaniumore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "dragonsbreathshellsmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "wallpaper6",
+  "rarity" : "Common",
+  "inventoryIcon" : "wallpaper6icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A grey deco wall paper.",
+  "shortdescription" : "Grey Deco Wall Paper",
+
+  "materialId" : 17700
+}

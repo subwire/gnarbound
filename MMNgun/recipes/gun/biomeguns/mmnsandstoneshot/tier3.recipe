@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumbarrelmmn", "count" : 1 },
+	{ "item" : "sandstonematerial", "count" : 5 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnsandstoneshot", "level" : 3 } },
+ "groups" : [ "gunassemblymmn" ]
+}

@@ -1,0 +1,14 @@
+{
+  "projectileName" : "redglowstick",
+  "physics" : "grenadezbomb",
+  "bounces" : -1,
+  "level" : 3,
+  "timeToLive" : 400,
+  "frames" : "redglowstick.png",
+  "animationCycle" : 0.25,
+  "lightColor" : [255, 0, 0],
+  "frameNumber" : 1,
+  "power" : 0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

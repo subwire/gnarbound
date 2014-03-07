@@ -1,0 +1,28 @@
+{
+  "objectName" : "gtorchbug",
+  "rarity" : "Common",
+  "description" : "A green torchbug in a mason jar.",
+  "shortdescription" : "A Green Torchbug",
+  "race" : "generic",
+
+  "category" : "furniture",
+  "price" : 500,
+
+  "lightColor" : [45, 200, 45],
+  "flickerDistance" : 3.0,
+  "flickerStrength" : 0.25,
+  "flickerTiming" : 1.0,
+
+  "inventoryIcon" : "gtorchbugicon.png",
+  "orientations" : [
+    {
+      "image" : "gtorchbug.png:<color>.<frame>",
+      "imagePosition" : [-4.5, 0],
+      "frames" : 12,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

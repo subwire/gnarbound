@@ -1,0 +1,9 @@
+{
+  "modId" : 3065,
+  "modName" : "darkgress",
+  "frames" : "darkgress.png",
+  "variants" : 5,
+  "Description" : "Strange darkness...",
+  "footstepSound" : "",
+  "health" : 0
+}

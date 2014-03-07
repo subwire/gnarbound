@@ -1,0 +1,25 @@
+{
+  "projectileName" : "dragonflame",
+  "frames" : "dragonflame.png",
+  "physics" : "flame",
+  "level" : 1,
+  "animationCycle" : 0.5,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 12,
+  "power" : 50,
+  "speed" : 70,
+  "timeToLive" : 0.5,
+  "bounces" : 4,
+  "piercing" : true,
+  "lightColor" : [255, 180, 0],
+  "damageKind" : "fire",
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 100.0,
+      "color" : "orange",
+      "duration" : 5.0
+    },
+    { "kind" : "testburning" }
+  ]
+}

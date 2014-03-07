@@ -1,0 +1,15 @@
+{
+  "projectileName" : "spikeballmmn",
+  "frames" : "spikeballmmn.png",
+  "physics" : "bouncer",
+  "level" : 1,
+  "animationCycle" : 2,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 1,
+  "power" : 5,
+  "piercing" : true,
+  "Speed" : 100,
+  "timeToLive" : 7,
+  "bounces" : 1,
+  "damageKind" : "default"
+}

@@ -1,0 +1,16 @@
+{
+  "materialId" : 18500,
+  "materialName" : "greedsupport",
+  "frames" : "greedsupport.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "greedsupport",
+  "description" : "A greedy green support block.",
+  "shortdescription" : "Greed Support Block",
+
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10
+}

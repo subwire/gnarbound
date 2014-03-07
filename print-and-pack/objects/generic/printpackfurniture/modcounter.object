@@ -1,0 +1,31 @@
+{
+  "objectName" : "modcounter",
+  "rarity" : "Common",
+  "category" : "furniture",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/kitchen.config",
+    "filter" : [ "kitchen" ]
+  },
+  "price" : 500,
+  "description" : "Modern mahogany kitchen counter.",
+  "shortdescription" : "Modern Counter",
+  "race" : "generic",
+
+  "inventoryIcon" : "modcountericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "modcounter.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+
+}

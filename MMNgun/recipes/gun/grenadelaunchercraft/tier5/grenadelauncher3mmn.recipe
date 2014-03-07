@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "spikeballsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "spikeballmmn", "level" : 5 } },
+  "groups" : [ "gunassemblymmn" ]
+}

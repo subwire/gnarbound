@@ -1,0 +1,16 @@
+{
+  "materialId" : 17900,
+  "materialName" : "wallpaper8",
+  "frames" : "wallpaper8.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "wallpaper8",
+  "description" : "A blue diamond wall paper.",
+  "shortdescription" : "Blue Diamond Wall Paper",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

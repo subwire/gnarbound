@@ -1,0 +1,22 @@
+{
+  "objectName" : "beesign",
+  "rarity" : "Common",
+  "category" : "sign",
+  "price" : 100,
+  "description" : "A sign denoting bees.",
+  "shortdescription" : "Bees Sign",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "signicon.png",
+  "orientations" : [
+    {
+      "image" : "beesign.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

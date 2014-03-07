@@ -1,0 +1,15 @@
+{
+  "projectileName" : "dormantconcussionboltmmn",
+  "physics" : "spikeball",
+  "frames" : "concussionboltmmn.png",
+  "level" : 1,
+  "speed" : 0,
+  "piercing" : true,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "pointLight" : false,
+  "power" : 5,
+  "damageKind" : "hammer"
+}

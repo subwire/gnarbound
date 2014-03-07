@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "bronzecrossbowmmn", "count" : 1 },
+	{ "item" : "trapboltmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "trapboltmmn", "level" : 1 } },
+  "groups" : [ "gunassemblymmn" ]
+}

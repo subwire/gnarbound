@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cellmateria", "count" : 5 },
+	{ "item" : "petalred", "count" : 2 },
+	{ "item" : "copperore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "plasmaburstmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

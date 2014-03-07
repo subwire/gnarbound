@@ -1,0 +1,16 @@
+{
+  "materialId" : 16600,
+  "materialName" : "evilplatform",
+  "platform" : true,
+  "transparent" : true,
+  "stairVariants" : 1,
+  "stairImage" : "evilstairs.png",
+  "platformVariants" : 3,
+  "platformImage" : "evilplatform.png",
+  "itemDrop" : "evilplatform",
+  "shortdescription" : "Evil Platform",
+  "description" : "Strong Evil platforms.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "category" : "wall",
+  "price" : 10
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Pcrossbowframemmn", "count" : 1 },
+	{ "item" : "Durasteelbarrelmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "durasteelpcrossbowmmn" },
+  "groups" : [ "gunassemblymmn" ]
+}

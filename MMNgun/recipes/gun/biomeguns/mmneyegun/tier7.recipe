@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumbarrelmmn", "count" : 1 },
+	{ "item" : "oculemon", "count" : 10 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmneyegun", "level" : 7 } },
+ "groups" : [ "gunassemblymmn" ]
+}

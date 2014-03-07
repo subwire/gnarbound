@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Feroziumrocketlaunchermmn", "count" : 1 },
+	{ "item" : "incendiaryrocketmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "incendiaryrocketmmn", "level" : 6 } },
+  "groups" : [ "gunassemblymmn" ]
+}

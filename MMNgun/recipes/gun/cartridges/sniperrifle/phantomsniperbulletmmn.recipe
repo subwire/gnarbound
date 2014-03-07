@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 5 },
+	{ "item" : "titaniumore", "count" : 2 },
+	{ "item" : "ash", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "phantomsniperbulletmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

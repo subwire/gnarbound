@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Durasteelflamethrowermmn", "count" : 1 },
+	{ "item" : "lightningcontainermmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "uncommonflamethrower", "level" : 4 } },
+  "groups" : [ "gunassemblymmn" ]
+}

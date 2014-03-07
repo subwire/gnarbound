@@ -1,0 +1,22 @@
+{
+  "objectName" : "bedroomsign",
+  "rarity" : "Common",
+  "category" : "sign",
+  "price" : 100,
+  "description" : "A sign denoting a bedroom.",
+  "shortdescription" : "Bedroom Sign",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "signicon.png",
+  "orientations" : [
+    {
+      "image" : "bedroomsign.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

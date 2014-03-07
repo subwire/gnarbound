@@ -1,0 +1,29 @@
+{
+  "projectileName" : "coverplasma",
+  "frames" : "shieldplasma.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "speed" : 1,
+  "pierces" : true,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "bounces" : 0,
+  "timeToLive" : 0.001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "blueplasma",
+      "inheritDamageFactor" : 1
+    },
+	{
+      "action" : "projectile",
+      "type" : "shieldplasma",
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "power" : 5.0,
+  "lightColor" : [193, 34, 103],
+  "damageKind" : "plasma"
+
+}

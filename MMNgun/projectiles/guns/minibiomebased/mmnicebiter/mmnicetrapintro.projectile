@@ -1,0 +1,24 @@
+{
+  "projectileName" : "mmnicetrapintro",
+  "frames" : "mmnicebiter.png",
+  "animationCycle" : 1,
+  "physics" : "slider",
+  "speed" : 1,
+  "level" : 1,
+  "piercing" : true,
+  "timeToLive" : 0.5,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "power" : 5.0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "mmnicetrap",
+      "inheritDamageFactor" : 1,
+	  "angle" : 270
+    }
+	],
+  "damageType" : "hitTest",
+  "damageKind" : "ice"
+}

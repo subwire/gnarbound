@@ -1,0 +1,22 @@
+{
+  "projectileName" : "yellowpistolplasma",
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frames" : "yellowpistolplasma.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5,  
+  "speed" : 80,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [
+  { "kind" : "electroshock", "amount" : 5 }
+  ],
+  "lightColor" : [0, 73, 0],
+  "damageKind" : "plasma"
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Rubiumrocketlaunchermmn", "count" : 1 },
+	{ "item" : "drillrocketmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "drillrocketmmn", "level" : 9 } },
+  "groups" : [ "gunassemblymmn" ]
+}

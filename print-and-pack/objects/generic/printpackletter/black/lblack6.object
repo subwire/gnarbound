@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblack6",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The number '6'.",
+  "shortdescription" : "Six",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblack6icon.png",
+  "orientations" : [
+    {
+      "image" : "lblack6.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

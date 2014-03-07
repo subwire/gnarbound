@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "crystalvoxel5k", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 4500 },
+  "groups" : [ "refinery" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Durasteelrocketlaunchermmn", "count" : 1 },
+	{ "item" : "standardrocketmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonrocketlauncher", "level" : 4 } },
+  "groups" : [ "gunassemblymmn" ]
+}

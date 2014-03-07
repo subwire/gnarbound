@@ -1,0 +1,39 @@
+{
+  "projectileName" : "fragmentedbullet",
+  "frames" : "fragmentedbullet.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.2,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "shrapnel",
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 3
+    },
+    {
+      "action" : "projectile",
+      "type" : "shrapnel",
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "shrapnel",
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : -1
+    },
+    {
+      "action" : "projectile",
+      "type" : "shrapnel",
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : -3
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

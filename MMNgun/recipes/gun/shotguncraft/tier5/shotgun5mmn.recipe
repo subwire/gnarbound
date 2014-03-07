@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltshotgunmmn", "count" : 1 },
+	{ "item" : "dragonsbreathshellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "dragonsbreathmmn", "level" : 5 } },
+  "groups" : [ "gunassemblymmn" ]
+}

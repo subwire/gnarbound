@@ -1,0 +1,14 @@
+{
+  "projectileName" : "orangeglowstick",
+  "physics" : "grenadezbomb",
+  "bounces" : -1,
+  "level" : 3,
+  "timeToLive" : 400,
+  "frames" : "orangeglowstick.png",
+  "animationCycle" : 0.0,
+  "lightColor" : [255, 84, 0],
+  "frameNumber" : 1,
+  "power" : 0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

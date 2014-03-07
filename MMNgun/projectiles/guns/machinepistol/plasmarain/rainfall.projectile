@@ -1,0 +1,15 @@
+{
+  "projectileName" : "rainfall",
+  "physics" : "spikeball",
+  "level" : 1,
+  "frames" : "rainfall.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 100,
+  "timeToLive" : 0.7,
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "piercing" : true,
+  "power" : 5,
+  "lightColor" : [0, 0, 245],
+  "damageKind" : "plasma"
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "treasurehoard", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "money",
+    "count" : 1
+  },
+  "groups" : [ "aegisaltpixelator", "all" ]
+}

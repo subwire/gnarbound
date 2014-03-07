@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumassaultriflemmn", "count" : 1 },
+	{ "item" : "crystalbulletmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "crystalbulletmmn", "level" : 7 } },
+ "groups" : [ "gunassemblymmn" ]
+}

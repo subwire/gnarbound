@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumsniperriflemmn", "count" : 1 },
+	{ "item" : "shieldplasmammn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "rareplasmasniperrifle", "level" : 3 } },
+  "groups" : [ "gunassemblymmn" ]
+}

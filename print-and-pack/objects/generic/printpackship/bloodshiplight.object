@@ -1,0 +1,27 @@
+{
+  "objectName" : "bloodshiplight",
+  "rarity" : "Common",
+  "category" : "ship",
+  "lightColor" : [230, 230, 230],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 1,
+  "unlit" : true,
+  "price" : 10,
+  "description" : "A bloody red light.",
+  "shortdescription" : "Blood Ship Light",
+  "race" : "generic",
+
+  "inventoryIcon" : "bloodshiplighticon.png",
+  "orientations" : [
+    {
+      "image" : "bloodshiplight.png:<frame>",
+      "imagePosition" : [-8, 0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

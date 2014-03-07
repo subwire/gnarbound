@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumshotgunmmn", "count" : 1 },
+	{ "item" : "pelletshellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonshotgun", "level" : 3 } },
+  "groups" : [ "gunassemblymmn" ]
+}

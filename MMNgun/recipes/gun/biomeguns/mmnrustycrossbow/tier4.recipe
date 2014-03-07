@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Durasteelbarrelmmn", "count" : 1 },
+	{ "item" : "metallic", "count" : 5 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnrustycrossbow", "level" : 4 } },
+ "groups" : [ "gunassemblymmn" ]
+}

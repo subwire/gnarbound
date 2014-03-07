@@ -1,0 +1,16 @@
+{
+  "materialId" : 17600,
+  "materialName" : "wallpaper5",
+  "frames" : "wallpaper5.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "wallpaper5",
+  "description" : "A burgundy striped wall paper.",
+  "shortdescription" : "Burgundy Striped Wall Paper",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

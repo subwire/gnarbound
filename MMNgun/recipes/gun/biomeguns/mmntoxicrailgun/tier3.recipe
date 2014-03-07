@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumbarrelmmn", "count" : 1 },
+	{ "item" : "toxictop", "count" : 5 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmntoxicrailgun", "level" : 3 } },
+ "groups" : [ "gunassemblymmn" ]
+}

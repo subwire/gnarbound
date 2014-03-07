@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Feroziumbarrelmmn", "count" : 1 },
+	{ "item" : "ice", "count" : 10 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnicespherebubbler", "level" : 6 } },
+ "groups" : [ "gunassemblymmn" ]
+}

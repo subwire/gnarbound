@@ -1,0 +1,27 @@
+{
+  "projectileName" : "ravager",
+  "frames" : "ravager.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,  
+  "timeToLive" : 0.5,
+  "speed" :50,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "ravagerback",
+      "inheritDamageFactor" : 0.5,
+	  "angleAdjust" : -170
+    },
+	{
+      "action" : "projectile",
+      "type" : "ravagerback",
+      "inheritDamageFactor" : 0.5,
+	  "angleAdjust" : -190
+    }	
+  ],
+  "damageKind" : "default"
+}

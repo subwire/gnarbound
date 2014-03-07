@@ -1,0 +1,25 @@
+{
+  "objectName" : "unionjack",
+  "rarity" : "Common",
+  "category" : "flag",
+  "price" : 10,
+
+  "description" : "The Union Jack",
+  "shortdescription" : "Union Jack Flag",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "unionjackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "unionjack.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblackq",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The letter 'Q'.",
+  "shortdescription" : "Q",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblackqicon.png",
+  "orientations" : [
+    {
+      "image" : "lblackq.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

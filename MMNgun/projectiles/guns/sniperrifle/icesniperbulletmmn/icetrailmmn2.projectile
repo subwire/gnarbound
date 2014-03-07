@@ -1,0 +1,15 @@
+{
+  "projectileName" : "icetrailmmn2",
+  "frames" : "icetrailmmn2.png",
+  "animationCycle" : 2,
+  "level" : 1,
+  "power" : 5,
+  "frameNumber" : 4,
+  "speed" : 60,
+  "physics" : "hover",
+  "animationLoops" : false,
+  "piercing" : true,
+  "supportsProcessing" : true,
+  "universalDamage" : false,
+  "damageKind" : "ice"
+}

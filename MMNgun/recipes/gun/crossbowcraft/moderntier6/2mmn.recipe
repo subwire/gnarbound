@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "modernferoziumcrossbowmmn", "count" : 1 },
+	{ "item" : "boltrainmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "modernboltrainmmn", "level" : 6 } },
+  "groups" : [ "gunassemblymmn" ]
+}

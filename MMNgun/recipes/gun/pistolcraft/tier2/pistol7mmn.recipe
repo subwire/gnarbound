@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Steelpistolmmn", "count" : 1 },
+	{ "item" : "Flarecartridgemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "rareplasmapistol", "level" : 2 } },
+  "groups" : [ "gunassemblymmn" ]
+}

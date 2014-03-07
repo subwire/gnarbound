@@ -1,0 +1,16 @@
+{
+  "projectileName" : "teslaspark",
+  "physics" : "grenade",
+  "bounces" : 1,
+  "level" : 1,
+  "piercing" : true,
+  "damageKindImage" : "icon.png",
+  "frames" : "teslaspark.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 25,
+  "supportsProcessing" : true,
+  "lightColor" : [21, 27, 84],
+  "damageKind" : "electroshock"
+}

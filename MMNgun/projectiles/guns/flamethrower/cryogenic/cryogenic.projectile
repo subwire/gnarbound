@@ -1,0 +1,35 @@
+{
+  "projectileName" : "cryogenic",
+  "frames" : "cryogenic.png",
+  "physics" : "arrow",
+  "animationCycle" : 1,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "power" : 5,
+  "level" : 1,
+  "speed" : 25,
+  "timeToLive" : 0.001,
+  "damageKind" : "ice",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "cryogenicmain",
+      "inheritDamageFactor" : 0.7,
+      "fuzzAngle" : 12
+    },
+	{
+      "action" : "projectile",
+      "type" : "cryogenicmain",
+      "inheritDamageFactor" : 0.7,
+	  "angleAdjust" : 15,
+      "fuzzAngle" : 12
+    },
+	{
+      "action" : "projectile",
+      "type" : "cryogenicmain",
+      "inheritDamageFactor" : 0.7,
+	  "angleAdjust" : -15,
+      "fuzzAngle" : 12
+    }
+  ]
+}

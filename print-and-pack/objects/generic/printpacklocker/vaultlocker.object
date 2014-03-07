@@ -1,0 +1,30 @@
+{
+  "objectName" : "vaultlocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+	
+  "category" : "locker",
+  "price" : 250,
+  "description" : "A massive vault locker with 100 slots.",
+  "shortdescription" : "Vault Locker",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "vaultlockericon.png",
+  "orientations" : [
+    {
+      "image" : "vaultlocker.png:<color>",
+      "imagePosition" : [-33, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.wav" ],
+  "slotCount" : 100,
+  "uiConfig" : "/interface/chests/chest100.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

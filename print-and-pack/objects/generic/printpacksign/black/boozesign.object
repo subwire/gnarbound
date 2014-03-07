@@ -1,0 +1,22 @@
+{
+  "objectName" : "boozesign",
+  "rarity" : "Common",
+  "category" : "sign",
+  "price" : 100,
+  "description" : "A sign for booze, alcohol, liquor, hootch.",
+  "shortdescription" : "Booze Sign",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "signicon.png",
+  "orientations" : [
+    {
+      "image" : "boozesign.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

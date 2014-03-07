@@ -1,0 +1,22 @@
+{
+  "objectName" : "wiringsign",
+  "rarity" : "Common",
+  "category" : "sign",
+  "price" : 100,
+  "description" : "A sign denoting wiring materials.",
+  "shortdescription" : "Wiring Sign",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "signicon.png",
+  "orientations" : [
+    {
+      "image" : "wiringsign.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

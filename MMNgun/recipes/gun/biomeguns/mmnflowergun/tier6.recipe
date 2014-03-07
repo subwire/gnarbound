@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Feroziumbarrelmmn", "count" : 1 },
+	{ "item" : "giantflowerpetal", "count" : 10 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnflowergun", "level" : 6 } },
+ "groups" : [ "gunassemblymmn" ]
+}

@@ -1,0 +1,22 @@
+{
+  "objectName" : "pantssign",
+  "rarity" : "Common",
+  "category" : "sign",
+  "price" : 100,
+  "description" : "A sign denoting pants.",
+  "shortdescription" : "Pants Sign",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "signicon.png",
+  "orientations" : [
+    {
+      "image" : "pantssign.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

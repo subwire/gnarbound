@@ -1,0 +1,13 @@
+{
+  "projectileName" : "ravagerrepeat",
+  "frames" : "splitravager.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "physics" : "bullet",
+  "speed" :75,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5,
+  "damageKind" : "default"
+}

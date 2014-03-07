@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "uraniumore", "count" : 5 },
+	{ "item" : "metallic", "count" : 2 },
+	{ "item" : "crystalplant", "count" : 2 }
+  ],
+  "output" : { "item" : "uraniumarrowmmn", "count": 1 },
+  "groups" : [ "gunmmn", "all", "fcartridgemmn" ]
+}

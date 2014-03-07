@@ -1,0 +1,16 @@
+{
+  "materialId" : 18200,
+  "materialName" : "blooddetails",
+  "frames" : "blooddetails.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "blooddetails",
+  "description" : "A bloody red metal.",
+  "shortdescription" : "Blood Metal object",
+
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price": 10
+}

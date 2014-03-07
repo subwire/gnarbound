@@ -1,0 +1,27 @@
+{
+  "projectileName" : "phantomsniperbullet",
+  "frames" : "twincase.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "physics" : "boomerang",
+  "speed" :80,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "sniperbullet",
+      "inheritDamageFactor" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "ghostsniperbullet",
+      "inheritDamageFactor" : 0.75
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

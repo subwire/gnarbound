@@ -1,0 +1,32 @@
+{
+  "objectName" : "rainbowlocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+	
+  "category" : "locker",
+  "price" : 250,
+  "description" : "A rainbow locker that has 100 slots.",
+  "shortdescription" : "Rainbow Locker",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "rainbowlockericon.png",
+  "orientations" : [
+    {
+      "image" : "rainbowlocker.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 8,
+      "animationCycle" : 3.0,
+	  
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 100,
+  "uiConfig" : "/interface/chests/chest100.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,41 @@
+{
+  "projectileName" : "icesniperstartermmn",
+  "frames" : "icesniperbulletmmn.png",
+  "animationCycle" : 1,
+  "level" : 3,
+  "speed" :80,
+  "frameNumber" : 1,
+  "piercing" : true,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.3,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "icesniperbulletmmn",
+      "inheritDamageFactor" : 0.75
+    },
+    {
+      "action" : "projectile",
+      "type" : "delayedicetrail1mmn",
+      "inheritDamageFactor" : 0.25
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedicetrail2mmn",
+      "inheritDamageFactor" : 0.25
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedicetrail3mmn",
+      "inheritDamageFactor" : 0.25
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedicetrail4mmn",
+      "inheritDamageFactor" : 0.25
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "ice"
+}

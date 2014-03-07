@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Bronzemachinepistolmmn", "count" : 1 },
+	{ "item" : "trickshotmagazinemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "raremachinepistol", "level" : 1 } },
+  "groups" : [ "gunassemblymmn" ]
+}

@@ -1,0 +1,16 @@
+{
+  "materialId" : 17000,
+  "materialName" : "wallpaper1",
+  "frames" : "wallpaper1.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "wallpaper1",
+  "description" : "A green diamond wall paper.",
+  "shortdescription" : "Green Wall Paper",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

@@ -1,0 +1,25 @@
+{
+  "objectName" : "thescream",
+  "rarity" : "Common",
+  "category" : "art",
+  "price" : 2500,
+
+  "description" : "A chilling painting by Edvard Munch.",
+  "shortdescription" : "The Scream",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "thescreamicon.png",
+  "orientations" : [
+    {
+      "image" : "thescream.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

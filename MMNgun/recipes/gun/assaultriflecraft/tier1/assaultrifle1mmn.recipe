@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Bronzeassaultriflemmn", "count" : 1 },
+	{ "item" : "arbulletmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonassaultrifle", "level" : 1 } },
+ "groups" : [ "gunassemblymmn" ]
+}

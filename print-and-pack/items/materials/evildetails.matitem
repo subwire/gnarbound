@@ -1,0 +1,10 @@
+{
+  "itemName" : "evildetails",
+  "rarity" : "Common",
+  "inventoryIcon" : "evildetails.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A little bit of Evil metal.",
+  "shortdescription" : "Evil Metal object",
+
+  "materialId" : 16700
+}

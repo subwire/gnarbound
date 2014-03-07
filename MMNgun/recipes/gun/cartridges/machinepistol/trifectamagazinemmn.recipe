@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "diamondore", "count" : 5 },
+	{ "item" : "sugar", "count" : 2 },
+	{ "item" : "goldore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "trifectamagazinemmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "pcartridgemmn" ]
+}

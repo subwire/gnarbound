@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltflamethrowermmn", "count" : 1 },
+	{ "item" : "phosphorcontainermmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "legendaryflamethrower", "level" : 5 } },
+  "groups" : [ "gunassemblymmn" ]
+}

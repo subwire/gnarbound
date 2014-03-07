@@ -1,0 +1,33 @@
+{
+  "projectileName" : "bluntarrowmmn",
+  "physics" : "arrow",
+  "frames" : "bluntarrowmmn.png",
+  "level" : 1,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+	{
+      "action" : "projectile",
+      "type" : "dormantbluntarrowmmn",
+      "inheritDamageFactor" : 0.05
+    }
+	],
+
+  "statusEffects" : [
+    {
+      "kind" : "grabbed",
+	  "duration" : 3
+    }
+  
+  ],
+  "power" : 5,
+  "damageType" : "ignoresdef",
+  "damageKind" : "hammer"
+}

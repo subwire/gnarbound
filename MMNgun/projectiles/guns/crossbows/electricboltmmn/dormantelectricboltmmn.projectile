@@ -1,0 +1,15 @@
+{
+  "projectileName" : "dormantelectricboltmmn",
+  "frames" : "dormantelectricboltmmn.png",
+  "physics" : "stickybomb",
+  "animationCycle" : 0.5,
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 25,
+  "lightColor" : [63, 140, 253],
+  "timeToLive" : 10,
+  "piercing" : true,
+  "damageKind" : "electroshock"
+}

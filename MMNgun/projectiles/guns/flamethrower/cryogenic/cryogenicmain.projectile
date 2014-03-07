@@ -1,0 +1,13 @@
+{
+  "projectileName" : "cryogenicmain",
+  "frames" : "cryogenic.png",
+  "physics" : "stickybullet",
+  "animationCycle" : 1,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "power" : 5,
+  "level" : 1,
+  "speed" : 50,
+  "timeToLive" : 5,
+  "damageKind" : "ice"
+}

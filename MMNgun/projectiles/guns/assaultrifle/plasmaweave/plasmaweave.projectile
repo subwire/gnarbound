@@ -1,0 +1,30 @@
+{
+  "projectileName" : "plasmaweave",
+  "physics" : "laser",
+  "level" : 1,
+  "timeToLive" : 0.001,
+  "damageKindImage" : "icon.png",
+  "frames" : "plasmaweave.png",
+  "animationCycle" : 0.001,
+  "frameNumber" : 1,
+  "power" : 5,
+  "speed" : 50,
+  "piercing" : true,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "lowertrishot",
+      "inheritDamageFactor" : 0.75,
+	  "angleAdjust" : 3
+    },
+	{
+      "action" : "projectile",
+      "type" : "highertrishot",
+      "inheritDamageFactor" : 0.75,
+	  "angleAdjust" : -3
+    }
+  ],
+  "lightColor" : [0, 73, 0],
+  "damageKind" : "plasma"
+}

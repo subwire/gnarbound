@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblackt",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The letter 'T'.",
+  "shortdescription" : "T",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblackticon.png",
+  "orientations" : [
+    {
+      "image" : "lblackt.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

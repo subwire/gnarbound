@@ -1,0 +1,15 @@
+{
+  "projectileName" : "mmnrainbow",
+  "frames" : "mmnrainbow.png",
+  "physics" : "boomerang",
+  "level" : 1,
+  "animationCycle" : 1.0,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 1,
+  "power" : 5,
+  "speed" : 100,
+  "piercing" : true,
+  "timeToLive" : 0.4,
+  "lightColor" : [255, 255, 255],
+  "damageKind" : "default"
+}

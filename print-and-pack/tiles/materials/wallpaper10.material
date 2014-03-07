@@ -1,0 +1,16 @@
+{
+  "materialId" : 18100,
+  "materialName" : "wallpaper10",
+  "frames" : "wallpaper10.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "wallpaper10",
+  "description" : "A purple diamond wall paper.",
+  "shortdescription" : "Purple Diamond Wall Paper",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

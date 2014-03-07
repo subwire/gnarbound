@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "modernceruliumcrossbowmmn", "count" : 1 },
+	{ "item" : "livingboltmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "modernlivingboltmmn", "level" : 7 } },
+  "groups" : [ "gunassemblymmn" ]
+}

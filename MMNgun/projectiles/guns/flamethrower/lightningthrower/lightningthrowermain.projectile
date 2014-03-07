@@ -1,0 +1,15 @@
+{
+  "projectileName" : "lightningthrowermain",
+  "frames" : "lightningthrower.png",
+  "animationCycle" : 0.5,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "level" : 1,
+  "power" : 7.5,
+  "speed" : 80,
+  "timeToLive" : 0.2,
+  "bounces" : 1,
+  "piercing" : true,
+  "lightColor" : [130, 202, 250],
+  "damageKind" : "electroshock"
+}

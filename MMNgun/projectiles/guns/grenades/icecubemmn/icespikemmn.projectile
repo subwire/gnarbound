@@ -1,0 +1,15 @@
+{
+  "projectileName" : "icespikemmn",
+  "physics" : "stickybomb",
+  "frames" : "icespikemmn.png",
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "power" : 5,
+  "speed" : 15,
+  "piercing" : true,
+  "timeToLive" : 10,
+  "damageKind" : "ice",
+  "lightColor" : [92, 179, 255]
+}

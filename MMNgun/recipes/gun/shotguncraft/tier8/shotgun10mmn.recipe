@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Violiumshotgunmmn", "count" : 1 },
+	{ "item" : "sonicboomshellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "rareplasmashotgun", "level" : 8 } },
+  "groups" : [ "gunassemblymmn" ]
+}

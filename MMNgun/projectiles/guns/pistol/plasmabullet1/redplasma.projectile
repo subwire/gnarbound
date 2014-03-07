@@ -1,0 +1,22 @@
+{
+  "projectileName" : "redplasma",
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frames" : "redplasma.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 80,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [
+  { "kind" : "testburning" }
+  ],
+  "lightColor" : [73, 10, 0],
+  "damageKind" : "plasma"
+}

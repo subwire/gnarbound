@@ -1,0 +1,16 @@
+{
+  "materialId" : 18000,
+  "materialName" : "wallpaper9",
+  "frames" : "wallpaper9.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "wallpaper9",
+  "description" : "A monochrome diamond wall paper.",
+  "shortdescription" : "Monochrome Diamond Wall Paper",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

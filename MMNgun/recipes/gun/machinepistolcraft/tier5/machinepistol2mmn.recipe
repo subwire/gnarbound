@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltmachinepistolmmn", "count" : 1 },
+	{ "item" : "splittermagazinemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "uncommonmachinepistol", "level" : 5 } },
+  "groups" : [ "gunassemblymmn" ]
+}

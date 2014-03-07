@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "platinumore", "count" : 1 },
+    { "item" : "metallic", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "platinumbar",
+    "count" : 1
+  },
+  "groups" : [ "metalworkstation", "all" ]
+}

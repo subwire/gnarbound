@@ -1,0 +1,30 @@
+{
+  "objectName" : "woodmicrolocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+	
+  "category" : "locker",
+  "price" : 250,
+  "description" : "A wooden micro locker.",
+  "shortdescription" : "Wood Micro Locker",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "woodmicrolocker.png",
+  "orientations" : [
+    {
+      "image" : "woodmicrolocker.png:<color>",
+      "imagePosition" : [-0, -0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 100,
+  "uiConfig" : "/interface/chests/chest100.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

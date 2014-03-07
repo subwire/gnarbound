@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 3 },
+    { "item" : "reddye", "count" : 1 },
+    { "item" : "yellowdye", "count" : 1 },
+    { "item" : "bluedye", "count" : 1 },
+    { "item" : "torch", "count" : 2 },
+    { "item" : "money", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "whiteglowstick",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "other", "all" ]
+}

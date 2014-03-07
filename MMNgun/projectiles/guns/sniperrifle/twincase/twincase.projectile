@@ -1,0 +1,27 @@
+{
+  "projectileName" : "twincase",
+  "frames" : "twincase.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "sniperbullet",
+      "inheritDamageFactor" : 0.75,
+      "angleAdjust" : 1.2
+    },
+    {
+      "action" : "projectile",
+      "type" : "sniperbullet",
+      "inheritDamageFactor" : 0.75,
+      "angleAdjust" : -1.2
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

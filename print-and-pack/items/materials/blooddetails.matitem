@@ -1,0 +1,10 @@
+{
+  "itemName" : "blooddetails",
+  "rarity" : "Common",
+  "inventoryIcon" : "blooddetails.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A little bit of blood red metal.",
+  "shortdescription" : "Blood Metal object",
+
+  "materialId" : 18200
+}

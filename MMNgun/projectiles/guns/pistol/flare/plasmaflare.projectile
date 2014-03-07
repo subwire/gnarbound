@@ -1,0 +1,16 @@
+{
+  "projectileName" : "plasmaflare",
+  "physics" : "friendlybubble",
+  "level" : 1,
+  "timeToLive" : 5,
+  "frames" : "plasmaflareorb.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 10,
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
+  "piercing" : true,
+  "power" : 5,
+  "lightColor" : [246, 34, 23],
+  "damageKind" : "plasma",
+  "emitters" : [ "sparks" ]
+}

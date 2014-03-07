@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Rubiumbarrelmmn", "count" : 1 },
+	{ "item" : "metallic", "count" : 15 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnrustycrossbow", "level" : 9 } },
+ "groups" : [ "gunassemblymmn" ]
+}

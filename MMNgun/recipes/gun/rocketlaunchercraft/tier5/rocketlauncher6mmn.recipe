@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltrocketlaunchermmn", "count" : 1 },
+	{ "item" : "drillrocketmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "drillrocketmmn", "level" : 5 } },
+  "groups" : [ "gunassemblymmn" ]
+}

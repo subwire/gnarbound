@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 750 },
+	{ "item" : "fabric", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "checkeredlocker",
+    "count" : 1
+  },
+  "groups" : [ "printpack", "locker" ]
+}

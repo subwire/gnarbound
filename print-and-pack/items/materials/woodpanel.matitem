@@ -1,0 +1,10 @@
+{
+  "itemName" : "woodpanel",
+  "rarity" : "Common",
+  "inventoryIcon" : "woodpanelicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A mahogany wall panel.",
+  "shortdescription" : "Mahogany Wall Panel",
+
+  "materialId" : 17300
+}

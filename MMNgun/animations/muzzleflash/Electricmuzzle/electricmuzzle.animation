@@ -1,0 +1,7 @@
+{
+  "frames" : "electricmuzzle.png",
+  "variants" : 3,
+  "frameNumber" : 1,
+  "animationCycle" : 0.03,
+  "offset" : [0, 0]
+}

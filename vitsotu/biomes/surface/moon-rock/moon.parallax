@@ -1,0 +1,93 @@
+{
+  "settings" : {
+    "verticalOrigin" : -15,
+    "weatherEffectZLevel" : 9,
+    "definitions" : {
+      "rockyback" : {
+        "baseCount" : 3,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "mountainousback" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "rockyfront" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "barrenmoonglow" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "glitters" : {
+        "baseCount" : 7,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      }
+    }
+  },
+
+  "layers" : [
+    {
+      "kind" : "mountainousback",
+      "offset" : [0, 300],
+      "parallax" : 9,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "?brightness=20?saturation=-10",
+      "fadePercent" : 0.30
+    },
+    {
+      "kind" : "glitters",
+      "offset" : [0, 35],
+      "parallax" : [20, 20],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "rockyback",
+      "offset" : [0, 430],
+      "parallax" : 7,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "",
+      "fadePercent" : 0.20
+    },
+    {
+      "kind" : "rockyback",
+      "offset" : [0, 450],
+      "parallax" : 5,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "",
+      "fadePercent" : 0.10
+    },
+    {
+      "kind" : "rockyfront",
+      "offset" : [0, 500],
+      "parallax" : 2,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "rockyfront",
+      "offset" : [0, 400],
+      "parallax" : 2.4,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    }
+  ]
+}

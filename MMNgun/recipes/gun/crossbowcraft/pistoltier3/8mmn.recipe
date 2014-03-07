@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "titaniumpcrossbowmmn", "count" : 1 },
+	{ "item" : "livingboltmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "pistollivingboltmmn", "level" : 3 } },
+  "groups" : [ "gunassemblymmn" ]
+}

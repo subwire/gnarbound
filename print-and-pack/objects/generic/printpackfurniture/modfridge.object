@@ -1,0 +1,37 @@
+{
+  "objectName" : "modfridge",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "furniture",
+  "price" : 500,
+  "description" : "Ooh, a modern refrigerator!",
+  "shortdescription" : "Modern refrigerator.",
+  "race" : "human",
+
+   "inventoryIcon" : "modfridgeicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "modfridgeleft.png:default",
+      "rightImage" : "modfridgeright.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.wav" ],
+  "slotCount" : 100,
+  "uiConfig" : "/interface/chests/chest100.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.wav"
+}

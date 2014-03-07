@@ -1,0 +1,40 @@
+{
+  "objectName" : "soiler",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "crafting",
+  "price" : 1500,
+  "description" : "Compress soft soil into pixels.",
+  "shortdescription" : "Iron Pixelator",
+  "race" : "generic",
+  "learnBlueprintsOnPickup" : [
+    "money"
+  ],
+  
+  "apexDescription" : "It can turn soft soils into pixels. Pretty useful.",
+  "avianDescription" : "Another use for dirt. Turn it into pixels!",
+  "floranDescription" : "Floran make boring dirt into ussseful pixelsss!",
+  "glitchDescription" : "Statement. Pixelator. Made of iron.",
+  "humanDescription" : "Finally! I can use this useless dirt!",
+  "hylotlDescription" : "This machine is used to turn that disgusting dirt into pixels.",
+
+  "inventoryIcon" : "soilericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "soiler.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "recipeGroup" : "soiler",
+  "slotCount" : 2,
+  "uiConfig" : "/objects/generic/soiler/soiler.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

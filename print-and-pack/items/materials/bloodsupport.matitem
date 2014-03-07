@@ -1,0 +1,10 @@
+{
+  "itemName" : "bloodsupport",
+  "rarity" : "Common",
+  "inventoryIcon" : "bloodsupport.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A bloody red support block.",
+  "shortdescription" : "Blood Support Block",
+
+  "materialId" : 18300
+}

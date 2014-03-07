@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltassaultriflemmn", "count" : 1 },
+	{ "item" : "supersonicbullletmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "supersonicmmn", "level" : 5 } },
+ "groups" : [ "gunassemblymmn" ]
+}

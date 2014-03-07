@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumassaultriflemmn", "count" : 1 },
+	{ "item" : "supersonicbullletmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "supersonicmmn", "level" : 7 } },
+ "groups" : [ "gunassemblymmn" ]
+}

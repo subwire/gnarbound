@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Durasteelsniperriflemmn", "count" : 1 },
+	{ "item" : "twincasemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "twincasemmn", "level" : 4 } },
+  "groups" : [ "gunassemblymmn" ]
+}

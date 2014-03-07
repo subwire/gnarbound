@@ -1,0 +1,22 @@
+{
+  "projectileName" : "supersonic",
+  "frames" : "supersonic.png",
+  "physics" : "boomerang",
+  "animationCycle" : 0.25,
+  "piercing" : true,
+  "bounces" : 0,
+  "speed" :100,
+  "level" : 1,
+  "timeToLive" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

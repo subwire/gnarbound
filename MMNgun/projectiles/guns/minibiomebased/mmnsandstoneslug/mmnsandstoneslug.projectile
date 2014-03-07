@@ -1,0 +1,53 @@
+{
+  "projectileName" : "mmnsandstoneslug",
+  "frames" : "mmnsandstoneslug.png",
+  "animationCycle" : 1,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+   	{
+	  "action" : "projectile",
+	  "type" : "mmnsandstonepellet",
+      "inheritDamageFactor" : 0.25,
+	  "angleAdjust" : 0,
+	  "fuzzAngle" :15	  
+	},
+	{
+	  "action" : "projectile",
+	  "type" : "mmnsandstonepellet",
+      "inheritDamageFactor" : 0.25,
+	  "angleAdjust" : -15,
+	  "fuzzAngle" :15	  
+	},
+	{
+	  "action" : "projectile",
+	  "type" : "mmnsandstonepellet",
+      "inheritDamageFactor" : 0.25,
+	  "angleAdjust" : -30,
+	  "fuzzAngle" :15	  
+	},
+	{
+	  "action" : "projectile",
+	  "type" : "mmnsandstonepellet",
+      "inheritDamageFactor" : 0.25,
+	  "angleAdjust" : 15,
+	  "fuzzAngle" :15	  
+	},
+	{
+	  "action" : "projectile",
+	  "type" : "mmnsandstonepellet",
+      "inheritDamageFactor" : 0.25,
+	  "angleAdjust" : 30,
+	  "fuzzAngle" :15	  
+	}
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

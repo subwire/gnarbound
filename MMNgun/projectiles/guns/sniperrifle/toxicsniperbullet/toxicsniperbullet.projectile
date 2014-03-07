@@ -1,0 +1,19 @@
+{
+  "projectileName" : "toxicsniperbullet",
+  "frames" : "toxicsniperbullet.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "bounces" : 0,
+  "timeToLive" : 1,
+  "physics" : "boomerang",
+  "piercing" : true,
+  "speed" :80,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "damageKind" : "acid",
+  "statusEffects" : [
+    { "kind" : "testpoison"	}
+  ]
+}

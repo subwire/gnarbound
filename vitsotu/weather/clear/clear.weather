@@ -1,0 +1,5 @@
+{
+  "__merge" : [ [ "overwrite", "duration" ] ],
+  "maximumWind" : 8.0,
+  "duration" : [120, 180]
+}

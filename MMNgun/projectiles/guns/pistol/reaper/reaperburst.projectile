@@ -1,0 +1,18 @@
+{
+  "projectileName" : "reaperburst",
+  "frames" : "reaperburst.png",
+  "animationCycle" : 1,
+  "level" : 1,
+  "speed" :80,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/guns/pistol/reaper/reaper.config"
+    }
+  ],
+  "damageKind" : "fire"
+}

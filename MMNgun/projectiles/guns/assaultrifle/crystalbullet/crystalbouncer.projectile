@@ -1,0 +1,13 @@
+{
+  "projectileName" : "crystalbouncer",
+  "physics" : "bouncer",
+  "bounces" : 2,
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frames" : "crystalbullet.png",
+  "pierces" : true,
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "power" : 5,
+  "damageKind" : "crystal"
+}

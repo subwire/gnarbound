@@ -1,0 +1,13 @@
+{
+  "projectileName" : "shrapnelmp",
+  "frames" : "shrapnelmp.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "speed" : 80,
+  "physics" : "arrow",
+  "power" : 5.0,
+  "damageKind" : "slash"
+}

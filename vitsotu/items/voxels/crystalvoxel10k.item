@@ -1,0 +1,7 @@
+{
+  "itemName" : "crystalvoxel10k",
+  "rarity" : "Common",
+  "inventoryIcon" : "crystalvoxel10k.png",
+  "description" : "10000 pixels compressed into a voxel. 10% of pixels are lost during the compression process. Can be refined into 9000 pixels.",
+  "shortdescription" : "10k Pixel Crystal"
+}

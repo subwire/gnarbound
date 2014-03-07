@@ -1,0 +1,13 @@
+{
+  "projectileName" : "mmncrystalbayonetbullet",
+  "physics" : "stickybullet",
+  "piercing" : true,
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frames" : "mmncrystalbayonetbullet.png",
+  "animationCycle" : 1,
+  "timeToLive" : 1,
+  "frameNumber" : 1,
+  "power" : 5,
+  "damageKind" : "crystal"
+}

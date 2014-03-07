@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Imperviumrocketlaunchermmn", "count" : 1 },
+	{ "item" : "nuclearrocketmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "nuclearrocketmmn", "level" : 10 } },
+  "groups" : [ "gunassemblymmn" ]
+}

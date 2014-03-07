@@ -1,0 +1,28 @@
+{
+  "objectName" : "eviltechstation",
+  "rarity" : "Common",
+
+  "interactAction" : "OpenTech3DPrinterDialog",
+
+  "category" : "ship",
+  "price" : 100,
+
+  "description" : "An evil tech station. For creating murderous tech!",
+  "shortdescription" : "Evil Tech Station",
+  "race" : "generic",
+
+  "inventoryIcon" : "evilrecordplayericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "eviltechstation.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/tos-computer-03.wav" ]
+}

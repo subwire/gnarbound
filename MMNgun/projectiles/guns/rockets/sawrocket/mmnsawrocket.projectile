@@ -1,0 +1,22 @@
+{
+  "projectileName" : "mmnsawrocket",
+  "frames" : "mmnsawrocket.png",
+  "animationCycle" : 0.25,  
+  "physics" : "boomerang",
+  "speed" : 60,
+  "level" : 1,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 255, 128],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "mmnsawrocketslider",
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "slash"
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "mud", "count" : 17 }
+  ],
+  "output" : {
+    "item" : "money",
+    "count" : 1
+  },
+  "groups" : [ "titaniumpixelator", "all" ]
+}

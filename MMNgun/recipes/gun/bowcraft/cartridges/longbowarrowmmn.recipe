@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 5 },
+	{ "item" : "darkwoodmaterial", "count" : 2 },
+	{ "item" : "plantfibre", "count" : 2 }
+  ],
+  "output" : { "item" : "longbowarrowmmn", "count": 1 },
+  "groups" : [ "gunmmn", "all", "fcartridgemmn" ]
+}

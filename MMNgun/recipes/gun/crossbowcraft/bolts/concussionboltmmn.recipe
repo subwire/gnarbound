@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 5 },
+	{ "item" : "darkwoodmaterial", "count" : 2 },
+	{ "item" : "ironore", "count" : 2 }
+  ],
+  "output" : { "item" : "concussionboltmmn", "count": 1 },
+  "groups" : [ "gunmmn", "all", "fcartridgemmn" ]
+}

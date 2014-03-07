@@ -1,0 +1,369 @@
+{
+  "name" : "Cove",
+  "caveLiquidType" : "water",
+  "oceanLiquidType" : "ocean",
+
+  "hueShiftOptions" : [ 0 ],
+  "skyOptions" : [
+
+    {
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [86, 121, 135], [0, 21, 147] ],
+      "dayColors" : [ [68, 115, 181], [40, 67, 106] ],
+      "eveningColors" : [ [86, 121, 135], [0, 21, 147] ],
+      "nightColors" : [ [0, 40, 60], [0, 10, 20] ],
+
+      "morningLightColor" : [86, 121, 135],
+      "dayLightColor" : [68, 115, 181],
+      "eveningLightColor" : [76, 116, 138],
+      "nightLightColor" : [24, 28, 24]
+    }
+  ],
+
+  "surfaceParameters" : {
+    "mainBlock" : "marestone",
+    "subBlocks" : [ "rostone", "clay" ],
+    "ores" : "surfaceOres",
+
+    "parallax" : "cove.parallax",
+    "undergroundParallax" : "cove.undergroundparallax",
+
+    "weather" : [
+      [
+        [0.1, "rain"],	  
+        [0.05, "storm"],
+        [0.025, "glowingrain"],		
+        [0.125, "drizzle"],
+        [0.7, "clear"]
+      ],
+      [
+        [0.05, "rain"],	  
+        [0.025, "storm"],	
+        [0.075, "drizzle"],
+        [0.85, "clear"]
+      ],
+      [
+        [0.1, "rain"],	  
+        [0.05, "storm"],
+        [0.025, "glowingrain"],		
+        [0.125, "drizzle"],
+        [0.7, "clear"]
+      ],
+      [
+        [0.05, "rain"],	  
+        [0.025, "storm"],	
+        [0.075, "drizzle"],
+        [0.85, "clear"]
+      ],
+      [  
+        [1.0, "clear"]
+      ],
+      [
+        [0.1, "snow"],	  
+        [0.9, "clear"]
+      ],
+      [
+        [0.05, "rain"],	  
+        [0.025, "storm"],	
+        [0.075, "drizzle"],
+        [0.05, "snow"],	 
+        [0.80, "clear"]
+      ],
+      [
+        [0.1, "glowingrain" ],
+        [0.9, "clear" ]
+      ],
+      [
+        [0.005, "meteorshower" ],
+        [0.995, "clear" ]
+      ],
+      [
+        [0.001, "largemeteor" ],
+        [0.999, "clear" ]
+      ],
+      [
+        [0.1, "rain"],	  
+        [0.05, "storm"],
+        [0.025, "glowingrain"],		
+        [0.125, "drizzle"],
+        [0.7, "clear"]
+      ],
+      [
+        [0.05, "rain"],	  
+        [0.025, "storm"],	
+        [0.075, "drizzle"],
+        [0.85, "clear"]
+      ],
+      [  
+        [1.0, "clear"]
+      ],
+      [
+        [0.1, "snow"],	  
+        [0.9, "clear"]
+      ]
+    ],
+
+    "statusParameters" : {
+      "temperatureBounds" : [9, 10],
+      "dayNightTemperatureVariability" : 0,
+      "temperatureVariability" : 3
+    },
+	
+    "ambientNoises" : {
+      "day" : {
+        "tracks" : [ "/sfx/environmental/ocean_surface_calm.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/sfx/environmental/ocean_surface_calm.ogg" ]
+      }
+    },
+
+    "undergroundAmbientNoises" : {
+      "day" : {
+        "tracks" : [ "/sfx/environmental/ocean_underwater.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/sfx/environmental/ocean_underwater.ogg" ]
+      }
+    },
+
+    "musicTrack" : {
+      "day" : {
+        "tracks" : [ "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/tranquility-base.ogg", "/music/mercury.ogg", "/music/mira.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/tranquility-base.ogg", "/music/mercury.ogg", "/music/mira.ogg" ]
+      }
+    },
+
+    "undergroundMusicTrack" : {
+      "day" : {
+        "tracks" : [ "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/tranquility-base.ogg", "/music/mercury.ogg", "/music/mira.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/tranquility-base.ogg", "/music/mercury.ogg", "/music/mira.ogg" ]
+      }
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "clay" ],
+      "grassModDensity" : 0.9,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:overgroundChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "basicChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:overgroundChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "weaponChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:overgroundChests",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [1, "statuspod" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:potsRare",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "grass",
+          "grasses" : [ "corals", "seaweed", "waterplant2", "waterplant3" ]
+        }
+      ]
+    },
+
+    "undergroundPlaceables" : {
+      "grassMod" : [ "clay" ],
+      "grassModDensity" : 0.9,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:undergroundChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "basicChest" ]
+        },
+
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:undergroundtechChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "techChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:undergroundChests",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [1, "statuspod" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:undergroundChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "weaponChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredPots",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "grass",
+          "grasses" : [ "corals", "seaweed", "waterplant2", "waterplant3" ]
+        }
+      ]
+    }
+  },
+
+  "subSurfaceParameters" : {
+    "mainBlock" : "rostone",
+    "subBlocks" : [ "marestone", "clay" ],
+    "ores" : "deepsurfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [20, 30],
+      "dayNightTemperatureVariability" : 5,
+      "temperatureVariability" : 5
+    },
+
+    "undergroundPlaceables" : {
+      "grassMod" : [ "clay" ],
+      "grassModDensity" : 0.2,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:undergroundChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "basicChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:undergroundChests",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [1, "statuspod" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:undergroundChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "weaponChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:undergroundtechChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "techChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "grass",
+          "grasses" : [ "corals", "seaweed", "waterplant2", "waterplant3" ]
+        }
+      ]
+    }
+  }
+}

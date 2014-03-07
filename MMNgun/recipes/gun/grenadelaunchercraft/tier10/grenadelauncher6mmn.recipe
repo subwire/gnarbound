@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Imperviumgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "pigmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "pigmmn", "level" : 10 } },
+  "groups" : [ "gunassemblymmn" ]
+}

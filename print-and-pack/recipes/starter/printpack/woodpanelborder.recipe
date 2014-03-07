@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 100 },
+	{ "item" : "darkwoodmaterial", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "woodpanelborder",
+    "count" : 100
+  },
+  "groups" : [ "printpack", "wall" ]
+}

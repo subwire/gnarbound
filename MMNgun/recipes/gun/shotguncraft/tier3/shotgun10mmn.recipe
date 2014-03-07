@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumshotgunmmn", "count" : 1 },
+	{ "item" : "sonicboomshellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "rareplasmashotgun", "level" : 3 } },
+  "groups" : [ "gunassemblymmn" ]
+}

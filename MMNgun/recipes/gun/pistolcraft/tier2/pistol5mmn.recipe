@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Steelpistolmmn", "count" : 1 },
+	{ "item" : "Plasmacartridgemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonplasmapistol", "level" : 2 } },
+  "groups" : [ "gunassemblymmn" ]
+}

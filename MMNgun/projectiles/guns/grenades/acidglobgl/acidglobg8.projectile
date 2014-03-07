@@ -1,0 +1,29 @@
+{
+  "projectileName" : "acidglobgl8",
+  "frames" : "acidglobgl.png",
+  "animationCycle" : 0.1,
+  "physics" : "grenade",
+  "level" : 1,
+  "speed" : 40,
+  "frameNumber" : 2,
+  "timeToLive" : 0.1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+	{
+      "action" : "projectile",
+      "type" : "acidtrail",
+      "inheritDamageFactor" : 0.2,
+	  "adjustAngle" : -180
+    },
+	{
+      "action" : "projectile",
+      "type" : "acidglobgl9",
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "acid",
+  "piercing" : true,
+  "emitters" : [ "defaultgreen" ]
+}

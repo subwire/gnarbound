@@ -1,0 +1,25 @@
+{
+  "projectileName" : "mousemmn",
+  "frames" : "mousemmn.png",
+  "physics" : "grenade",
+  "level" : 1,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "flippable" : true,
+  "power" : 5,
+  "damageKindImage" : "icon.png",
+  "speed" : 40,
+  "timeToLive" : 0.6,
+  "bounces" : 0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "mousemmnmain",
+      "inheritDamageFactor" : 1
+    }
+  ],
+
+  "lightColor" : [255, 180, 0],
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

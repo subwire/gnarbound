@@ -1,0 +1,35 @@
+{
+  "projectileName" : "carpetbomber2",
+  "frames" : "carpetbomber.png",
+  "animationCycle" : 0.1,
+  "level" : 1,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [255, 255, 128],
+  "timeToLive" : 0.1,
+  "pierces" : true,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "carpetbomb",
+      "inheritDamageFactor" : 0.4,
+	  "angleAdjust" : 45
+    },
+	{
+      "action" : "projectile",
+      "type" : "carpetbomb",
+      "inheritDamageFactor" : 0.4,
+	  "angleAdjust" : -45
+    },
+	{
+      "action" : "projectile",
+      "type" : "carpetbomber3",
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

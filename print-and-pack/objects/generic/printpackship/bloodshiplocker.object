@@ -1,0 +1,28 @@
+{
+  "objectName" : "bloodshiplocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "ship",
+  "description" : "Bloody red ship locker.",
+  "shortdescription" : "Blood Ship locker",
+  "race" : "generic",
+
+  "inventoryIcon" : "bloodshiplockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bloodshiplocker.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/tos-computer-06.wav" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

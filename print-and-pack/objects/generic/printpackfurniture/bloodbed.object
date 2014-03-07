@@ -1,0 +1,38 @@
+{
+  "objectName" : "bloodbed",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A black and blood red bed.",
+  "shortdescription" : "Blood Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1500,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 13],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/tiered/tier4bed/bloodbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 5.0 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "bloodbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bloodbed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

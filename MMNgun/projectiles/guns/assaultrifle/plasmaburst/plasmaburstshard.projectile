@@ -1,0 +1,23 @@
+{
+  "projectileName" : "plasmaburstshard",
+  "physics" : "laser",
+  "bounces" : -1, 
+  "level" : 1,
+  "timeToLive" : 0.15,
+  "damageKindImage" : "icon.png",
+  "frames" : "plasmaburstshard.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 100, 
+  "piercing" : true,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [73, 10, 0],
+  "damageKind" : "plasma"
+}

@@ -1,0 +1,25 @@
+{
+  "projectileName" : "drillrocket",
+  "frames" : "drillrocket.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 4,  
+  "speed" :50,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "drillrocketdelay",
+      "inheritDamageFactor" : 1,
+	  "adjustAngle" : 180
+    },
+	{
+      "action" : "config",
+      "file" : "/projectiles/guns/rockets/drillrocket/drill.config"
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "sparks" ]
+}

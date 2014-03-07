@@ -1,0 +1,20 @@
+{
+  "projectileName" : "mmngeometricbullet",
+  "frames" : "mmngeometricbullet.png",
+  "animationCycle" : 0.25,
+  "speed" :80,
+  "physics" : "grenade",
+  "bounces" : 5,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

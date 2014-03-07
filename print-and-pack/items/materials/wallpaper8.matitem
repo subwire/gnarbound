@@ -1,0 +1,10 @@
+{
+  "itemName" : "wallpaper8",
+  "rarity" : "Common",
+  "inventoryIcon" : "wallpaper8icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A blue diamond wall paper.",
+  "shortdescription" : "Blue Diamond Wall Paper",
+
+  "materialId" : 17900
+}

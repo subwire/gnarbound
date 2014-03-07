@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Violiumpistolmmn", "count" : 1 },
+	{ "item" : "Toxiccartridgemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "rarepistol", "level" : 8 } },
+  "groups" : [ "gunassemblymmn" ]
+}

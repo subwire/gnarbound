@@ -1,0 +1,14 @@
+{
+  "materialId" : 3064,
+  "materialName" : "darkstone",
+  "frames" : "darkstone.png",
+  "particleColor" : [0, 0, 0, 255],
+  "variants" : 5,
+  "itemDrop" : "darkstonematerial",
+  "shortdescription" : "Block of Darkstone",
+  "description" : "A stone of solid darkness.",
+  "glitchDescription" : "Statement. Hard darkness.",
+  "floranDescription" : "Sssstone of darknessss.",
+  "footstepSound" : "",
+  "health" : 1.0
+}

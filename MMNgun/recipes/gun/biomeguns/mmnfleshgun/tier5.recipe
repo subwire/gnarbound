@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltbarrelmmn", "count" : 1 },
+	{ "item" : "fleshstrand", "count" : 10 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnfleshgun", "level" : 5 } },
+ "groups" : [ "gunassemblymmn" ]
+}

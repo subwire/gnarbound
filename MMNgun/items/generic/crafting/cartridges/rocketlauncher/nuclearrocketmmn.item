@@ -1,0 +1,7 @@
+{
+  "itemName" : "nuclearrocketmmn",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "nuclearrocketmmn.png",
+  "description" : "A rocket that spreads uranium shards on impact.",
+  "shortdescription" : "Nuclear rocket"
+}

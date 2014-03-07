@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 4 },
+    { "item" : "darkwoodmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "guncraftingtablemmn",
+    "count" : 1
+  },
+  "groups" : [ "anvil", "objects", "all", "tools" ]
+}

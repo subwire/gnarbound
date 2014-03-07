@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Rubiumassaultriflemmn", "count" : 1 },
+	{ "item" : "hoverplasmaroundsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "legendaryplasmaassaultrifle", "level" : 9 } },
+ "groups" : [ "gunassemblymmn" ]
+}

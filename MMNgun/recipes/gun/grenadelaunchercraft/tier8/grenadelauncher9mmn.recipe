@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Violiumgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "acidglobmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "acidglobglmmn", "level" : 8 } },
+  "groups" : [ "gunassemblymmn" ]
+}

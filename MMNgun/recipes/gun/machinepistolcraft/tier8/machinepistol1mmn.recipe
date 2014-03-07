@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Violiummachinepistolmmn", "count" : 1 },
+	{ "item" : "mpbulletmagazinemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonmachinepistol", "level" : 8 } },
+  "groups" : [ "gunassemblymmn" ]
+}

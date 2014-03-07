@@ -1,0 +1,25 @@
+{
+  "projectileName" : "smallboltmmn",
+  "physics" : "grenadenobounce",
+  "frames" : "smallboltmmn.png",
+  "level" : 1,
+  "speed" : 60,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+	{
+      "action" : "projectile",
+      "type" : "dormantsmallboltmmn",
+      "inheritDamageFactor" : 0.05
+    }
+	],
+  "power" : 5,
+  "damageKind" : "bow"
+}

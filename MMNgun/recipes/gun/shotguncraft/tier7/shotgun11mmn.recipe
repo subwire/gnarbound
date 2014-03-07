@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumshotgunmmn", "count" : 1 },
+	{ "item" : "gravityshellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "legendaryplasmashotgun", "level" : 7 } },
+  "groups" : [ "gunassemblymmn" ]
+}

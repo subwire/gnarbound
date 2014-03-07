@@ -1,0 +1,10 @@
+{
+  "itemName" : "wallpaper2",
+  "rarity" : "Common",
+  "inventoryIcon" : "wallpaper2icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A yellow deco wall paper.",
+  "shortdescription" : "Yellow Wall Paper",
+
+  "materialId" : 17100
+}

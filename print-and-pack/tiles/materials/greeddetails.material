@@ -1,0 +1,16 @@
+{
+  "materialId" : 18400,
+  "materialName" : "greeddetails",
+  "frames" : "greeddetails.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "greeddetails",
+  "description" : "A greedy green metal.",
+  "shortdescription" : "Greed Metal object",
+
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price": 10
+}

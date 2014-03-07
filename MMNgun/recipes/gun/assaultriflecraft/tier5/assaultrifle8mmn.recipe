@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltassaultriflemmn", "count" : 1 },
+	{ "item" : "plasmaroundsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonplasmaassaultrifle", "level" : 5 } },
+ "groups" : [ "gunassemblymmn" ]
+}

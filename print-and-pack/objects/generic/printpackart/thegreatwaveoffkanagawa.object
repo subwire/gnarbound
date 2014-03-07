@@ -1,0 +1,25 @@
+{
+  "objectName" : "thegreatwaveoffkanagawa",
+  "rarity" : "Common",
+  "category" : "art",
+  "price" : 2500,
+
+  "description" : "The Great Wave Off Kanagawa - Katsushika Hokusai.",
+  "shortdescription" : "The Great Wave Off Kanagawa",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "thegreatwaveoffkanagawaicon.png",
+  "orientations" : [
+    {
+      "image" : "thegreatwaveoffkanagawa.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

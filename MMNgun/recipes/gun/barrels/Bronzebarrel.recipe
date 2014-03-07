@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "Bronzebarrelmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "barrelmmn", "all" ]
+}

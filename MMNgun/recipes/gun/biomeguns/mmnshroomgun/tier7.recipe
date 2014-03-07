@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumbarrelmmn", "count" : 1 },
+	{ "item" : "shroom", "count" : 10 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnshroomgun", "level" : 7 } },
+ "groups" : [ "gunassemblymmn" ]
+}

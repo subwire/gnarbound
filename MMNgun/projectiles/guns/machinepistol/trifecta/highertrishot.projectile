@@ -1,0 +1,23 @@
+{
+  "projectileName" : "highertrishot",
+  "physics" : "laser",
+  "level" : 1,
+  "timeToLive" : 0.4,
+  "damageKindImage" : "icon.png",
+  "frames" : "trifecta.png",
+  "animationCycle" : 0.001,
+  "frameNumber" : 1,
+  "power" : 5,
+  "speed" : 50,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "maintrishot",
+      "inheritDamageFactor" : 1,
+	  "angleAdjust" : 6
+    }
+  ],
+  "lightColor" : [255, 255, 255],
+  "damageKind" : "plasma"
+}

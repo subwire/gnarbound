@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "micemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mousemmn", "level" : 5 } },
+  "groups" : [ "gunassemblymmn" ]
+}

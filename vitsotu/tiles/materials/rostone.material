@@ -1,0 +1,13 @@
+{
+  "materialId" : 3070,
+  "materialName" : "rostone",
+  "frames" : "rostone.png",
+  "particleColor" : [146, 156, 170, 255],
+  "variants" : 5,
+  "itemDrop" : "rostonematerial",
+  "description" : "Rough, unrefined rostone.",
+  "shortdescription" : "Rostone Block",
+  "glitchDescription" : "Statement. Rostone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 10
+}

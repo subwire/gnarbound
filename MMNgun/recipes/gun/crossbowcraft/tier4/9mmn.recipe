@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelcrossbowmmn", "count" : 1 },
+	{ "item" : "incendiaryboltmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "incendiaryboltmmn", "level" : 4 } },
+  "groups" : [ "gunassemblymmn" ]
+}

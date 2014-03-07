@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumassaultriflemmn", "count" : 1 },
+	{ "item" : "plasmaweavearmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "plasmaweavemmn", "level" : 3 } },
+ "groups" : [ "gunassemblymmn" ]
+}

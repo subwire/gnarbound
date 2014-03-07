@@ -1,0 +1,483 @@
+{
+  "__merge" : [],
+   
+   "crappyWeapon" : [
+    [1, {
+        "pool" : [
+          [0.25, [ "generatedsword", 1, { "definition" : "crappybroadsword" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "crappyaxe" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "crappyspear" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "crappyhammer" } ] ]
+        ],
+        "poolRounds" : 1,
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [2, {
+        "pool" : [
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2broadsword" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2axe" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2spear" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2dagger" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2hammer" } ] ],
+          [0.25, [ "generatedsword", 1, { "definition" : "tier2shortsword" } ] ]
+        ],
+        "poolRounds" : 1,
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [3, {
+        "pool" : [
+          [0.04, [ "generatedsword", 1, { "definition" : "commonbroadsword" } ] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "commonaxe" } ] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "commonspear" } ] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "commonhammer" } ] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "commondagger" } ] ],
+          [0.04, [ "generatedsword", 1, { "definition" : "commonshortsword" } ] ],
+          [0.04, [ "generatedshield", 1, { "definition" : "tierxshield" } ] ],
+
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonaxe" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonspear" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonhammer" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommondagger" } ] ],
+          [0.02, [ "generatedsword", 1, { "definition" : "uncommonshortsword" } ] ],
+
+
+
+          [0.04, [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commonplasmaassaultrifle" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commonflamethrower" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commonshotgun" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commonplasmashotgun" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commonplasmasniperrifle" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commonpistol" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commonplasmapistol" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commonplasmamachinepistol" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commongrenadelauncher" } ] ],
+		  [0.04, [ "generatedgun", 1, { "definition" : "commonrocketlauncher" } ] ],
+
+		  
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommongrenadelauncher" } ] ],
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ] ],
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonplasmaassaultrifle" } ] ],
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonflamethrower" } ] ],
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonshotgun" } ] ],
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonplasmashotgun" } ] ],
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonsniperrifle" } ] ],
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonplasmasniperrifle" } ] ],
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonpistol" } ] ],
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonplasmapistol" } ] ],
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonmachinepistol" } ] ],
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonplasmamachinepistol" } ] ],
+
+		  [0.02, [ "generatedgun", 1, { "definition" : "uncommonrocketlauncher" } ] ],
+		  
+		  [0.01, [ "generatedgun", 1, { "definition" : "rareassaultrifle" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "rareplasmaassaultrifle" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "rareflamethrower" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "rareshotgun" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "rareplasmashotgun" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "raresniperrifle" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "rareplasmasniperrifle" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "rarepistol" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "rareplasmapistol" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "raremachinepistol" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "raregrenadelauncher" } ] ],
+		  [0.01, [ "generatedgun", 1, { "definition" : "rarerocketlauncher" } ] ],
+
+		  
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendarygrenadelauncher" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendaryassaultrifle" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendaryplasmaassaultrifle" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendaryflamethrower" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendaryshotgun" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendaryplasmashotgun" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendarysniperrifle" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendaryplasmasniperrifle" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendarypistol" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendaryplasmapistol" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendarymachinepistol" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendaryplasmamachinepistol" } ] ],
+		  [0.005, [ "generatedgun", 1, { "definition" : "legendaryrocketlauncher" } ] ]
+        ],
+        "poolRounds" : 1,
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "eyeTreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 25] ],
+          [0.03, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.05, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "eyeballhead", 1] ],
+          [0.03, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.06, "eyebed-recipe" ],
+          [0.05, "eyechair-recipe" ],
+          [0.06, "eyechest-recipe" ],
+          [0.05, "eyedoor-recipe" ],
+          [0.06, "eyetable-recipe" ],
+          [0.04, "eyehead-recipe" ],
+          [0.04, "eyeback" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "eyeaxe" } ] ],
+          [0.03, [ "generatedshield", 1, { "definition" : "eyeshield" } ] ],
+		  [0.05,  [ "generatedgun", 1, { "definition" : "mmneyegun" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "toxicTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.03, [ "flare", 5] ],
+          [0.01, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "toxicchair-recipe" ],
+          [0.05, "toxicchest-recipe" ],
+          [0.05, "toxiclamp1-recipe" ],
+          [0.05, "toxiclamp2-recipe" ],
+          [0.05, "toxictable-recipe" ],
+          [0.04, "toxicflowerback" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "toxicbroadsword" } ] ],
+		  [0.05, [ "generatedgun", 1, { "definition" : "mmntoxicrailgun" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "geometricTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.03, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "geometricchair-recipe" ],
+          [0.05, "geometricchest-recipe" ],
+          [0.05, "geometricbed-recipe" ],
+          [0.05, "geometricscreen-recipe" ],
+          [0.05, "geometrictable-recipe" ],
+          [0.05, [ "generatedgun", 1, { "definition" : "mmngeometricpistol" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "icesphereTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.03, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.01, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.2, "snowglobe1" ],
+          [0.2, "snowglobe2" ],
+          [0.05, [ "generatedgun", 1, { "definition" : "mmnicespherebubbler" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "rustTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.03, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "rustchair-recipe" ],
+          [0.05, "rustbed-recipe" ],
+          [0.05, "rustchest-recipe" ],
+          [0.05, "rustdoor-recipe" ],
+          [0.05, "rusttable-recipe" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "rustsword" } ] ],
+          [0.05, [ "generatedgun", 1, { "definition" : "mmnrustycrossbow" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "crystalTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.05, [ "torch", 10] ],
+          [0.03, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "crystalbed-recipe" ],
+          [0.05, "crystalchair-recipe" ],
+          [0.05, "crystalchest-recipe" ],
+          [0.05, "crystallamp-recipe" ],
+          [0.05, "crystaltable-recipe" ],
+          [0.03, "crystalbackpackback" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "crystalspear" } ] ],
+		  [0.05, [ "generatedgun", 1, { "definition" : "mmncrystalgun" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "cellTreasure" : [
+    [1, {
+        "pool" : [
+          [0.05, "cellchair-recipe" ],
+          [0.05, "celltable-recipe" ],
+          [0.05, "celldoor-recipe" ],
+          [0.05, "celllamp-recipe" ],
+          [0.05, "cellchest-recipe" ],
+		  [0.05, [ "generatedgun", 1, { "definition" : "mmncellgun" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "sandstoneTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.03, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "sandstonebed-recipe" ],
+          [0.05, "sandstonechair-recipe" ],
+          [0.05, "sandstonechest-recipe" ],
+          [0.05, "sandstonedoor-recipe" ],
+          [0.05, "sandstonetable-recipe" ],
+          [0.05, "sandstonetorch-recipe" ],
+		  [0.05, [ "generatedgun", 2, { "definition" : "mmnsandstoneshot" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "boneTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "bonebed-recipe" ],
+          [0.05, "bonechair-recipe" ],
+          [0.05, "bonechest-recipe" ],
+          [0.05, "bonedoor-recipe" ],
+          [0.05, "bonetable-recipe" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "bonesword" } ] ],
+		  [0.05, [ "generatedgun", 1, { "definition" : "mmnbonespine" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "iceTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.03, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "icebed-recipe" ],
+          [0.05, "icechair-recipe" ],
+          [0.05, "icechest-recipe" ],
+          [0.05, "icedoor-recipe" ],
+          [0.05, "icetable-recipe" ],
+		  [0.05, [ "generatedgun", 1, { "definition" : "mmnicegun" } ] ]
+        ],
+        "poolRounds" : 1,
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "rainbowTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.01, [ "alienmeat", 2] ],
+          [0.05, "rainbowbed-recipe" ],
+          [0.05, "rainbowchair-recipe" ],
+          [0.05, "rainbowchest-recipe" ],
+          [0.05, "rainbowdoor-recipe" ],
+          [0.03, "rainbowpainting-recipe" ],
+          [0.05, "rainbowtable-recipe" ],
+          [0.02, "rainbowunicornstatue-recipe" ],
+          [0.02, "rainbowcapeback" ],
+          [0.02, "rainbowhoodhead" ],
+          [0.02, "bubblegun" ],
+          [0.02, [ "generatedsword", 1, { "definition" : "rainbowspear" } ] ],
+		  [0.05, [ "generatedgun", 1, { "definition" : "mmnrainbowgun" } ] ]
+        ],
+        "poolRounds" : 1,
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+
+  "mushroomTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.02, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.05, "shroombed-recipe" ],
+          [0.05, "shroomchair-recipe" ],
+          [0.05, "shroomchest-recipe" ],
+          [0.05, "shroomdoor-recipe" ],
+          [0.05, "shroomlamp-recipe" ],
+          [0.05, "shroomtable-recipe" ],
+          [0.04, "mushroomhead-recipe" ],
+          [0.03, [ "generatedsword", 1, { "definition" : "mushroomsword" } ] ],
+          [0.03, [ "generatedshield", 1, { "definition" : "mushroomshield" } ] ],
+		  [0.05, [ "generatedgun", 1, { "definition" : "mmnshroomgun" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+  "giantflowerTreasure" : [
+    [1, {
+        "pool" : [
+          [0.03, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.02, [ "torch", 10] ],
+          [0.02, [ "flare", 5] ],
+          [0.01, [ "plantfibre", 10] ],
+          [0.01, [ "alienmeat", 2] ],
+          [0.05, "giantflowerbed-recipe" ],
+          [0.05, "giantflowerchair-recipe" ],
+          [0.05, "giantflowerchest-recipe" ],
+          [0.05, "giantflowerdoor-recipe" ],
+          [0.05, "giantflowerlamp-recipe" ],
+          [0.05, "giantflowertable-recipe" ],
+		  [0.05, [ "generatedgun", 1, { "definition" : "mmnflowergun" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+
+
+  "fleshTreasure" : [
+    [1, {
+        "pool" : [
+          [0.06, [ "money", 25] ],
+          [0.05, [ "money", 100] ],
+          [0.05, "medkit" ],
+          [0.05, [ "torch", 10] ],
+          [0.05, [ "flare", 5] ],
+          [0.05, [ "plantfibre", 10] ],
+          [0.05, [ "alienmeat", 2] ],
+          [0.05, "fleshchair-recipe" ],
+          [0.05, "fleshchest-recipe" ],
+          [0.05, "fleshdoor-recipe" ],
+          [0.05, "fleshtable-recipe" ],
+		  [0.05, [ "generatedgun", 1, { "definition" : "mmnfleshgun" } ] ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ]
+}

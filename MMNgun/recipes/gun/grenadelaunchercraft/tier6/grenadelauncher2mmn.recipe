@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Feroziumgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "impactgrenademmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "impactgrenademmn", "level" : 6 } },
+  "groups" : [ "gunassemblymmn" ]
+}

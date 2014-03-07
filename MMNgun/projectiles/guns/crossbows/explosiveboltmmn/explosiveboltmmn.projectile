@@ -1,0 +1,22 @@
+{
+  "projectileName" : "explosiveboltmmn",
+  "physics" : "arrow",
+  "frames" : "explosiveboltmmn.png",
+  "level" : 1,
+  "speed" : 70,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "orientationLocked" : true,
+  "pointLight" : false,
+ "actionOnReap" : [
+   {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion/regularexplosion.config"
+    }
+  ],
+  "power" : 5,
+  "damageType" : "hitTest",
+  "damageKind" : "bow"
+}

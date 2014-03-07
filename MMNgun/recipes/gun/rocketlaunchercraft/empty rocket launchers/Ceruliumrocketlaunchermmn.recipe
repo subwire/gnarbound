@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Rocketlauncherframemmn", "count" : 1 },
+	{ "item" : "Ceruliumbarrelmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "Ceruliumrocketlaunchermmn" },
+  "groups" : [ "gunassemblymmn" ]
+}

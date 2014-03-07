@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Moderncrossbowframemmn", "count" : 1 },
+	{ "item" : "Steelbarrelmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "modernsteelcrossbowmmn" },
+  "groups" : [ "gunassemblymmn" ]
+}

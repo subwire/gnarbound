@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "iceblock", "count" : 5 },
+	{ "item" : "coalore", "count" : 2 },
+	{ "item" : "ice", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "icegrenadesmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "excartridgemmn" ]
+}

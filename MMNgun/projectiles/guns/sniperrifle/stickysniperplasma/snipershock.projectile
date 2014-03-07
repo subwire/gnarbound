@@ -1,0 +1,15 @@
+{
+  "projectileName" : "snipershock",
+  "frames" : "snipershock.png",
+  "physics" : "gravitybomb",
+  "animationCycle" : 0.75,
+  "frameNumber" : 11,
+  "power" : 5,
+  "speed" : 0,
+  "timeToLive" : 0.75,
+  "bounces" : 1,
+  "piercing" : true,
+  "level" : 1,
+  "lightColor" : [193, 34, 103],
+  "damageKind" : "electroshock"
+}

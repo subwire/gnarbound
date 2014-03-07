@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Bronzebarrelmmn", "count" : 1 },
+	{ "item" : "crystal", "count" : 5 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmncrystalgun", "level" : 1 } },
+  "groups" : [ "gunassemblymmn" ]
+}

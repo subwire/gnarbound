@@ -1,0 +1,16 @@
+{
+  "materialId" : 17400,
+  "materialName" : "woodpanelborder",
+  "frames" : "woodpanelborder.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "woodpanelborder",
+  "description" : "A mahogany border piece.",
+  "shortdescription" : "Mahogany Border",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

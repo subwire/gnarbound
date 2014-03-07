@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "sugar", "count" : 5 },
+	{ "item" : "plantfibre", "count" : 2 },
+	{ "item" : "cellmateria", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "Stickyplasmacartridgemmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "pcartridgemmn" ]
+}

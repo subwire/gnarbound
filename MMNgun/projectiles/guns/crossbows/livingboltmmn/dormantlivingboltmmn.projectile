@@ -1,0 +1,14 @@
+{
+  "projectileName" : "dormantlivingboltmmn",
+  "frames" : "livingboltmmn.png",
+  "physics" : "slider",
+  "animationCycle" : 0.5,
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 25,
+  "piercing" : true,
+  "timeToLive" : 10,
+  "damageKind" : "bite"
+}

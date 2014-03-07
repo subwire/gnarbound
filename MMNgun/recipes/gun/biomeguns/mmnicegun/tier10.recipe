@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Imperviumbarrelmmn", "count" : 1 },
+	{ "item" : "iceblock", "count" : 15 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnicegun", "level" : 10 } },
+ "groups" : [ "gunassemblymmn" ]
+}

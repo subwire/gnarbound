@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Flamethrowerframemmn", "count" : 1 },
+	{ "item" : "Ceruliumbarrelmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "Ceruliumflamethrowermmn" },
+  "groups" : [ "gunassemblymmn" ]
+}

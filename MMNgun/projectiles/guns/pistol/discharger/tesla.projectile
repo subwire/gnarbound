@@ -1,0 +1,14 @@
+{
+  "projectileName" : "tesla",
+  "frames" : "tesla.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "power" : 5,
+  "frameNumber" : 6,
+  "speed" : 40,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "piercing" : true,
+  "universalDamage" : false,
+  "damageKind" : "electroshock"
+}

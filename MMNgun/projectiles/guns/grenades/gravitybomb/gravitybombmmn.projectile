@@ -1,0 +1,24 @@
+{
+  "projectileName" : "gravitybombmmn",
+  "frames" : "gravitybombmmn.png",
+  "physics" : "grenade",
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 60,
+  "timeToLive" : 0.6,
+  "bounces" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "gravitybombmmnmain",
+      "inheritDamageFactor" : 1
+    }
+  ],
+
+  "lightColor" : [255, 180, 0],
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

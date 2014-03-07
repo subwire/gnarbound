@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Feroziumpistolmmn", "count" : 1 },
+	{ "item" : "Standardcartridgemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonpistol", "level" : 6 } },
+  "groups" : [ "gunassemblymmn" ]
+}

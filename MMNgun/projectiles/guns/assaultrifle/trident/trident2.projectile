@@ -1,0 +1,15 @@
+{
+  "projectileName" : "trident2",
+  "frames" : "trident2.png",
+  "animationCycle" : 1,
+  "level" : 1,
+  "frameNumber" : 1.5,
+  "bounces" : 0,
+  "piercing" : true,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5,
+  "timeToLive" : 1,
+  "lightColor" : [228, 27, 23],
+  "damageKind" : "plasma"
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Violiumgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "fraggrenademmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "fraggrenademmn", "level" : 8 } },
+  "groups" : [ "gunassemblymmn" ]
+}

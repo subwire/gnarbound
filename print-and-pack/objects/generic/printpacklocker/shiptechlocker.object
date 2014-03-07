@@ -1,0 +1,31 @@
+{
+  "objectName" : "shiptechlocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "locker",
+  "price" : 250,
+  "description" : "A ship tech locker.",
+  "shortdescription" : "Ship Tech locker",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "shiptechlockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shiptechlocker.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 0.25,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 100,
+  "uiConfig" : "/interface/chests/chest100.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

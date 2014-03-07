@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "grenademmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "grenademmn", "level" : 7 } },
+  "groups" : [ "gunassemblymmn" ]
+}

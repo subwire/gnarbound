@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Imperviumbarrelmmn", "count" : 1 },
+	{ "item" : "rainbowwood", "count" : 15 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnrainbowgun", "level" : 10 } },
+ "groups" : [ "gunassemblymmn" ]
+}

@@ -1,0 +1,49 @@
+{
+  "projectileName" : "incendiarygrenademmn",
+  "physics" : "grenade",
+  "level" : 1,
+  "speed" : 60,
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "frames" : "incendiarygrenademmn.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/halfdmgregularexplosion2/halfdmgregularexplosion2.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "glflame",
+      "inheritDamageFactor" : 0.1,
+      "angle" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "glflame",
+      "inheritDamageFactor" : 0.1,
+      "angle" : 100
+    },
+    {
+      "action" : "projectile",
+      "type" : "glflame",
+      "inheritDamageFactor" : 0.1,
+      "angle" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "glflame",
+      "inheritDamageFactor" : 0.1,
+      "angle" : 110
+    },
+    {
+      "action" : "projectile",
+      "type" : "glflame",
+      "inheritDamageFactor" : 0.1,
+      "angle" : 70
+    }
+  ],
+  "power" : 5,
+  "damageKind" : "default"
+}

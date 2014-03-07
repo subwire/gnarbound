@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumrocketlaunchermmn", "count" : 1 },
+	{ "item" : "sawrocketmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "sawrocketmmn", "level" : 7 } },
+  "groups" : [ "gunassemblymmn" ]
+}

@@ -1,0 +1,49 @@
+{
+  "name" : "strongsandstorm",
+
+  "particles" : [
+    {
+      "density" : 0.50,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/strongsandstorm/1.png",
+        "velocity" : [0, -1.5],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : false
+      }
+    },
+    {
+      "density" : 0.50,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/strongsandstorm/2.png",
+        "velocity" : [0, -3.75],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : false
+      }
+    },
+    {
+      "density" : 0.50,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/strongsandstorm/3.png",
+        "velocity" : [0, -2],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : false
+      }
+    }
+  ],
+
+  "projectiles" : [ ],
+
+  "duration" : [120, 360],
+  "maximumWind" : 30.0,
+  "lightningFrequency" : 0,
+  "weatherNoises" : [ "/sfx/enviormental/desert_night.ogg" ]
+}

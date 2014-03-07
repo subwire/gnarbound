@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Imperviumshotgunmmn", "count" : 1 },
+	{ "item" : "fragmentedlasershellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonplasmashotgun", "level" : 10 } },
+  "groups" : [ "gunassemblymmn" ]
+}

@@ -1,0 +1,12 @@
+{
+  "projectileName" : "reaper2",
+  "frames" : "reaper.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "speed" :50,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "damageKind" : "default"
+}

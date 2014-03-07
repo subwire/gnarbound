@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Rubiumsniperriflemmn", "count" : 1 },
+	{ "item" : "sniperplasmammn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonplasmasniperrifle", "level" : 9 } },
+  "groups" : [ "gunassemblymmn" ]
+}

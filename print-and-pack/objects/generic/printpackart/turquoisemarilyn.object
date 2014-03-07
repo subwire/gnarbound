@@ -1,0 +1,25 @@
+{
+  "objectName" : "turquoisemarilyn",
+  "rarity" : "Common",
+  "category" : "art",
+  "price" : 2500,
+
+  "description" : "Turquoise Marilyn - Andy Warhol.",
+  "shortdescription" : "turquoisemarilyn",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "turquoisemarilynicon.png",
+  "orientations" : [
+    {
+      "image" : "turquoisemarilyn.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

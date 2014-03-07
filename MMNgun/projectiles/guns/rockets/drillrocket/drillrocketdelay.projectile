@@ -1,0 +1,23 @@
+{
+  "projectileName" : "drillrocketdelay",
+  "frames" : "rocketminusdrill.png",
+  "animationCycle" : 0.25,
+  "physics" : "stickybullet",
+  "level" : 1,
+  "frameNumber" : 4,
+  "piercing" : true,
+  "timeToLive" : 0.3,
+  "speed" :5,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "drillrocketmain",
+      "inheritDamageFactor" : 1,
+	  "adjustAngle" : -180
+    }
+   ]
+}

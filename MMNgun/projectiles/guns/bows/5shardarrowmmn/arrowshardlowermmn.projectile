@@ -1,0 +1,15 @@
+{
+  "projectileName" : "arrowshardlowermmn",
+  "physics" : "stickybullet",
+  "speed" : 80,
+  "frames" : "arrowshardlowermmn.png",
+  "level" : 1,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "pointLight" : false,
+  "piercing" : true,
+   "power" : 5,
+  "damageKind" : "bow"
+}

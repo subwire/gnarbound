@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Imperviumbarrelmmn", "count" : 1 },
+	{ "item" : "sandstonematerial", "count" : 15 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnsandstoneshot", "level" : 10 } },
+ "groups" : [ "gunassemblymmn" ]
+}

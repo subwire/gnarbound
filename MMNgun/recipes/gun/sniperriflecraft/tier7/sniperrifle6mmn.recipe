@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumsniperriflemmn", "count" : 1 },
+	{ "item" : "explosivesniperbulletmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "explosivesniperbulletmmn", "level" : 7 } },
+  "groups" : [ "gunassemblymmn" ]
+}

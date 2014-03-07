@@ -1,0 +1,10 @@
+{
+  "itemName" : "wallpaper3",
+  "rarity" : "Common",
+  "inventoryIcon" : "wallpaper3icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A green striped wall paper.",
+  "shortdescription" : "Green Striped Wall Paper",
+
+  "materialId" : 17200
+}

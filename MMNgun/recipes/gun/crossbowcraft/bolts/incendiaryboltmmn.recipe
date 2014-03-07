@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 2 },
+	{ "item" : "fabric", "count" : 2 },
+	{ "item" : "copperore", "count" : 2 }
+  ],
+  "output" : { "item" : "incendiaryboltmmn", "count": 1 },
+  "groups" : [ "gunmmn", "all", "fcartridgemmn" ]
+}

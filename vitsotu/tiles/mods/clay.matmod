@@ -1,0 +1,9 @@
+{
+  "modId" : 3069,
+  "modName" : "clay",
+  "frames" : "clay.png",
+  "variants" : 5,
+  "Description" : "A light layer of clay.",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 0
+}

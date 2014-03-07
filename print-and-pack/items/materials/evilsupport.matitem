@@ -1,0 +1,10 @@
+{
+  "itemName" : "evilsupport",
+  "rarity" : "Common",
+  "inventoryIcon" : "evilsupport.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An Evil support block.",
+  "shortdescription" : "Evil Support Block",
+
+  "materialId" : 16800
+}

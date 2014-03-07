@@ -1,0 +1,33 @@
+{
+  "projectileName" : "incendiaryboltburningmmn",
+  "physics" : "arrow",
+  "frames" : "incendiaryboltburningmmn.png",
+  "level" : 1,
+  "speed" : 70,
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "timeToLive" : 10,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5,
+  "emitters" : [ "flames" ],
+   "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "incendiaryboltflamemmn",
+      "inheritDamageFactor" : 0.125,
+	  "angle" : -95
+    },
+	{
+      "action" : "projectile",
+      "type" : "incendiaryboltflamemmn",
+      "inheritDamageFactor" : 0.125,
+	  "angle" : -85
+    }
+  ],
+  "statusEffects" : [
+   { "kind" : "testburning" }
+  ],
+  "lightColor" : [139, 7, 16],
+  "damageKind" : "bow"
+}

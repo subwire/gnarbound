@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 5 },
+	{ "item" : "clay", "count" : 2 },
+	{ "item" : "money", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "needlebarragemmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

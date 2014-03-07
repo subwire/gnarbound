@@ -1,0 +1,84 @@
+{
+  "projectileName" : "incendiaryrocket",
+  "frames" : "incendiaryrocket.png",
+  "animationCycle" : 0.25,  
+  "physics" : "boomerang",
+  "level" : 1,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [255, 255, 128],
+  "timeToLive" : 1.5,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "rocketflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angle" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "rocketflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angle" : 100
+    },
+    {
+      "action" : "projectile",
+      "type" : "rocketflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angle" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "rocketflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angle" : 70
+    },
+    {
+      "action" : "projectile",
+      "type" : "rocketflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angle" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "rocketflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angle" : 50
+    },
+    {
+      "action" : "projectile",
+      "type" : "rocketflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angle" : 110
+    },
+    {
+      "action" : "projectile",
+      "type" : "rocketflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angle" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "rocketflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angle" : 130
+    },
+	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

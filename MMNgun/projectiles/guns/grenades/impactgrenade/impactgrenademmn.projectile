@@ -1,0 +1,21 @@
+{
+  "projectileName" : "impactgrenademmn",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "level" : 1,
+  "timeToLive" : 3,
+  "speed" : 60,
+  "damageKindImage" : "icon.png",
+  "frames" : "impactgrenademmn.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion/regularexplosion.config"
+    }
+  ],
+  "power" : 5,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

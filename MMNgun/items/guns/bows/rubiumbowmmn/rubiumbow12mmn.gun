@@ -1,0 +1,33 @@
+{
+  "itemName" : "rubiumbow12mmn",
+  "inventoryIcon" : "rubiumbowmmnicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An advanced bow using both laser and compound technologies.",
+  "shortdescription" : "Rubium tech bow",
+  "image" : "rubiumbow2mmn.png:<frame>",
+  "imageFrameSelector" : "bowmmnImageSelector",
+  "handPosition" : [-0.5, -1],
+  "firePosition" : [20, 1.5],
+  "level" : 10,
+  "fireTime" : 0.65,
+  "twoHanded" : true,
+  "classMultiplier" : 0.5,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "broadheadarrowmmn",
+  "projectile" : {
+    "speed" : 40,
+    "speedCurve" : "mmndrawTimeMultiplier",
+    "power" : 2500,
+    "powerCurve" : "mmndrawTimeMultiplier",
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.wav" } ]
+  }
+}

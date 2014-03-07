@@ -1,0 +1,30 @@
+{
+  "projectileName" : "tripleburst",
+  "frames" : "tripleburst.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "bulletar",
+      "inheritDamageFactor" : 0.75
+    },
+	{
+      "action" : "projectile",
+      "type" : "burstdelay1",
+      "inheritDamageFactor" : 0.75
+    },
+    {
+      "action" : "projectile",
+      "type" : "burstdelay2",
+      "inheritDamageFactor" : 0.75
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

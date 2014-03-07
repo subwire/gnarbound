@@ -1,0 +1,19 @@
+{
+  "__merge" : [ ],
+  "talltreetreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 85] ],
+          [0.15, [ "money", 15] ],
+          [0.12, [ "money", 3] ],
+          [0.50, [ "saplingcrafter-recipe", 1] ]
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

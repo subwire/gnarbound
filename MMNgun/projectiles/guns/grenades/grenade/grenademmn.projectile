@@ -1,0 +1,21 @@
+{
+  "projectileName" : "grenademmn",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frames" : "grenademmn.png",
+  "speed" :60,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+     "action" : "projectile",
+     "type" : "grenadetriggered",
+      "inheritDamageFactor" : 1
+    }
+    ],
+  "power" : 5,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

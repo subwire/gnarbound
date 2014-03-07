@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumshotgunmmn", "count" : 1 },
+	{ "item" : "ricochetshellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "ricochetmmn", "level" : 7 } },
+  "groups" : [ "gunassemblymmn" ]
+}

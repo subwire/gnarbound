@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "titaniumpcrossbowmmn", "count" : 1 },
+	{ "item" : "snapjawboltmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "pistolsnapjawboltmmn", "level" : 3 } },
+  "groups" : [ "gunassemblymmn" ]
+}

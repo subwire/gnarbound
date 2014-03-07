@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "rainbowrock", "count" : 100 },
+    { "item" : "reddye", "count" : 1 },
+    { "item" : "bluedye", "count" : 1 },
+    { "item" : "yellowdye", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "painttool",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "all", "tools" ]
+}

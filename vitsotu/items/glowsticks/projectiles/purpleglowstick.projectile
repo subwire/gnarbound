@@ -1,0 +1,14 @@
+{
+  "projectileName" : "purpleglowstick",
+  "physics" : "grenadezbomb",
+  "bounces" : -1,
+  "level" : 3,
+  "timeToLive" : 400,
+  "frames" : "purpleglowstick.png",
+  "animationCycle" : 0.0,
+  "lightColor" : [170, 0, 255],
+  "frameNumber" : 1,
+  "power" : 0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

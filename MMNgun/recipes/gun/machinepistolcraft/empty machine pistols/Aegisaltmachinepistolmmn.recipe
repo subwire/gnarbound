@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Machinepistolframemmn", "count" : 1 },
+	{ "item" : "Aegisaltbarrelmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "Aegisaltmachinepistolmmn" },
+  "groups" : [ "gunassemblymmn" ]
+}

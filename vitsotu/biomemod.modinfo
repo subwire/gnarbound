@@ -1,0 +1,11 @@
+{
+  "name" : "Variety is the spice of the Universe",
+  "version" : "Beta v. Enraged Koala",
+  "path" : ".",
+  "dependencies" : [ ],
+  "metadata": {
+    "author" : "Dracyoshi",
+    "description" : "Adds new biomes, changes which planets appear in which sector and more universe tweaks.",
+    "support_url" : "http://community.playstarbound.com/index.php?threads/variety-is-the-spice-of-the-universe.52157/"
+	}
+}

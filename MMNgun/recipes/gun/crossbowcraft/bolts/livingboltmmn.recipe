@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fleshstrand", "count" : 5 },
+	{ "item" : "cellmateria", "count" : 2 },
+	{ "item" : "oculemon", "count" : 2 }
+  ],
+  "output" : { "item" : "livingboltmmn", "count": 1 },
+  "groups" : [ "gunmmn", "all", "fcartridgemmn" ]
+}

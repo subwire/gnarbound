@@ -1,0 +1,32 @@
+{
+  "objectName" : "modcabinet",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "objectType" : "container",
+  "price" : 500,
+  "description" : "Modern mahogany kitchen cabinets.",
+  "shortdescription" : "Modern Cabinet",
+  "race" : "generic",
+
+  "inventoryIcon" : "modcabineticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "modcabinet.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+  "slotCount" : 100,
+  "uiConfig" : "/interface/chests/chest100.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

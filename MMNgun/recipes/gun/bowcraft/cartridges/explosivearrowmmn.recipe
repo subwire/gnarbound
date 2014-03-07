@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "moonstone", "count" : 5 },
+	{ "item" : "darkwoodmaterial", "count" : 2 },
+	{ "item" : "copperore", "count" : 2 }
+  ],
+  "output" : { "item" : "explosivearrowmmn", "count": 1 },
+  "groups" : [ "gunmmn", "all", "fcartridgemmn" ]
+}

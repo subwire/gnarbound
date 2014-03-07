@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Imperviumsniperriflemmn", "count" : 1 },
+	{ "item" : "twincasemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "twincasemmn", "level" : 10 } },
+  "groups" : [ "gunassemblymmn" ]
+}

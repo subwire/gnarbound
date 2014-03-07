@@ -1,0 +1,38 @@
+{
+  "objectName" : "guncraftingtablemmn",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/guncraftingtable.config",
+    "filter" : [ "gunmmn" ]
+  },
+  "printable" : false,
+  "description" : "All a marksman could ever want.",
+  "shortdescription" : "Gun Crafting Table",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "A table with tools for assembling guns.",
+  "avianDescription" : "Even the peaceful need ways to defend themselves.",
+  "floranDescription" : "For making ssshooty thingsss.",
+  "glitchDescription" : "Inspired. Gun crafting module activated.",
+  "humanDescription" : "I can assemble and create guns at this table.",
+  "hylotlDescription" : "A true hylotl would not need these coward's weapons.",
+
+  "inventoryIcon" : "guncraftingtablemmnicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "guncraftingtablemmn.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

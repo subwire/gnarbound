@@ -1,0 +1,15 @@
+{
+  "projectileName" : "plasmaorb",
+  "physics" : "fireball",
+  "bounces" : -1,
+  "level" : 1,
+  "timeToLive" : 2.5,
+  "frames" : "bouncingplasma.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 30,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5,
+  "lightColor" : [78, 202, 223],
+  "damageKind" : "plasma"
+}

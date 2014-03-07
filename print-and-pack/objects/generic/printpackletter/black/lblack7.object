@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblack7",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The number '7'.",
+  "shortdescription" : "Seven",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblack7icon.png",
+  "orientations" : [
+    {
+      "image" : "lblack7.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

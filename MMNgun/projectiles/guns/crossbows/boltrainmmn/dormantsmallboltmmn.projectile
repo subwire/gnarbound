@@ -1,0 +1,13 @@
+{
+  "projectileName" : "dormantsmallboltmmn",
+  "physics" : "stickybomb",
+  "frames" : "smallboltmmn.png",
+  "level" : 1,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "pointLight" : false,
+  "power" : 5,
+  "damageKind" : "bow"
+}

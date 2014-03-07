@@ -1,0 +1,20 @@
+{
+  "projectileName" : "explosivesniperbullet",
+  "frames" : "explosivesniperbullet.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "physics" : "boomerang",
+  "speed" :80,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/vsmallregularexplosion/vsmallregularexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

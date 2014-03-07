@@ -1,0 +1,10 @@
+{
+  "itemName" : "wallpaper5",
+  "rarity" : "Common",
+  "inventoryIcon" : "wallpaper5icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A burgundy striped wall paper.",
+  "shortdescription" : "Burgundy Striped Wall Paper",
+
+  "materialId" : 17600
+}

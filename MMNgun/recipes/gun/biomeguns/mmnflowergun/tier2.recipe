@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Steelbarrelmmn", "count" : 1 },
+	{ "item" : "giantflowerpetal", "count" : 5 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnflowergun", "level" : 2 } },
+ "groups" : [ "gunassemblymmn" ]
+}

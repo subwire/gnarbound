@@ -1,0 +1,12 @@
+{
+  "name" : "Print & Pack 2.6",
+  "version" : "Beta v. Enraged Koala",
+  "path" : ".",
+  "metadata" : {
+	"displayName" : "Print & Pack",
+	"author" : "EVILnudeMONKEY",
+	"description" : "This mod enables flags, custom text, signs, wall lockers and more.",
+	"support_url" : "http://community.playstarbound.com/index.php?resources/",
+	"version" : "2.6"
+	}
+}

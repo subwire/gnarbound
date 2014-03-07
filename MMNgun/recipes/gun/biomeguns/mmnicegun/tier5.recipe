@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltbarrelmmn", "count" : 1 },
+	{ "item" : "iceblock", "count" : 10 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnicegun", "level" : 5 } },
+ "groups" : [ "gunassemblymmn" ]
+}

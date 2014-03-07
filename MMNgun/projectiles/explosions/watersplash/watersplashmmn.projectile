@@ -1,0 +1,25 @@
+{
+  "projectileName" : "watersplashmmn",
+  "frames" : "watersplashmmn.png",
+  "animationCycle" : 0.75,
+  "level" : 3,
+  "frameNumber" : 8,
+  "physics" : "hover",
+  "speed" : 5,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "piercing" : true,
+  "power" : 5,
+  "statusEffects" : [
+    {
+	
+      "kind" : "slow",
+	  "duration" : 3
+    }
+  
+  ],
+  "universalDamage" : true,
+  "damageKind" : "default"
+
+
+}

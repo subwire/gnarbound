@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Imperviumpistolmmn", "count" : 1 },
+	{ "item" : "Fragmentedcartridgemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "uncommonpistol", "level" : 10 } },
+  "groups" : [ "gunassemblymmn" ]
+}

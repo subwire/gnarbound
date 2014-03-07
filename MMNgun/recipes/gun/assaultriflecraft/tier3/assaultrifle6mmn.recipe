@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumassaultriflemmn", "count" : 1 },
+	{ "item" : "explosivebulletmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "explosivebulletmmn", "level" : 3 } },
+ "groups" : [ "gunassemblymmn" ]
+}

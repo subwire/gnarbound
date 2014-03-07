@@ -1,0 +1,21 @@
+{
+  "projectileName" : "minibullet",
+  "frames" : "minibullet.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.0001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+	  "type" : "bulletar",
+      "inheritDamageFactor" : 1,
+	  "fuzzAngle" : 15
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

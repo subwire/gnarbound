@@ -1,0 +1,37 @@
+{
+  "objectName" : "blooddoor",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "furniture",
+  "price" : 100,
+  "description" : "A bloody secure door.",
+  "shortdescription" : "Blood Door",
+  "race" : "generic",
+
+  "inventoryIcon" : "blooddooricon.png",
+  "orientations" : [
+    {
+      "image" : "blooddoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "blooddoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/tos-turboliftdoor.wav" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Bronzerocketlaunchermmn", "count" : 1 },
+	{ "item" : "carpetbomberrocketmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "carpetbombermmn", "level" : 1 } },
+  "groups" : [ "gunassemblymmn" ]
+}

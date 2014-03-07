@@ -1,0 +1,20 @@
+{
+  "projectileName" : "knifelauncher",
+  "frames" : "knifeunfold.png",
+  "animationCycle" : 0.2,
+  "piercing" : true,
+  "level" : 1,
+  "frameNumber" : 4,
+  "timeToLive" : 0.2,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "knifelaunched",
+      "inheritDamageFactor" : 2
+    }
+  ],
+  "damageKind" : "slash"
+}

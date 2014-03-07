@@ -1,0 +1,68 @@
+{   
+    "__merge" : [],
+    "items" : {
+    "glitch" : [
+      [0, [
+          {
+            "head" : [ { "name" : "glitchtier1head" } ],
+            "chest" : [ { "name" : "glitchtier1chest" } ],
+            "legs" : [ { "name" : "glitchtier1pants" } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "oldcrossbowmmn" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchbasicshield" } }
+            ]
+          }
+        ] ],
+      [2, [
+          {
+            "head" : [ { "name" : "glitchtier2head" } ],
+            "chest" : [ { "name" : "glitchtier2chest" } ],
+            "legs" : [ { "name" : "glitchtier2pants" } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "oldcrossbowmmn" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchbasicshield" } }
+            ]
+          }
+        ] ],
+
+      [3, [
+          {
+            "head" : [ { "name" : "glitchtier3head" } ],
+            "chest" : [ { "name" : "glitchtier3chest" } ],
+            "legs" : [ { "name" : "glitchtier3pants" } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "oldcrossbowmmn" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchbasicshield" } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

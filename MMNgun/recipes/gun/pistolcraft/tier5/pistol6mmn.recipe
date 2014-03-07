@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltpistolmmn", "count" : 1 },
+	{ "item" : "Dischargercartridgemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "uncommonplasmapistol", "level" : 5 } },
+  "groups" : [ "gunassemblymmn" ]
+}

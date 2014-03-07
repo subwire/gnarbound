@@ -1,0 +1,22 @@
+{
+  "projectileName" : "incendiaryboltmmn",
+  "physics" : "arrow",
+  "frames" : "incendiaryboltmmn.png",
+  "level" : 1,
+  "speed" : 70,
+  "animationCycle" : 0.25,
+  "animationLoops" : false,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "incendiaryboltburningmmn",
+      "inheritDamageFactor" : 1
+    }
+	],
+  "power" : 5,
+  "damageType" : "hitTest",
+  "damageKind" : "bow"
+}

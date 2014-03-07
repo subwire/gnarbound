@@ -1,0 +1,15 @@
+{
+  "projectileName" : "mmnbloodvomit",
+  "frames" : "mmnbloodvomit.png",
+  "physics" : "grenade",
+  "level" : 1,
+  "animationCycle" : 1.5,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 10,
+  "power" : 5,
+  "speed" : 50,
+  "timeToLive" : 1.5,
+  "bounces" : -1,
+  "piercing" : true,
+  "damageKind" : "default"
+}

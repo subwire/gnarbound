@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Violiumflamethrowermmn", "count" : 1 },
+	{ "item" : "liquidheliumcontainermmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "rareflamethrower", "level" : 8 } },
+  "groups" : [ "gunassemblymmn" ]
+}

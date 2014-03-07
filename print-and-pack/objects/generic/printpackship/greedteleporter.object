@@ -1,0 +1,32 @@
+{
+  "objectName" : "greedteleporter",
+  "rarity" : "Common",
+
+  "interactAction" : "OpenTeleportDialog",
+  "description" : "Greed teleporter, why can't I trust you?",
+  "shortdescription" : "Greed Teleporter",
+  "race" : "generic",
+
+  "category" : "ship",
+  "price" : 100,
+  "lightColor" : [230, 230, 230],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "sounds" : [ "/sfx/objects/TransporterPad_01.wav" ],
+  "inventoryIcon" : "greedteleportericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "greedteleporter.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ]
+}

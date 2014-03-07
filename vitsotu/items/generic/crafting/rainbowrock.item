@@ -1,0 +1,12 @@
+{
+  "itemName" : "rainbowrock",
+  "rarity" : "Common",
+  "inventoryIcon" : "rainbowrock.png",
+  "description" : "A sparkling rock with the colors of a rainbow.",
+  "shortdescription" : "Rainbow Rock",
+  "learnBlueprintsOnPickup" : [
+    "redflashlight",
+    "yellowflashlight",
+    "greenflashlight"
+  ]
+}

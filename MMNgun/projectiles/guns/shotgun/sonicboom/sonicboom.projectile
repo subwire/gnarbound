@@ -1,0 +1,15 @@
+{
+  "projectileName" : "sonicboom",
+  "frames" : "sonicboom.png",
+  "level" : 1,
+  "physics" : "laser",
+  "animationCycle" : 0.5,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 5,
+  "power" : 5,
+  "speed" : 50,
+  "timeToLive" : 0.5,
+  "bounces" : 4,
+  "piercing" : true,
+  "damageKind" : "slash"
+}

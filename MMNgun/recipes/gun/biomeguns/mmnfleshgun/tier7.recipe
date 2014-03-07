@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumbarrelmmn", "count" : 1 },
+	{ "item" : "fleshstrand", "count" : 10 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmnfleshgun", "level" : 7 } },
+ "groups" : [ "gunassemblymmn" ]
+}

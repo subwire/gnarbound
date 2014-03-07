@@ -1,0 +1,30 @@
+{
+  "projectileName" : "flamethrowermmn",
+  "frames" : "flamethrowermmn.png",
+  "physics" : "arrow",
+  "animationCycle" : 1,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 12,
+  "power" : 5,
+  "level" : 1,
+  "speed" : 35,
+  "timeToLive" : 0.8,
+  "lightColor" : [255, 180, 0],
+  "damageKind" : "fire",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "flamethrowerflame",
+      "inheritDamageFactor" : 0.5
+    }
+  ],
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 100.0,
+      "color" : "orange",
+      "duration" : 5.0
+    },
+    { "kind" : "testburning" }
+	]
+}

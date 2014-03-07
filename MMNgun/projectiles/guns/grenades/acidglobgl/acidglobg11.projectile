@@ -1,0 +1,16 @@
+{
+  "projectileName" : "acidglobgl11",
+  "frames" : "acidglobgl.png",
+  "animationCycle" : 0.1,
+  "physics" : "grenade",
+  "level" : 1,
+  "speed" : 10,
+  "frameNumber" : 2,
+  "timeToLive" : 0.1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+   "power" : 5.0,
+  "damageKind" : "acid",
+  "piercing" : true,
+  "emitters" : [ "defaultgreen" ]
+}

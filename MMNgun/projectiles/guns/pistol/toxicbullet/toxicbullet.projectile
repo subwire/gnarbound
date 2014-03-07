@@ -1,0 +1,14 @@
+{
+  "projectileName" : "toxicbullet",
+  "frames" : "toxicbullet.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "damageKind" : "acid",
+  "statusEffects" : [
+    { "kind" : "testpoison"	}
+  ]
+}

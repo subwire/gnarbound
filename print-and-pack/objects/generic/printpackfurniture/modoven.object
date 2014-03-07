@@ -1,0 +1,40 @@
+{
+  "objectName" : "modoven",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "furniture",
+  "price" : 500,
+  "description" : "A modern oven.",
+  "shortdescription" : "Modern Oven",
+  "race" : "generic",
+
+  "hydrophobic" : true,
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 5,
+      "range" : 15
+    } ],
+
+  "inventoryIcon" : "modovenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "modoven.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "recipeGroup" : "cooking",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/campfire.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,26 @@
+{
+  "projectileName" : "electricboltmmn",
+  "physics" : "arrow",
+  "frames" : "electricboltmmn.png",
+  "level" : 1,
+  "speed" : 70,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+	{
+      "action" : "projectile",
+      "type" : "dormantelectricboltmmn",
+      "inheritDamageFactor" : 0.33
+    }
+	],
+  "power" : 5,
+  "lightColor" : [63, 140, 253],
+  "damageKind" : "bow"
+}

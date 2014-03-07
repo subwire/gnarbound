@@ -1,0 +1,16 @@
+{
+  "materialId" : 17800,
+  "materialName" : "wallpaper7",
+  "frames" : "wallpaper7.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "wallpaper7",
+  "description" : "A blue deco wall paper.",
+  "shortdescription" : "Blue Deco Wall Paper",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

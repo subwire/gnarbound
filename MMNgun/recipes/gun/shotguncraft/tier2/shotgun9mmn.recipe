@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Steelshotgunmmn", "count" : 1 },
+	{ "item" : "bouncingplasmashellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "uncommonplasmashotgun", "level" : 2 } },
+  "groups" : [ "gunassemblymmn" ]
+}

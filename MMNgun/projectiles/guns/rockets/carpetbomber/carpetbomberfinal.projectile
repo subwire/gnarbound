@@ -1,0 +1,34 @@
+{
+  "projectileName" : "carpetbomberfinal",
+  "frames" : "carpetbomber.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [255, 0, 0],
+  "timeToLive" : 0.1,
+  "pierces" : true,
+  "pointLight" : true,
+  "power" : 5.0,
+  "actionOnReap" : [
+  {
+      "action" : "config",
+      "file" : "/projectiles/explosions/halfdmgregularexplosion2/halfdmgregularexplosion2.config"
+    },
+	{
+      "action" : "projectile",
+      "type" : "carpetbomb",
+      "inheritDamageFactor" : 0.4,
+	  "angleAdjust" : 45
+    },
+	{
+      "action" : "projectile",
+      "type" : "carpetbomb",
+      "inheritDamageFactor" : 0.4,
+	  "angleAdjust" : -45
+    }
+  ],
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

@@ -1,0 +1,16 @@
+{
+  "materialId" : 16900,
+  "materialName" : "evilwall",
+  "frames" : "evilwall.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "evilwall",
+  "description" : "An Evil wall panel.",
+  "shortdescription" : "Evil Wall Panel",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

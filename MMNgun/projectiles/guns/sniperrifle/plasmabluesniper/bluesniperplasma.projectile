@@ -1,0 +1,22 @@
+{
+  "projectileName" : "bluesniperplasma",
+  "physics" : "stickybullet",
+  "level" : 1,
+  "timeToLive" : 1,
+  "damageKindImage" : "icon.png",
+  "frames" : "bluesniperplasma.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 100,
+  "piercing" : true,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [0, 0, 73],
+  "damageKind" : "plasma"
+}

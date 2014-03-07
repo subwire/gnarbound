@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Feroziumpistolmmn", "count" : 1 },
+	{ "item" : "Stickyplasmacartridgemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "legendaryplasmapistol", "level" : 6 } },
+  "groups" : [ "gunassemblymmn" ]
+}

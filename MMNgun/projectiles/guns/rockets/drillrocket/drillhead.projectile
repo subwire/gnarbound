@@ -1,0 +1,19 @@
+{
+  "projectileName" : "drillhead",
+  "frames" : "drillhead.png",
+  "animationCycle" : 1,
+  "level" : 1,
+  "speed" :50,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/rockets/drillrocket/drill.config"
+    }
+  ],
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

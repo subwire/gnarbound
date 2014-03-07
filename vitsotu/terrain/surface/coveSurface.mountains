@@ -1,0 +1,14 @@
+{
+  "name" : "Covesurface",
+
+  "amplitude" : 50,
+  "wavelength" : 35,
+  "scale" : 1.0,
+
+  "xamplitude" : 24,
+  "xwavelength" : 30,
+  "xoctaves" : 1,
+  "xvarscale" : 1.7,
+
+  "verticalOffset" : 2.0
+}

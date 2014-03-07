@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Grenadelauncherframemmn", "count" : 1 },
+	{ "item" : "Durasteelbarrelmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "Durasteelgrenadelaunchermmn" },
+  "groups" : [ "gunassemblymmn" ]
+}

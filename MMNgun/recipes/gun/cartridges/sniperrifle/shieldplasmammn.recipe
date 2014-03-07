@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cellmateria", "count" : 5 },
+	{ "item" : "fabric", "count" : 2 },
+	{ "item" : "glassmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "shieldplasmammn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

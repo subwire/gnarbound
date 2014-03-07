@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 5 },
+	{ "item" : "diamondore", "count" : 2 },
+	{ "item" : "copperore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "Plasmacartridgemmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "pcartridgemmn" ]
+}

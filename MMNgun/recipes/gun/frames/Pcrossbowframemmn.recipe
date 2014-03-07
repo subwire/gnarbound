@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 1 },
+	{ "item" : "darkwoodmaterial", "count" : 5 },
+	{ "item" : "plantfibre", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "Pcrossbowframemmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "framemmn" ]
+}

@@ -1,0 +1,30 @@
+{
+  "objectName" : "castlewalllocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+	
+  "category" : "locker",
+  "price" : 250,
+  "description" : "A castle brick locker with 100 slots.",
+  "shortdescription" : "Castle Wall Locker",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "castlewalllockericon.png",
+  "orientations" : [
+    {
+      "image" : "castlewalllocker.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 100,
+  "uiConfig" : "/interface/chests/chest100.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

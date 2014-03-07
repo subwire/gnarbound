@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 3 },
+	{ "item" : "darkwoodmaterial", "count" : 2 },
+	{ "item" : "plantfibre", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "Grenadelauncherframemmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "framemmn" ]
+}

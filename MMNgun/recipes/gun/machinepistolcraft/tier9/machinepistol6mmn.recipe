@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Rubiummachinepistolmmn", "count" : 1 },
+	{ "item" : "acceleratormagazinemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "uncommonplasmamachinepistol", "level" : 9 } },
+  "groups" : [ "gunassemblymmn" ]
+}

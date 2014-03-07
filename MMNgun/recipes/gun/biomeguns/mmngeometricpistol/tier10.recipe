@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Imperviumbarrelmmn", "count" : 1 },
+	{ "item" : "icecrystal", "count" : 15 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmngeometricpistol", "level" : 10 } },
+ "groups" : [ "gunassemblymmn" ]
+}

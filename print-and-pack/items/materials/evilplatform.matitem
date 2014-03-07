@@ -1,0 +1,11 @@
+{
+  "itemName" : "evilplatform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "evilplatformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Evil Platform",
+  "description" : "Strong Evil platforms.",
+
+  "materialId" : 16600
+}

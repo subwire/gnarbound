@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "perfectceruliumbowmmn", "count" : 1 },
+	{ "item" : "explosivearrowmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "ceruliumbow19mmn", "count": 1 },
+  "groups" : [ "gunassemblymmn" ]
+}

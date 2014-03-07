@@ -1,0 +1,22 @@
+{
+  "projectileName" : "uraniumarrowmmn",
+  "physics" : "arrow",
+  "frames" : "uraniumarrowmmn.png",
+  "level" : 1,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "power" : 5,
+  "statusEffects" : [
+   { "kind" : "testpoison" }
+  ],
+   "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "dormanturaniumarrowmmn",
+      "inheritDamageFactor" : 0.2
+    }
+  ],
+  "damageKind" : "testpoison"
+}

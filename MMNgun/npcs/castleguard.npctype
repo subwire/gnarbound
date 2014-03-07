@@ -1,0 +1,24 @@
+{
+  "__merge" : [],
+  "items" : {
+    "glitch" : [
+      [0, [
+          {
+            "head" : [ { "name" : "glitchtier3head" } ],
+            "chest" : [ { "name" : "glitchtier3chest" } ],
+            "legs" : [ { "name" : "glitchtier3pants" } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "glitchlargemace" } },
+              { "name" : "generatedsword", "data" : { "definition" : "glitchsmallmace" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "oldcrossbowmmn" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchstrongshield" } }
+            ]
+          }
+        ] ]
+    ]
+  }
+ }

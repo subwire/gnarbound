@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 750 },
+	{ "item" : "sewerpipehorizontal", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "pipelocker",
+    "count" : 1
+  },
+  "groups" : [ "printpack", "locker" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "micemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mousemmn", "level" : 7 } },
+  "groups" : [ "gunassemblymmn" ]
+}

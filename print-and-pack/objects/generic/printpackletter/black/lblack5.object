@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblack5",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The number '5'.",
+  "shortdescription" : "Five",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblack5icon.png",
+  "orientations" : [
+    {
+      "image" : "lblack5.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

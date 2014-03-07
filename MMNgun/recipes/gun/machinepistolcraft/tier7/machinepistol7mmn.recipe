@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliummachinepistolmmn", "count" : 1 },
+	{ "item" : "plasmarainmagazinemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "rareplasmamachinepistol", "level" : 7 } },
+  "groups" : [ "gunassemblymmn" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "wallpaper4",
+  "rarity" : "Common",
+  "inventoryIcon" : "wallpaper4icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A gold striped wall paper.",
+  "shortdescription" : "Gold Striped Wall Paper",
+
+  "materialId" : 17500
+}

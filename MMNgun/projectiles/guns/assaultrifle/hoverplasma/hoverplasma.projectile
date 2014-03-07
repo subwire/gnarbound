@@ -1,0 +1,21 @@
+{
+  "projectileName" : "hoverplasma",
+  "frames" : "hoverplasma.png",
+  "physics" : "hover",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "level" : 1,
+  "power" : 5,
+  "damageKindImage" : "icon.png",
+  "speed" : 60,
+  "timeToLive" : 0.5,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "hoverplasmaactive",
+      "inheritDamageFactor" : 0.25
+    }
+   ],
+  "lightColor" : [127, 232, 23],
+  "damageKind" : "slash"
+}

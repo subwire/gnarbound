@@ -1,0 +1,45 @@
+{
+  "projectileName" : "mmnbonesplinters",
+  "frames" : "mmnbonesplinter.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.01,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "mmnbonesplinter",
+      "inheritDamageFactor" : 0.2,
+	  "fuzzAngle" : 3
+    },
+	{
+      "action" : "projectile",
+      "type" : "mmnbonesplinter",
+      "inheritDamageFactor" : 0.2,
+	  "fuzzAngle" : 3
+    },
+	{
+      "action" : "projectile",
+      "type" : "mmnbonesplinter",
+      "inheritDamageFactor" : 0.2,
+	  "fuzzAngle" : 3
+    },
+	{
+      "action" : "projectile",
+      "type" : "mmndelayedbonesplinter",
+      "inheritDamageFactor" : 0.2,
+	  "fuzzAngle" : 4
+    },
+	{
+      "action" : "projectile",
+      "type" : "mmndelayedbonesplinter",
+      "inheritDamageFactor" : 0.2,
+	  "fuzzAngle" : 4
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

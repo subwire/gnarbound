@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "imperviumpcrossbowmmn", "count" : 1 },
+	{ "item" : "drillboltmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "pistoldrillboltmmn", "level" : 10 } },
+  "groups" : [ "gunassemblymmn" ]
+}

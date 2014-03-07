@@ -1,0 +1,16 @@
+{
+  "materialId" : 17200,
+  "materialName" : "wallpaper3",
+  "frames" : "wallpaper3.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "wallpaper1",
+  "description" : "A striped wall paper.",
+  "shortdescription" : "Striped Wall Paper",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

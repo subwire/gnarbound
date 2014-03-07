@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cellmateria", "count" : 5 },
+	{ "item" : "toxictop", "count" : 2 },
+	{ "item" : "silverore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "plasmarainmagazinemmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "pcartridgemmn" ]
+}

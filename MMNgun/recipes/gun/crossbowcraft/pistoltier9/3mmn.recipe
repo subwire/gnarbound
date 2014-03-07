@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rubiumpcrossbowmmn", "count" : 1 },
+	{ "item" : "concussionboltmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "pistolconcussionboltmmn", "level" : 9 } },
+  "groups" : [ "gunassemblymmn" ]
+}

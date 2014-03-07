@@ -1,0 +1,35 @@
+{
+  "name" : "ashlion",
+  "caveLiquidType" : "lava",
+  
+  "surfaceParameters" : {
+    "mainBlock" : "ash",
+    "subBlocks" : [ "direstone" ],
+    "ores" : "surfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [50, 60],
+      "dayNightTemperatureVariability" : 70,
+      "temperatureVariability" : 5
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "ash" ],
+      "grassModDensity" : 0.9,
+
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 4.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseSmall",
+
+          "type" : "grass",
+          "grasses" : [ "ashlion" ]
+        }
+      ]
+    }
+  }
+}
+
+

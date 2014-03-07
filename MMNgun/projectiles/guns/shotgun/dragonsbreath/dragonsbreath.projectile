@@ -1,0 +1,35 @@
+{
+  "projectileName" : "dragonsbreath",
+  "frames" : "dragonsbreath.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "delayedflame1",
+      "inheritDamageFactor" : 0.25
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedflame2",
+      "inheritDamageFactor" : 0.25
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedflame3",
+      "inheritDamageFactor" : 0.25
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedflame4",
+      "inheritDamageFactor" : 0.25
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "fire"
+}

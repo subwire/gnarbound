@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "aegisaltbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "Aegisaltbarrelmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "barrelmmn" ]
+}

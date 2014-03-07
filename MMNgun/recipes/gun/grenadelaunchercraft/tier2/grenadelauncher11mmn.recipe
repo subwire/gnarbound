@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Steelgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "clustergrenademmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "clustergrenademmn", "level" : 2 } },
+  "groups" : [ "gunassemblymmn" ]
+}

@@ -1,0 +1,19 @@
+{
+  "projectileName" : "lightningthrower",
+  "frames" : "lightningthrower.png",
+  "animationCycle" : 1,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "power" : 5,
+  "level" : 1,
+  "speed" : 1,
+  "timeToLive" : 0.001,
+  "damageKind" : "electroshock",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "lightningthrowermain",
+      "inheritDamageFactor" : 1.5
+    }
+  ]
+}

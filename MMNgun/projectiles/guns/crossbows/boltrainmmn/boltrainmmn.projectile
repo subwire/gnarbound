@@ -1,0 +1,34 @@
+{
+  "projectileName" : "boltrainmmn",
+  "physics" : "arrow",
+  "frames" : "smallboltmmn.png",
+  "level" : 1,
+  "speed" : 70,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 0.01,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "smallboltmmn",
+      "inheritDamageFactor" : 0.5,
+	  "angleAdjust" : 3
+    },
+	{
+      "action" : "projectile",
+      "type" : "smallboltmmn",
+      "inheritDamageFactor" : 0.5
+    },
+	{
+      "action" : "projectile",
+      "type" : "smallboltmmn",
+      "inheritDamageFactor" : 0.5,
+	  "angleAdjust" : -3
+    }
+	],
+  "power" : 5,
+  "damageType" : "hitTest",
+  "damageKind" : "bow"
+}

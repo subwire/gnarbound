@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 3 },
+	{ "item" : "plantfibre", "count" : 2 },
+	{ "item" : "coalore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "clustergrenademmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "excartridgemmn" ]
+}

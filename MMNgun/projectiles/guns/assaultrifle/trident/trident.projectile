@@ -1,0 +1,22 @@
+{
+  "projectileName" : "trident",
+  "frames" : "trident.png",
+  "animationCycle" : 0.4,
+  "bounces" : 0,
+  "piercing" : true,
+  "level" : 1,
+  "frameNumber" : 4,
+  "timeToLive" : 0.4,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "trident2",	  
+      "inheritDamageFactor" : 1.5
+    }
+  ],
+  "lightColor" : [228, 27, 23],
+  "damageKind" : "plasma"
+}

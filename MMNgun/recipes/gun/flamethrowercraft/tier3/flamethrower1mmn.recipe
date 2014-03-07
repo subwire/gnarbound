@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumflamethrowermmn", "count" : 1 },
+	{ "item" : "standardfuelcontainermmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonflamethrower", "level" : 3 } },
+  "groups" : [ "gunassemblymmn" ]
+}

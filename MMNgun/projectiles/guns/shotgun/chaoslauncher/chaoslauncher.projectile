@@ -1,0 +1,32 @@
+{
+  "projectileName" : "chaoslauncher",
+  "frames" : "chaoslauncher.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" :  "chaosround1",
+      "inheritDamageFactor" : 0.33,
+	  "angleAdjust" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" :  "chaosround1",
+      "inheritDamageFactor" : 0.33,
+	  "angleAdjust" : -7
+    },
+	{
+      "action" : "projectile",
+      "type" :  "chaosround1",
+      "inheritDamageFactor" : 0.33
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "chaos"
+}

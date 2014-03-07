@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 2000 },
+	{ "item" : "aegisaltbar", "count" : 20 }
+  ],
+  
+  "output" : {
+    "item" : "aegisaltsafe",
+    "count" : 1
+  },
+  "groups" : [ "printpack", "locker" ]
+}

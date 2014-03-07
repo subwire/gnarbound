@@ -1,0 +1,12 @@
+{
+  "__merge" : [],
+  "learnBlueprintsOnPickup" : [
+    "redglowstick",
+    "orangeglowstick",
+    "yellowglowstick",
+    "greenglowstick",
+    "blueglowstick",
+    "purpleglowstick",
+    "whiteglowstick"
+  ]
+}

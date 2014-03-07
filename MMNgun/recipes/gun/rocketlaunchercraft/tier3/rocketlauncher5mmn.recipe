@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumrocketlaunchermmn", "count" : 1 },
+	{ "item" : "rocketswarmmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "rocketswarmmmn", "level" : 3 } },
+  "groups" : [ "gunassemblymmn" ]
+}

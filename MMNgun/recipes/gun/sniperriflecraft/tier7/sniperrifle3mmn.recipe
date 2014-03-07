@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumsniperriflemmn", "count" : 1 },
+	{ "item" : "needlebarragemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "needlebarragemmn", "level" : 7 } },
+  "groups" : [ "gunassemblymmn" ]
+}

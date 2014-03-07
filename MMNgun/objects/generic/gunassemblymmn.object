@@ -1,0 +1,41 @@
+{
+  "objectName" : "gunassemblymmn",
+  "rarity" : "Common",
+  "description" : "Used to assemble components and frames or empty pistols and cartridges.",
+  "shortdescription" : "Gun Assembly",
+  "subtitle" : "Make your guns here!",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  "objectType" : "container",
+  "printable" : false,
+
+  "apexDescription" : "A simple vice to assemble guns.",
+  "avianDescription" : "Can use this to put guns together. Helpful.",
+  "floranDescription" : "Sssmusssshh parts, sssshooty thing formsss.",
+  "glitchDescription" : "Statement. Guns can be assembled here.",
+  "humanDescription" : "So many options for so many guns.",
+  "hylotlDescription" : "A simple device for creating cowardly weapons.",
+
+  "inventoryIcon" : "gunassemblymmnicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "gunassemblymmn.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+ 
+  "recipeGroup" : "gunassemblymmn",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 3,
+  "uiConfig" : "/interface/objectcrafting/gunassemblymmn.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}
+

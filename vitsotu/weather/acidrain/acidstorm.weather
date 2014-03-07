@@ -1,0 +1,87 @@
+{
+  "name" : "acidstorm",
+
+  "particles" : [
+    {
+      "density" : 0.15,
+      "autoRotate" : true,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/acidrain/1.png",
+        "velocity" : [0, -35.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 100,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/acidsplash/1.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.15,
+      "autoRotate" : true,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/acidrain/2.png",
+        "velocity" : [0, -25.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 100,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/acidsplash/1.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.15,
+      "autoRotate" : true,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/acidrain/3.png",
+        "velocity" : [0, -20.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 100,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/acidsplash/1.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    }
+  ],
+
+  "projectiles" : [
+    {
+      "projectile" : "acidwater",
+      "parameters" : {
+        "power" : 0
+      },
+      "velocity" : [0, -30],
+      "ratePerX" : 0.1,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    },
+    {
+      "projectile" : "acidrain",
+      "parameters" : {
+        "power" : 3
+      },
+      "velocity" : [0, -30],
+      "ratePerX" : 0.1,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    }
+  ],
+
+  "duration" : [120, 360],
+  "lightningFrequency" : 0.07,
+  "maximumWind" : 30.0,
+  "weatherNoises" : [ "/sfx/weather/rain_heavy.ogg" ]
+}

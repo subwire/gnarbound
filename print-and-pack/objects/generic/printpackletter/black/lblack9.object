@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblack9",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The number '9'.",
+  "shortdescription" : "Nine",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblack9icon.png",
+  "orientations" : [
+    {
+      "image" : "lblack9.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

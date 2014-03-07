@@ -1,0 +1,33 @@
+{
+  "projectileName" : "needlebarrage",
+  "frames" : "needlebarrage.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "sniperneedle",
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 0.5
+    },
+    {
+      "action" : "projectile",
+      "type" : "sniperneedle",
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "sniperneedle",
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -0.5
+	}
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

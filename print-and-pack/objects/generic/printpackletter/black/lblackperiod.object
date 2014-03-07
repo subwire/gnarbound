@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblackperiod",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The period punctuation mark.",
+  "shortdescription" : "Period",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblackperiodicon.png",
+  "orientations" : [
+    {
+      "image" : "lblackperiod.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

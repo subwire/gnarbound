@@ -1,0 +1,16 @@
+{
+  "materialId" : 17300,
+  "materialName" : "woodpanel",
+  "frames" : "woodpanel.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "woodpanel",
+  "description" : "A mahogany wall panel.",
+  "shortdescription" : "Mahogany Wall Panel",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Durasteelgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "incendiarygrenademmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "incendiarygrenademmn", "level" : 4 } },
+  "groups" : [ "gunassemblymmn" ]
+}

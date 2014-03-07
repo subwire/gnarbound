@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cellmateria", "count" : 5 },
+	{ "item" : "inferiorbrain", "count" : 2 },
+	{ "item" : "goldore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "Dischargercartridgemmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "pcartridgemmn" ]
+}

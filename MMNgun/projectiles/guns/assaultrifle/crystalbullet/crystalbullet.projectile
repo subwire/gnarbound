@@ -1,0 +1,31 @@
+{
+  "projectileName" : "crystalbullet",
+  "bounces" : 0,
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frames" : "crystalshard.png",
+  "pierces" : true,
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+     "action" : "projectile",
+     "type" : "crystalbouncer" ,
+	  "inheritDamageFactor" : 0.375,
+	  "angleAdjust" : -165
+	},
+	{
+     "action" : "projectile",
+     "type" : "crystalbouncer" ,
+	  "inheritDamageFactor" : 0.375,
+	  "angleAdjust" : 165
+	},
+	{
+      "action" : "sound",
+      "options" : [ "/sfx/humanoid/fall_impact.wav" ]
+    }
+
+    ],
+  "power" : 5,
+  "damageKind" : "crystal"
+}

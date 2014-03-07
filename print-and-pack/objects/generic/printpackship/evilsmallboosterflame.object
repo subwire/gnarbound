@@ -1,0 +1,43 @@
+{
+  "objectName" : "evilsmallboosterflame",
+  "rarity" : "Common",
+  "objectType" : "engine",
+  "description" : "I wonder how quickly that would kill an innocent.",
+  "shortdescription" : "Evil Booster Flame",
+  "race" : "generic",
+
+  "category" : "ship",
+  "price" : 100,
+  "lightColor" : [230, 230, 230],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "torchicon.png",
+  "orientations" : [
+    {
+      "image" : "evilsmallboosterflame.png:<color>.<frame>",
+      "imagePosition" : [-14, -14],
+      "frames" : 3,
+      "animationCycle" : 0.4,
+
+      "spaces" : [ [-2, 1], [-2, 0], [-2, -1], [-1, 1], [-1, 0], [-1, -1], [0, 1], [0, 0], [0, -1], [1, 1], [1, 0], [1, -1] ],
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "engineOnOrientations" : [
+    {
+      "image" : "/objects/generic/printpackfurniture/evilsmallboosterflameon.png:<color>.<frame>",
+      "imagePosition" : [-14, -14],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaces" : [ [-2, 1], [-2, 0], [-2, -1], [-1, 1], [-1, 0], [-1, -1], [0, 1], [0, 0], [0, -1], [1, 1], [1, 0], [1, -1] ],
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/boosterflame.wav"
+
+}

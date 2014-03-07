@@ -1,0 +1,12 @@
+{
+  "itemName" : "lightice",
+  "rarity" : "Common",
+  "inventoryIcon" : "lightice.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Light Ice Block",
+  "description" : "An ice block.",
+  "glitchdescription" : "Statement. Cold, cold ice.",
+  "florandescription" : "Ice. Sssmooth to the touch.",
+
+  "materialId" : 131
+}

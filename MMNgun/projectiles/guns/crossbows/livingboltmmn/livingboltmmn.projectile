@@ -1,0 +1,25 @@
+{
+  "projectileName" : "livingboltmmn",
+  "physics" : "bouncer",
+  "frames" : "livingboltmmn.png",
+  "level" : 1,
+  "speed" : 70,
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 3,
+  "piercing" : true,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+	{
+      "action" : "projectile",
+      "type" : "dormantlivingboltmmn"
+    }
+	],
+  "power" : 5,
+  "damageKind" : "bite"
+}

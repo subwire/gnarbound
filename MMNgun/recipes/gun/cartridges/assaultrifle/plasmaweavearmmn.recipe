@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "petalyellow", "count" : 3 },
+	{ "item" : "petalblue", "count" : 3 },
+	{ "item" : "petalred", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "plasmaweavearmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

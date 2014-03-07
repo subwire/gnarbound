@@ -1,0 +1,17 @@
+{
+ "__merge" : [],
+  "orientations" : [
+    {
+      "dualImage" : "sapling.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "requireSoilAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

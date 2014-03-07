@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 5 },
+	{ "item" : "monsterplating", "count" : 2 },
+	{ "item" : "matteritem", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "gravitybombmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "excartridgemmn" ]
+}

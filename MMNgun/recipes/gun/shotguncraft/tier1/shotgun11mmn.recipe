@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Bronzeshotgunmmn", "count" : 1 },
+	{ "item" : "gravityshellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "legendaryplasmashotgun", "level" : 1 } },
+  "groups" : [ "gunassemblymmn" ]
+}

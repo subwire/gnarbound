@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "violiumcrossbowmmn", "count" : 1 },
+	{ "item" : "livingboltmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "livingboltmmn", "level" : 8 } },
+  "groups" : [ "gunassemblymmn" ]
+}

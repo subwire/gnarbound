@@ -1,0 +1,14 @@
+{
+  "projectileName" : "mmnsandstonepellet",
+  "frames" : "mmnsandstonepellet.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "physics" : "grenade",
+  "bounces" : 2,
+  "speed" : 20,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "damageKind" : "default"
+}

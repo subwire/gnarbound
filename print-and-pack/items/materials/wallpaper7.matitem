@@ -1,0 +1,10 @@
+{
+  "itemName" : "wallpaper7",
+  "rarity" : "Common",
+  "inventoryIcon" : "wallpaper7icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A blue deco wall paper.",
+  "shortdescription" : "Blue Deco Wall Paper",
+
+  "materialId" : 17800
+}

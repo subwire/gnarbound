@@ -1,0 +1,14 @@
+{
+  "projectileName" : "drillboltmmn",
+  "physics" : "arrow",
+  "frames" : "drillboltmmn.png",
+  "level" : 1,
+  "piercing" : true,
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 20,
+  "pointLight" : false,
+  "power" : 5,
+  "damageKind" : "bow"
+}

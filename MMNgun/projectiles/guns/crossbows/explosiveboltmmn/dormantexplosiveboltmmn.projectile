@@ -1,0 +1,20 @@
+{
+  "projectileName" : "dormantexplosiveboltmmn",
+  "physics" : "stickybomb",
+  "frames" : "explosiveboltmmn.png",
+  "level" : 1,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion/regularexplosion.config"
+    }
+  ],
+  "power" : 5,
+  "damageType" : "hitTest",
+  "damageKind" : "fire"
+}

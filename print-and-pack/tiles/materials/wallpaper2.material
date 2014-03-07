@@ -1,0 +1,16 @@
+{
+  "materialId" : 17100,
+  "materialName" : "wallpaper2",
+  "frames" : "wallpaper2.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "wallpaper2",
+  "description" : "A yellow deco wall paper.",
+  "shortdescription" : "Yellow Wall Paper",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

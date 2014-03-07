@@ -1,0 +1,13 @@
+{
+  "materialId" : 3069,
+  "materialName" : "marestone",
+  "frames" : "marestone.png",
+  "particleColor" : [146, 156, 170, 255],
+  "variants" : 5,
+  "itemDrop" : "marestonematerial",
+  "description" : "Rough, unrefined marestone.",
+  "shortdescription" : "Marestone Block",
+  "glitchDescription" : "Statement. Marestone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 10
+}

@@ -1,0 +1,15 @@
+{
+  "projectileName" : "shieldplasma",
+  "frames" : "shieldplasma.png",
+  "physics" : "hover",
+  "animationCycle" : 2.5,
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 1,
+  "timeToLive" : 2.5,
+  "bounces" : 1,
+  "piercing" : true,
+  "level" : 1,
+  "lightColor" : [43, 101, 236],
+  "damageKind" : "plasma"
+}

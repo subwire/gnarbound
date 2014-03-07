@@ -1,0 +1,25 @@
+{
+  "projectileName" : "stickysniperplasma",
+  "frames" : "stickysniperplasma.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "speed" : 80,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "physics" : "stickybullet",
+  "pointLight" : false,
+  "timeToLive" : 4,
+  "bounces" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "snipershock",
+      "inheritDamageFactor" : 1,
+      "angle" : 5
+    }
+  ],
+  "power" : 5.0,
+  "lightColor" : [193, 34, 103],
+  "damageKind" : "plasma"
+
+}

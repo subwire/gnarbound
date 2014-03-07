@@ -1,0 +1,4 @@
+{
+  "__merge" : [ [ "overwrite", "duration" ] ],
+  "duration" : [120, 600]
+}

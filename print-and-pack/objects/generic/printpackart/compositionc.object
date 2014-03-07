@@ -1,0 +1,25 @@
+{
+  "objectName" : "compositionc",
+  "rarity" : "Common",
+  "category" : "art",
+  "price" : 2500,
+
+  "description" : "Composition C - Piet Mondrian.",
+  "shortdescription" : "Composition C",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "compositioncicon.png",
+  "orientations" : [
+    {
+      "image" : "compositionc.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

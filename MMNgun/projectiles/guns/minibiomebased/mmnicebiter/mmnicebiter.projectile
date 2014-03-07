@@ -1,0 +1,21 @@
+{
+  "projectileName" : "mmnicebiter",
+  "frames" : "mmnicebiter.png",
+  "animationCycle" : 0.15,
+  "physics" : "grenadenobounce",
+  "speed" : 60,
+  "level" : 1,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "power" : 5.0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "mmnicetrapintro",
+      "inheritDamageFactor" : 1,
+	  "angle" : 90
+    }
+	],
+  "damageKind" : "ice"
+}

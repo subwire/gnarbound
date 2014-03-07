@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "slush", "count" : 5 },
+	{ "item" : "feathercrown", "count" : 2 },
+	{ "item" : "ironore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "liquidheliumcontainermmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "excartridgemmn" ]
+}

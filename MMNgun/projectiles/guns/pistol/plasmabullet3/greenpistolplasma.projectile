@@ -1,0 +1,22 @@
+{
+  "projectileName" : "greenpistolplasma",
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frames" : "greenpistolplasma.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 80,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [
+  { "kind" : "testpoison" }
+  ],
+  "lightColor" : [0, 73, 0],
+  "damageKind" : "plasma"
+}

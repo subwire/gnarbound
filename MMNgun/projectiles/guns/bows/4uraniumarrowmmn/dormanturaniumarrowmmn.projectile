@@ -1,0 +1,15 @@
+{
+  "projectileName" : "dormanturaniumarrowmmn",
+  "physics" : "stickybomb",
+  "frames" : "dormanturaniumarrowmmn.png",
+  "level" : 1,
+  "animationCycle" : 0.6,
+  "frameNumber" : 3,
+  "piercing" : true,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 20,
+  "pointLight" : false,
+  "power" : 5,  
+  "lightColor" : [84, 255, 0],
+  "damageKind" : "testpoison"
+}

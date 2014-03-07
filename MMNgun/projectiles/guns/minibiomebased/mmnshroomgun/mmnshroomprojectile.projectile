@@ -1,0 +1,22 @@
+{
+  "projectileName" : "mmnshroomprojectile",
+  "frames" : "mmnshroomprojectile.png",
+  "animationCycle" : 0.6,
+  "speed" :60,
+  "physics" : "bouncer",
+  "animationLoops" : false,
+  "bounces" : 0,
+  "level" : 1,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "mmnshroom",
+      "inheritDamageFactor" : 0.2
+    }
+	],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

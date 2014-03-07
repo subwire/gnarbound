@@ -1,0 +1,23 @@
+{
+  "projectileName" : "mmnicetrap",
+  "frames" : "mmnicetrap.png",
+  "animationCycle" : 1,
+  "physics" : "spikeball",
+  "speed" : 0,
+  "level" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 5,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "power" : 5.0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "mmnicetrapsprung",
+      "inheritDamageFactor" : 1,
+	  "angle" : 90
+    }
+	],
+  "damageType" : "hitTest",
+  "damageKind" : "ice"
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "perfectdurasteelbowmmn", "count" : 1 },
+	{ "item" : "uraniumarrowmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "durasteelbow14mmn", "count": 1 },
+  "groups" : [ "gunassemblymmn" ]
+}

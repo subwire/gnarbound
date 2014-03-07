@@ -1,0 +1,14 @@
+{
+  "materialId" : 3063,
+  "materialName" : "darkness",
+  "frames" : "darkness.png",
+  "particleColor" : [0, 0, 0, 255],
+  "variants" : 5,
+  "itemDrop" : "darknessmaterial",
+  "description" : "Solid darkness found in the Umbra... how?",
+  "shortdescription" : "Block of Darkness",
+  "glitchDescription" : "Confused. Solid darkness?",
+  "floranDescription" : "Sssscary block.",
+  "footstepSound" : "",
+  "health" : 0.1
+}

@@ -1,0 +1,26 @@
+{
+  "objectName" : "keeper",
+  "rarity" : "Common",
+  "category" : "art",
+  "price" : 500,
+
+  "description" : "A citadel keeper; great at ship  and station maintenance.",
+  "shortdescription" : "A Keeper",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "keepericon.png",
+  "orientations" : [
+    {
+      "image" : "keeper.png:<color>.<frame>",
+      "imagePosition" : [-16, -0],
+      "frames" : 14,
+      "animationCycle" : 5.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background", "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ]
+}

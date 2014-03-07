@@ -1,0 +1,33 @@
+{
+  "itemName" : "compositebow1mmn",
+  "inventoryIcon" : "compositebowmmnicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A small and strong composite recurve bow.",
+  "shortdescription" : "Composite bow",
+  "image" : "compositebow1mmn.png:<frame>",
+  "imageFrameSelector" : "bowmmnImageSelector",
+  "handPosition" : [-0.5, -1],
+  "firePosition" : [20, 1.5],
+  "level" : 3,
+  "fireTime" : 0.65,
+  "twoHanded" : true,
+  "classMultiplier" : 0.5,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "longbowarrowmmn",
+  "projectile" : {
+    "speed" : 60,
+    "speedCurve" : "mmndrawTimeMultiplier",
+    "power" : 32,
+    "powerCurve" : "mmndrawTimeMultiplier",
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.wav" } ]
+  }
+}

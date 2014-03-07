@@ -1,0 +1,22 @@
+{
+  "projectileName" : "accelerator",
+  "physics" : "hover",
+  "level" : 1,
+  "timeToLive" : 0.5,
+  "frames" : "accelerator.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 25,
+  "piercing" : true,
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "accburst",
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "power" : 5,
+  "lightColor" : [152, 175, 199],
+  "damageKind" : "plasma"
+}

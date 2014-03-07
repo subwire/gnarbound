@@ -1,0 +1,32 @@
+{
+  "objectName" : "evilfuelhatch",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "Accepts a bunch of different kinds of fuel.",
+  "shortdescription" : "Evil Fuel Hatch",
+  "race" : "decorative",
+  "category" : "ship",
+  "price" : 100,  
+  
+  "inventoryIcon" : "evilfuelhatchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "evilfuelhatch.png:<color>.<frame>",
+
+      "imagePosition" : [-8, -16],
+      "frames" : 4,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 67,
+  "openSounds" : [ "/sfx/objects/tos-computer-06.wav" ]
+}

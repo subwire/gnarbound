@@ -1,0 +1,16 @@
+{
+  "materialId" : 17700,
+  "materialName" : "wallpaper6",
+  "frames" : "wallpaper6.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 4,
+  "itemDrop" : "wallpaper6",
+  "description" : "A grey deco wall paper.",
+  "shortdescription" : "Grey Deco Wall Paper",
+ 
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10  
+}

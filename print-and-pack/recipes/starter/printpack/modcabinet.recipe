@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1000 },
+	{ "item" : "Feroziumbar", "count" : 5}
+  ],
+  "output" : {
+    "item" : "modcabinet",
+    "count" : 1
+  },
+  "groups" : [ "printpack", "furniture" ]
+}

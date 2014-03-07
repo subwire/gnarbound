@@ -1,0 +1,40 @@
+{
+  "objectName" : "modovenblack",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "furniture",
+  "price" : 500,
+  "description" : "A modern onyx oven.",
+  "shortdescription" : "Modern Onyx Oven",
+  "race" : "generic",
+
+  "hydrophobic" : true,
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 5,
+      "range" : 15
+    } ],
+
+  "inventoryIcon" : "modovenblackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "modovenblack.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "recipeGroup" : "cooking",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/campfire.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

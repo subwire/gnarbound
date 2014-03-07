@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 5000 },
+    { "item" : "crystal", "count" : 75 }
+  ],
+  "output" : { "item" : "crystalvoxel5k", "count" : 1 },
+  "groups" : [ "compressor" ]
+}

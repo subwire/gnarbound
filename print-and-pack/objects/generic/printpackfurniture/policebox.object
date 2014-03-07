@@ -1,0 +1,40 @@
+{
+  "objectName" : "policebox",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "race" : "generic",
+  "price" : 1500,
+
+  "description" : "I wonder if the Doctor is nearby?",
+  "shortdescription" : "Police Box",
+  
+  "inventoryIcon" : "policeboxicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "policeboxleft.png:default",
+	  "rightImage" : "policeboxright.png:default",
+
+      "imagePosition" : [-17.5, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }
+  ],	
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [4, 22],
+  "sitCoverImage" : "/objects/generic/printpackfurniture/policeboxcover.png",
+
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 5.0 }
+  ],
+  
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}

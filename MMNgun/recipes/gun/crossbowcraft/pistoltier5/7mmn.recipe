@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "aegisaltpcrossbowmmn", "count" : 1 },
+	{ "item" : "trapboltmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "pistoltrapboltmmn", "level" : 5 } },
+  "groups" : [ "gunassemblymmn" ]
+}

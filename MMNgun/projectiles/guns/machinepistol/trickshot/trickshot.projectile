@@ -1,0 +1,15 @@
+{
+  "projectileName" : "trickshot",
+  "frames" : "trickshot.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "physics" : "bouncy",
+  "bounces" : 7,
+  "speed" : 100,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "lightColor" : [235, 235, 0],
+  "damageKind" : "default"
+}

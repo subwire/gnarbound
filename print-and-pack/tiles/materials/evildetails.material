@@ -1,0 +1,16 @@
+{
+  "materialId" : 16700,
+  "materialName" : "evildetails",
+  "frames" : "evildetails.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "evildetails",
+  "description" : "A little bit of Evil metal.",
+  "shortdescription" : "Evil Metal object",
+
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price": 10
+}

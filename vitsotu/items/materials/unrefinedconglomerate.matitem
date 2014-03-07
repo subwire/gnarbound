@@ -1,0 +1,15 @@
+{
+  "itemName" : "conglomeratematerial",
+  "rarity" : "Common",
+  "inventoryIcon" : "conglomerate.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Rough, unrefined conglomerate.",
+  "shortdescription" : "Unrefined Conglomerate",
+  "glitchDescription" : "Statement. Conglomerate.",
+  "florandescription" : "Sssstonne.",
+  "learnBlueprintsOnPickup" : [
+    "cobblestoneshard"
+  ],
+  
+  "materialId" : 74
+}

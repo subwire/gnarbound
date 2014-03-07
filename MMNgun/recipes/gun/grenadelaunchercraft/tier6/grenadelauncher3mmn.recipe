@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Feroziumgrenadelaunchermmn", "count" : 1 },
+	{ "item" : "spikeballsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "spikeballmmn", "level" : 6 } },
+  "groups" : [ "gunassemblymmn" ]
+}

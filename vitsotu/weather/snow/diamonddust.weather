@@ -1,0 +1,72 @@
+{
+  "name" : "diamonddust",
+
+  "particles" : [
+    {
+      "density" : 0.05,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/diamonddust/1.png",
+        "velocity" : [0, -1.5],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.05,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/diamonddust/4.png",
+        "velocity" : [0, -1.5],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.05,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/diamonddust/5.png",
+        "velocity" : [0, -1.5],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.15,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/diamonddust/2.png",
+        "velocity" : [0, -3.75],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    },
+    {
+      "density" : 0.15,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/diamonddust/3.png",
+        "velocity" : [0, -2],
+        "angularVelocity" : 180,
+        "timeToLive" : 100,
+        "collidesForeground" : true,
+        "collidesLiquid" : true
+      }
+    }
+  ],
+
+  "projectiles" : [ ],
+
+  "duration" : [120, 600],
+  "lightningFrequency" : 0,
+  "weatherNoises" : [ ]
+}

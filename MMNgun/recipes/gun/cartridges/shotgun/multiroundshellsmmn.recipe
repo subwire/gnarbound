@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 5 },
+	{ "item" : "coalore", "count" : 2 },
+	{ "item" : "copperore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "multiroundshellsmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

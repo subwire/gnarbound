@@ -1,0 +1,20 @@
+{
+  "projectileName" : "icesniperbulletmmn",
+  "damageKindImage" : "icon.png",
+  "frames" : "icesniperbulletmmn.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "power" : 5,
+  "speed" : 80,
+  "level" : 1,
+  "supportsProcessing" : true,
+  "lightColor" : [0, 0, 73],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "emitters" : [ "defaultwhite" ],
+  "damageKind" : "ice"
+}

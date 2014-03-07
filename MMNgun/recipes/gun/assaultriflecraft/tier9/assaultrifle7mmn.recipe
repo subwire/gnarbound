@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Rubiumassaultriflemmn", "count" : 1 },
+	{ "item" : "knifelaunchermmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "knifelaunchermmn", "level" : 9 } },
+ "groups" : [ "gunassemblymmn" ]
+}

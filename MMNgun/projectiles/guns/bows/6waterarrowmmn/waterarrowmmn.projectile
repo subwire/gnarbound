@@ -1,0 +1,14 @@
+{
+  "projectileName" : "waterarrowmmn",
+  "physics" : "arrow",
+  "frames" : "waterarrowmmn.png",
+  "level" : 1,
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "power" : 5,
+  "actionOnReap" : [ { "action" : "config", "file" : "/projectiles/explosions/watersplash/watersplashmmn.config" } ],
+  "damageType" : "hitTest",
+  "damageKind" : "bow"
+}

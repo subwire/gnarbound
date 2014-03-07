@@ -1,0 +1,41 @@
+{
+  "projectileName" : "plasmaburst",
+  "physics" : "stickybullet",
+  "level" : 1,
+  "timeToLive" : 1.5,
+  "damageKindImage" : "icon.png",
+  "frames" : "plasmaburst.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "power" : 5,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "plasmaburstshard",
+      "inheritDamageFactor" : 0.5,
+	  "angleAdjust" : 45
+    },
+	{
+      "action" : "projectile",
+      "type" : "plasmaburstshard",
+      "inheritDamageFactor" : 0.5,
+	  "angleAdjust" : -45
+    },
+	{
+      "action" : "projectile",
+      "type" : "plasmaburstshard",
+      "inheritDamageFactor" : 0.5,
+	  "angleAdjust" : -135
+    },
+	{
+      "action" : "projectile",
+      "type" : "plasmaburstshard",
+      "inheritDamageFactor" : 0.5,
+	  "angleAdjust" : 135
+    }
+	
+  ],
+  "lightColor" : [175, 120, 23],
+  "damageKind" : "plasma"
+}

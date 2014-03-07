@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rubiumbowmmn", "count" : 1 },
+	{ "item" : "shardarrowmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "rubiumbow5mmn", "count": 1 },
+  "groups" : [ "gunassemblymmn" ]
+}

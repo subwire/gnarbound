@@ -1,0 +1,24 @@
+{
+  "projectileName" : "bluelaser",
+  "physics" : "laser",
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frames" : "bluelaser.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 100,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [
+  { "kind" : "chill"
+  }
+  ],
+  "lightColor" : [0, 0, 73],
+  "damageKind" : "plasma"
+}

@@ -1,0 +1,14 @@
+{
+  "projectileName" : "whiteglowstick",
+  "physics" : "grenadezbomb",
+  "bounces" : -1,
+  "level" : 3,
+  "timeToLive" : 400,
+  "frames" : "whiteglowstick.png",
+  "animationCycle" : 0.0,
+  "lightColor" : [255, 255, 255],
+  "frameNumber" : 1,
+  "power" : 0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

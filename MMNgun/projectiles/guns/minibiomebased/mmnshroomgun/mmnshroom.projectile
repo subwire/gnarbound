@@ -1,0 +1,21 @@
+{
+  "projectileName" : "mmnshroom",
+  "frames" : "mmnshroom.png",
+  "animationCycle" : 1,
+  "physics" : "stickybomb",
+  "level" : 1,
+  "pierces" : true,
+  "timeToLive" : 10,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "lightColor" : [255, 0, 0],
+  "damageKind" : "default"
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Imperviumassaultriflemmn", "count" : 1 },
+	{ "item" : "needlermmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "needlermmn", "level" : 10 } },
+ "groups" : [ "gunassemblymmn" ]
+}

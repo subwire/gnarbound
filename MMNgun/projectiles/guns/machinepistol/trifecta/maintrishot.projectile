@@ -1,0 +1,15 @@
+{
+  "projectileName" : "maintrishot",
+  "physics" : "bullet",
+  "level" : 1,
+  "timeToLive" : 1.5,
+  "damageKindImage" : "icon.png",
+  "frames" : "trifecta.png",
+  "animationCycle" : 0.001,
+  "frameNumber" : 1,
+  "power" : 5,
+  "speed" : 50,
+  "piercing" : true,
+  "lightColor" : [255, 255, 255],
+  "damageKind" : "plasma"
+}

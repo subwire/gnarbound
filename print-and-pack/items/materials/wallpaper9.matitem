@@ -1,0 +1,10 @@
+{
+  "itemName" : "wallpaper9",
+  "rarity" : "Common",
+  "inventoryIcon" : "wallpaper9icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A monochrome diamond wall paper.",
+  "shortdescription" : "Monochrome Diamond Wall Paper",
+
+  "materialId" : 18000
+}

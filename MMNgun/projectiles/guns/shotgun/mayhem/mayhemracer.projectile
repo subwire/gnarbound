@@ -1,0 +1,22 @@
+{
+  "projectileName" : "mayhemracer",
+  "frames" : "mayhem.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 4,  
+  "physics" : "slider",
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 2,
+  "speed" : 35,
+  "bounces" : -1,
+  "piercing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "slash"
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "moonstone", "count" : 5 },
+	{ "item" : "magmarock", "count" : 2 },
+	{ "item" : "ironore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "Reapercartridgemmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "pcartridgemmn" ]
+}

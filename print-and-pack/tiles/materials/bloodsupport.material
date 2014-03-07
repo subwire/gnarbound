@@ -1,0 +1,16 @@
+{
+  "materialId" : 18300,
+  "materialName" : "bloodsupport",
+  "frames" : "bloodsupport.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "bloodsupport",
+  "description" : "A bloody red support block.",
+  "shortdescription" : "Blood Support Block",
+
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category" : "wall",
+  "price" : 10
+}

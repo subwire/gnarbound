@@ -1,0 +1,25 @@
+{
+  "projectileName" : "redlaser",
+  "physics" : "laser",
+  "level" : 1,
+  "damageKindImage" : "icon.png",
+  "frames" : "redlaser.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5,
+  "speed" : 100,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+   "statusEffects" : [
+  { "kind" : "testburning",
+    "amount" : 5
+  }
+  ],
+  "lightColor" : [73, 10, 0],
+  "damageKind" : "plasma"
+}

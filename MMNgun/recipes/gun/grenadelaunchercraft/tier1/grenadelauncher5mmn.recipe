@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Bronzegrenadelaunchermmn", "count" : 1 },
+	{ "item" : "icegrenadesmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "icecubemmn", "level" : 1 } },
+  "groups" : [ "gunassemblymmn" ]
+}

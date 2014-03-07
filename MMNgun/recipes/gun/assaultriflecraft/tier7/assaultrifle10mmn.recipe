@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumassaultriflemmn", "count" : 1 },
+	{ "item" : "plasmaweavearmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "plasmaweavemmn", "level" : 7 } },
+ "groups" : [ "gunassemblymmn" ]
+}

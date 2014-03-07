@@ -1,0 +1,22 @@
+{
+  "objectName" : "lblackd",
+  "rarity" : "Common",
+  "category" : "letters",
+  "price" : 10,
+  "description" : "The letter 'D'.",
+  "shortdescription" : "D",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "lblackdicon.png",
+  "orientations" : [
+    {
+      "image" : "lblackd.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

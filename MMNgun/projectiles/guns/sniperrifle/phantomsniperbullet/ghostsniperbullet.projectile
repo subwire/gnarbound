@@ -1,0 +1,22 @@
+{
+  "projectileName" : "ghostsniperbullet",
+  "frames" : "ghostsniperbullet.png",
+  "animationCycle" : 0.25,
+  "bounces" : 0,
+  "physics" : "boomerang",
+  "speed" : 10,
+  "level" : 1,
+  "timeToLive" : 1,
+  "piercing" : true,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

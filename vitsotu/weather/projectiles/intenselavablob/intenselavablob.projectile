@@ -1,0 +1,30 @@
+{
+  "projectileName" : "intenselavablob",
+  "frames" : "lavablob.png",
+  "animationCycle" : 0.5,
+  "level" : 3,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [235, 126, 2],
+  "hydrophobic" : true,
+  "emitters" : [],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/weather/projectiles/intenselavaexplosion/intenselavaexplosion.config"
+    },
+    { "action" : "liquid", "liquidId" : 9, "quantity" : 500 }
+  ],
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 100.0,
+      "color" : "blue",
+      "duration" : 5.0
+    },
+    { "kind" : "testburning" }
+  ],
+  "power" : 50.0,
+  "damageKind" : "fire",
+  "damageType" : "ignoresdef"
+}

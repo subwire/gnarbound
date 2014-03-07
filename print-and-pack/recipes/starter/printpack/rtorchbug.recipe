@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 500 },
+	{ "item" : "glassmaterial", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "rtorchbug",
+    "count" : 1
+  },
+  "groups" : [ "printpack", "furniture" ]
+}

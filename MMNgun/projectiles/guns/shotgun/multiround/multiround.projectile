@@ -1,0 +1,51 @@
+{
+  "projectileName" : "multiround",
+  "frames" : "multiround.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "energyCostPerDamagePoint" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "delayedpellet2",
+      "inheritDamageFactor" : 0.1,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedpellet2",
+      "inheritDamageFactor" : 0.1,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedpellet2",
+      "inheritDamageFactor" : 0.1,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedpellet2",
+      "inheritDamageFactor" : 0.1,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "delayedpellet2",
+      "inheritDamageFactor" : 0.1,
+	  "fuzzAngle" : 7
+    },
+	{
+      "action" : "projectile",
+      "type" : "slug",
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

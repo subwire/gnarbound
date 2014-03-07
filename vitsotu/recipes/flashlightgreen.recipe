@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rainbowrock", "count" : 100 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "greenflashlight", "count" : 1 },
+  "groups" : [ "craftingtable", "tools", "all" ]
+}

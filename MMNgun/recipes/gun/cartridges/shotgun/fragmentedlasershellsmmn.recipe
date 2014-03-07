@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ice", "count" : 5 },
+	{ "item" : "obsidian", "count" : 2 },
+	{ "item" : "diamondore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "fragmentedlasershellsmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "rcartridgemmn" ]
+}

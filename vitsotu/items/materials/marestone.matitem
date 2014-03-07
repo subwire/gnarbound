@@ -1,0 +1,11 @@
+{
+  "itemName" : "marestonematerial",
+  "rarity" : "Common",
+  "inventoryIcon" : "marestone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Rough, unrefined marestone.",
+  "shortdescription" : "Unrefined Marestone",
+  "glitchDescription" : "Statement. Marestone.",
+  "florandescription" : "Sssstonne.",
+  "materialId" : 3069
+}

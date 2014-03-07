@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Titaniumassaultriflemmn", "count" : 1 },
+	{ "item" : "plasmaroundsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "commonplasmaassaultrifle", "level" : 3 } },
+ "groups" : [ "gunassemblymmn" ]
+}

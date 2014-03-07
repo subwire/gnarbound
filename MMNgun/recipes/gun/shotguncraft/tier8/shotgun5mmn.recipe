@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Violiumshotgunmmn", "count" : 1 },
+	{ "item" : "dragonsbreathshellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "dragonsbreathmmn", "level" : 8 } },
+  "groups" : [ "gunassemblymmn" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Aegisaltshotgunmmn", "count" : 1 },
+	{ "item" : "sonicboomshellsmmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "rareplasmashotgun", "level" : 5 } },
+  "groups" : [ "gunassemblymmn" ]
+}

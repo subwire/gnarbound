@@ -1,0 +1,10 @@
+{
+  "itemName" : "wallpaper10",
+  "rarity" : "Common",
+  "inventoryIcon" : "wallpaper10icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A purple diamond wall paper.",
+  "shortdescription" : "Purple Diamond Wall Paper",
+
+  "materialId" : 18100
+}

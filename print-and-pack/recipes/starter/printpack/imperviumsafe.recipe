@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 2000 },
+	{ "item" : "imperviumbar", "count" : 20 }
+  ],
+  
+  "output" : {
+    "item" : "imperviumsafe",
+    "count" : 1
+  },
+  "groups" : [ "printpack", "locker" ]
+}

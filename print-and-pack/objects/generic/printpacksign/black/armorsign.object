@@ -1,0 +1,23 @@
+{
+  "objectName" : "armorsign",
+  "rarity" : "Common",
+  "category" : "sign",
+  "price" : 100,
+  "description" : "A sign denoting armor.",
+  "shortdescription" : "Armor Sign",
+  "race" : "generic",
+  "printable" : false,
+  "multicolored" : true,
+
+  "inventoryIcon" : "signicon.png",
+  "orientations" : [
+    {
+      "image" : "armorsign.png:<color>",
+      "imagePosition" : [-0, -0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

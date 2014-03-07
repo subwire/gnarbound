@@ -1,0 +1,7 @@
+{
+  "itemName" : "liquidheliumcontainermmn",
+  "rarity" : "Rare",
+  "inventoryIcon" : "liquidheliumcontainermmn.png",
+  "description" : "A container of liquid helium, don't let it touch your skin.",
+  "shortdescription" : "Cryogenic container"
+}

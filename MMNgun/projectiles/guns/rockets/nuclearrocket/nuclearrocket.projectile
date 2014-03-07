@@ -1,0 +1,44 @@
+{
+  "projectileName" : "nuclearrocket",
+  "frames" : "nuclearrocket.png",
+  "animationCycle" : 0.25,  
+  "physics" : "boomerang",
+  "level" : 1,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [0, 255, 0],
+  "timeToLive" : 1.5,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "uraniumshard",
+      "inheritDamageFactor" : 0.4,
+      "angleAdjust" : 180
+    },
+	{
+      "action" : "projectile",
+      "type" : "uraniumshard",
+      "inheritDamageFactor" : 0.4,
+      "angleAdjust" : 135
+    },
+	{
+      "action" : "projectile",
+      "type" : "uraniumshard",
+      "inheritDamageFactor" : 0.4,
+      "angleAdjust" : 225
+    },
+	{
+      "action" : "projectile",
+      "type" : "uraniumshard",
+      "inheritDamageFactor" : 0.4
+    },
+	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

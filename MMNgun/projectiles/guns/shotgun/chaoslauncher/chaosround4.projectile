@@ -1,0 +1,16 @@
+{
+  "projectileName" : "chaosround4",
+  "frames" : "chaosround4.png",
+  "physics" : "hover",
+  "level" : 1,
+  "animationCycle" : 2,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 6,
+  "power" : 5,
+  "speed" : 2,
+  "timeToLive" : 2,
+  "piercing" : true,
+  "damageKind" : "chaos",
+  "lightColor" : [58, 0, 58]
+}
+

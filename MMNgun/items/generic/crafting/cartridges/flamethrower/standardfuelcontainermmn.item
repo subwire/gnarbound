@@ -1,0 +1,7 @@
+{
+  "itemName" : "standardfuelcontainermmn",
+  "rarity" : "Common",
+  "inventoryIcon" : "standardfuelcontainermmn.png",
+  "description" : "A standard container with a flammable liquid, use with caution.",
+  "shortdescription" : "Flamethrower fuel container"
+}

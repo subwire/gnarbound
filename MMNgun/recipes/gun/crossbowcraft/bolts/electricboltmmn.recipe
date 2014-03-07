@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 2 },
+	{ "item" : "ironore", "count" : 2 },
+	{ "item" : "cellmateria", "count" : 2 }
+  ],
+  "output" : { "item" : "electricboltmmn", "count": 1 },
+  "groups" : [ "gunmmn", "all", "fcartridgemmn" ]
+}

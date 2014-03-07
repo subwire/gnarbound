@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Durasteelmachinepistolmmn", "count" : 1 },
+	{ "item" : "trifectamagazinemmn", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "legendaryplasmamachinepistol", "level" : 4 } },
+  "groups" : [ "gunassemblymmn" ]
+}

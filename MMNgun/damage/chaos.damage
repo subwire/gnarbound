@@ -1,0 +1,32 @@
+{
+  "kind" : "chaos",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/melee/laser_weapon_hit.wav", "/sfx/objects/tesla_shock2.wav" , "/sfx/projectiles/flame_burn.wav" , "/sfx/projectiles/acid_hit.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/laser_weapon_hit.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/melee/laser_weapon_hit.wav", "/sfx/objects/tesla_shock2.wav" , "/sfx/projectiles/flame_burn.wav" , "/sfx/projectiles/acid_hit.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/laser_weapon_hit.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}
+
+
+

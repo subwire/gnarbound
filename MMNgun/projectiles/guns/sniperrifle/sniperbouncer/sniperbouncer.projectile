@@ -1,0 +1,15 @@
+{
+  "projectileName" : "sniperbouncer",
+  "frames" : "sniperbouncer.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "physics" : "laser",
+  "piercing" : true,
+  "speed" : 80,
+  "frameNumber" : 1,
+  "timeToLive" : 2,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "damageKind" : "default"
+}

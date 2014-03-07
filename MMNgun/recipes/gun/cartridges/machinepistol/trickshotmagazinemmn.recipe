@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 5 },
+	{ "item" : "petalyellow", "count" : 2 },
+	{ "item" : "goldore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "trickshotmagazinemmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "pcartridgemmn" ]
+}

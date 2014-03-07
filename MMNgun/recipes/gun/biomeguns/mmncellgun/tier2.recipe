@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Steelbarrelmmn", "count" : 1 },
+	{ "item" : "cellmatter", "count" : 5 }
+  ],
+  "output" : { "item" : "generatedgun", "data" : { "definition" : "mmncellgun", "level" : 2 } },
+  "groups" : [ "gunassemblymmn" ]
+}

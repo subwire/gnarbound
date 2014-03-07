@@ -1,0 +1,48 @@
+{
+  "projectileName" : "shardarrowmmn",
+  "physics" : "arrow",
+  "frames" : "shardarrowmmn.png",
+  "level" : 1,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 0.6,
+  "pointLight" : false,
+ "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "arrowshardlowermmn",
+      "inheritDamageFactor" : 0.3,
+	  "angleAdjust" : -7,
+	  "fuzzAngle" : 3
+    },
+	{
+      "action" : "projectile",
+      "type" : "arrowshardlowermmn",
+      "inheritDamageFactor" : 0.4,
+	  "angleAdjust" : -3,
+	  "fuzzAngle" : 3
+    },
+	{
+      "action" : "projectile",
+      "type" : "arrowsharduppermmn",
+      "inheritDamageFactor" : 0.4,
+	  "angleAdjust" : 3,
+	  "fuzzAngle" : 3
+    },
+	{
+      "action" : "projectile",
+      "type" : "arrowsharduppermmn",
+      "inheritDamageFactor" : 0.3,
+	  "angleAdjust" : 7,
+	  "fuzzAngle" : 3
+    },
+	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallzerodmgexplosion/smallzerodmgexplosion.config"
+    }
+  ],
+  "power" : 5,
+  "damageType" : "hitTest",
+  "damageKind" : "bow"
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 5 },
+	{ "item" : "uraniumrod", "count" : 2 },
+	{ "item" : "ironbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "nuclearrocketmmn",
+    "count" : 1
+  },
+  "groups" : [ "gunmmn", "all", "excartridgemmn" ]
+}

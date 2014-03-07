@@ -1,0 +1,14 @@
+{
+  "projectileName" : "violiumarrowmmn",
+  "physics" : "bouncy",
+  "frames" : "violiumarrowmmn.png",
+  "level" : 1,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "piercing" : true,
+  "power" : 5,
+  "lightColor" : [201, 98, 255],
+  "damageKind" : "bow"
+}
