@@ -1,0 +1,82 @@
+{
+  "objectName" : "wilddeathblossomseed",
+  "rarity" : "Rare",
+  "category" : "farmable",
+  "description" : "Deathblossoms are not what you'd call a good snack. Toss em instead.",
+  "shortdescription" : "Deathblossom Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Deathblossom Seed.",
+  "avianDescription" : "A Deathblossom Seed.",
+  "floranDescription" : "A Deathblossom Seed.",
+  "glitchDescription" : "A Deathblossom Seed.",
+  "humanDescription" : "A Deathblossom Seed.",
+  "hylotlDescription" : "A Deathblossom Seed.",
+
+  "inventoryIcon" : "deathblossomseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "deathblossomseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.2,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "deathblossomseed",
+            "count" : 1
+          },
+          {
+            "name" : "deathblossom",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          },
+          {
+            "name" : "deathblossom",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "deathblossom",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 600],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 600],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 3
+  }
+}

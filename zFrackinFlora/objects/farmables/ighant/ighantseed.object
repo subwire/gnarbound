@@ -1,0 +1,82 @@
+{
+  "objectName" : "ighantseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "The ighant is a curious, fast-growing plant. It negates hunger for a while.",
+  "shortdescription" : "Ighant Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "An Ighant Seed.",
+  "avianDescription" : "An Ighant Seed.",
+  "floranDescription" : "An Ighant Seed.",
+  "glitchDescription" : "An Ighant Seed.",
+  "humanDescription" : "An Ighant Seed.",
+  "hylotlDescription" : "An Ighant Seed.",
+
+  "inventoryIcon" : "ighantseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ighantseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.2,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "ighantseed",
+            "count" : 1
+          },
+          {
+            "name" : "ighantbulb",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          },
+          {
+            "name" : "ighantbulb",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "ighantbulb",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 480],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 480],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "geneticmaterial", "count" : 12 },
+    { "item" : "ff_fertilizer", "count" : 1 },
+    { "item" : "plantfibre", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "bambooseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "plain", "objects", "all", "tools" ]
+}

@@ -1,0 +1,82 @@
+{
+  "objectName" : "blexplantseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "Blex Cactus is known to be energizing.",
+  "shortdescription" : "Blex Cactus Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Blex Cactus Seed",
+  "avianDescription" : "Blex Cactus Seed",
+  "floranDescription" : "Blex Cactus Seed",
+  "glitchDescription" : "Blex Cactus Seed",
+  "humanDescription" : "Blex Cactus Seed",
+  "hylotlDescription" : "Blex Cactus Seed",
+
+  "inventoryIcon" : "blexseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "blexplantseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "ff_resin",
+            "count" : 1
+          },
+          {
+            "name" : "blexplantseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "blexsap",
+            "count" : 1
+          },
+          {
+            "name" : "ff_resin",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "ff_resin",
+            "count" : 2
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 480],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 480],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 4
+  }
+}

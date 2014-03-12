@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "redhoneycombblock", "count" : 30 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 3
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

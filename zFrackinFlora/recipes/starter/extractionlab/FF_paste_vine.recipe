@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "vine", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "nutrientpaste",
+    "count" : 5
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

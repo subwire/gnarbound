@@ -1,0 +1,17 @@
+{
+  "id" : "ff15.gearup",
+  "title" : "^#9be3d6;Resin is Useful",
+  "text" : "Some recipes need ^orange;Resin^white;. Such as bamboo furniture. So, make some Bracken trees and harvest theirs!",
+  "completionText" : "You've got the basics. The rest is up to you, from here on out. Experiment and have fun ! ",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "oldtreeseed", 3] }
+  ],
+  "moneyRange" : [200, 200],
+  "rewards" : [
+    [ [ "resin", 5], [ "oldtreeseed", 3] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial3.gearup"
+}
+

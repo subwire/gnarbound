@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "peptidechain", "count" : 5 },
+    { "item" : "nervebundle1", "count" : 1 },
+    { "item" : "tissueculture", "count" : 8 },
+    { "item" : "ff_fertilizer", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "nervebundle2",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 5 },
+    { "item" : "nutrientpaste", "count" : 5 },
+    { "item" : "tissueculture", "count" : 5 }
+  ],
+  "output" : { "item" : "cottonseed", "count" : 1 },
+  "groups" : [ "designlab", "other", "all" ]
+}

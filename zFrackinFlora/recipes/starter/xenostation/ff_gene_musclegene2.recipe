@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "musclegene1", "count" : 1 },
+    { "item" : "peptidechain", "count" : 5 },
+    { "item" : "synthesizedprotein", "count" : 5 },
+    { "item" : "chloroplast2", "count" : 1 },
+    { "item" : "ff_fertilizer", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "musclegene2",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

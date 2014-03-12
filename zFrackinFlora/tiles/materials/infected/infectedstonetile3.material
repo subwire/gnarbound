@@ -1,0 +1,12 @@
+{
+  "materialId" : 6571,
+  "materialName" : "infectedstonetile3",
+  "frames" : "infectedstonewall3.png",
+  "particleColor" : [143, 110, 61, 255],
+  "variants" : 5,
+  "itemDrop" : "infectedstonewall3",
+  "description" : "Yea, this definitely is NOT safe to touch.",
+  "shortdescription" : "Radioactive Stone",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "health" : 15
+}

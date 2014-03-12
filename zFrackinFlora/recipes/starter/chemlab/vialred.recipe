@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "regengene1", "count" : 1 },
+    { "item" : "cellresistance1", "count" : 1 },
+    { "item" : "nervebundle1", "count" : 1 },
+    { "item" : "vialempty", "count" : 1 },
+    { "item" : "rawminerals", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "vialred",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "plain", "objects", "all", "other" ]
+}

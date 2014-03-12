@@ -1,0 +1,16 @@
+{
+  "id" : "ff10.gearup",
+  "title" : "^#9be3d6;Gene Design Lab",
+  "text" : "Next up, you need a ^orange;Gene Design Lab^white;. This is where your myriad of bizarro-plants are spliced!",
+  "completionText" : "Well done. Now for the final station. Have some more seeds, and steel.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "designlab", 1] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "wheatseed", 6], [ "steelbar",2], [ "designlab", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff11.gearup"
+}

@@ -1,0 +1,72 @@
+{
+  "objectName" : "glarestalkseed",
+  "rarity" : "Legendary",
+  "category" : "farmable",
+  "description" : "This is one damned ugly plant.",
+  "shortdescription" : "Glarestalk",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "Glarestalk.",
+  "avianDescription" : "Glarestalk.",
+  "floranDescription" : "Glarestalk.",
+  "glitchDescription" : "Glarestalk.",
+  "humanDescription" : "Glarestalk.",
+  "hylotlDescription" : "Glarestalk.",
+  
+  "inventoryIcon" : "glarestalkseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "glarestalkseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.3,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "glarestalkseed",
+            "count" : 1
+          },
+          {
+            "name" : "glarestalkeye",
+            "count" : 2
+          }
+        ],
+        [
+          {
+            "name" : "glarestalkeye",
+            "count" : 4
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [480, 600],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [480, 600],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

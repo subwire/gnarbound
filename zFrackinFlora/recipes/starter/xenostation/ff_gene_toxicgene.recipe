@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "cellresistance1", "count" : 1 },
+    { "item" : "chloroplast2", "count" : 1 },
+    { "item" : "synthesizedprotein", "count" : 4 },
+    { "item" : "ff_fertilizer", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "toxicgene",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

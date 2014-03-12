@@ -1,0 +1,32 @@
+{
+  "name" : "forest",
+  "caveLiquidType" : "water",
+  "__merge" : [],
+  "surfaceParameters" : {
+    "__merge" : [],
+    "surfacePlaceables" : {
+        "__merge" : [],
+        "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:potsRare",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "wildbambooseed" ],[0.35, "wildignuschiliseed" ],[0.35, "wildoldtreeseed" ],[0.35, "wildoonfortaseed" ],[0.35, "wildvextongueseed" ],[0.35, "wildvineseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+
+
+        
+        
+        

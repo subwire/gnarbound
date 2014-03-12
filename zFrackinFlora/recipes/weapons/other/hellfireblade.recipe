@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "magmawall2", "count" : 25 },
+    { "item" : "imperviumbar", "count" : 12 },
+    { "item" : "hellfireplantseed", "count" : 3 },
+    { "item" : "flaskyellow", "count" : 2 },
+    { "item" : "vialred", "count" : 2 } 
+  ],
+  "output" : {
+    "item" : "hellfireblade",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

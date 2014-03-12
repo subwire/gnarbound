@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "aminoacid", "count" : 1 },
+    { "item" : "cellmatter", "count" : 4},
+    { "item" : "sulphur", "count" : 4},
+    { "item" : "chloroplast1", "count" : 1},
+    { "item" : "mortarpestle", "count" : 1},
+    { "item" : "tissueculture", "count" : 12}
+  ],
+  "output" : {
+    "item" : "bioreagentgreen",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "plain", "objects", "all", "other" ]
+}

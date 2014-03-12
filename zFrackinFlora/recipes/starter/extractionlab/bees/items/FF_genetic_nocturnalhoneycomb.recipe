@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "nocturnalhoneycomb", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 3
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

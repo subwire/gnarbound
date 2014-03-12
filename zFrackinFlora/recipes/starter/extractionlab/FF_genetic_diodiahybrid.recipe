@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "diodiahybrid", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 4
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

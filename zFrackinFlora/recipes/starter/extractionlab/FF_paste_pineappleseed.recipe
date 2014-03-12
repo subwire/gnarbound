@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "pineappleseed", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "nutrientpaste",
+    "count" : 2
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

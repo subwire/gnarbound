@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "vashtaplantseed", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ff_resin",
+    "count" : 2
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

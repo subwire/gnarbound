@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "defensegene2", "count" : 1 },
+    { "item" : "flaskpurple", "count" : 1 },
+    { "item" : "beakerempty", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "beakerpurple",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "plain", "objects", "all", "other" ]
+}

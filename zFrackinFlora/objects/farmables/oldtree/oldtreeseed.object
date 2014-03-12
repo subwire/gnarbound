@@ -1,0 +1,82 @@
+{
+  "objectName" : "oldtreeseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Bracken trees have sticky resin, and silk.",
+  "shortdescription" : "Bracken Tree Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Some resin moves slowly inside.",
+  "avianDescription" : "Avian use these trees to make airships .",
+  "floranDescription" : "Sssweet sssticky.",
+  "glitchDescription" : "Curious. Resin flows within. Sticky could be useful.",
+  "humanDescription" : "I remenber these trees taller.",
+  "hylotlDescription" : "Can be used to create rubber.",
+
+  "inventoryIcon" : "oldtreeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "oldtreeseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.4,
+        [
+          {
+            "name" : "silk",
+            "count" : 2
+          },
+          {
+            "name" : "oldtreeseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "ff_resin",
+            "count" : 2
+          },
+          {
+            "name" : "silk",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "ff_resin",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 300],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 300],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "objectName" : "prototyper",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/prototyper.config",
+    "filter" : [ "prototyper" ]
+  },
+  "printable" : false,
+  "description" : "Create weapons and equipment.",
+  "shortdescription" : "Matter Assembler",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 450,
+  "learnBlueprintsOnPickup" : [ "chemlab" ],
+  "apexDescription" : "A Prototyper.",
+  "avianDescription" : "A Prototyper.",
+  "floranDescription" : "A Prototyper.",
+  "glitchDescription" : "Identify. Prototyper.",
+  "humanDescription" : "a Prototyper.",
+  "hylotlDescription" : "a Prototyper.",
+
+  "inventoryIcon" : "prototypericon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "prototyper.png:<color>.<frame>",
+      "imagePosition" : [-64, 0],
+      "frames" : 4,
+      "animationCycle" : 0.75,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ],
+      "collision" : "platform"
+    }
+  ]
+
+}

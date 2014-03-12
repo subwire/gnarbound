@@ -1,0 +1,7 @@
+{
+  "itemName" : "particlecore",
+  "rarity" : "Common",
+  "inventoryIcon" : "particlecore.png",
+  "description" : "The energy source for particle weapons.",
+  "shortdescription" : "Particle Core"
+}

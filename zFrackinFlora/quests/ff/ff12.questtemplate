@@ -1,0 +1,26 @@
+{
+  "id" : "ff12.gearup",
+  "title" : "^#9be3d6;Your First Plant",
+  "text" : "Now let's try making a plant! Build a ^orange;Modified Carrot Seed^white;. Check the recipe in your Cloning Lab, and build what it requires in your other labs!",
+  "completionText" : "Great! Now plant those suckers in some tilled dirt! Modified seeds provide double the produce, and grow faster than their ordinary strains.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "carrotseedadv", 3] }
+  ],
+  "moneyRange" : [800, 800],
+  "rewards" : [
+    [ [ "carrotseedadv", 3] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff13.gearup"
+}
+
+
+
+
+
+
+
+
+
+

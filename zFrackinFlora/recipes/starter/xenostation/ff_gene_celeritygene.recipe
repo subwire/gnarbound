@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cellmatter", "count" : 4 },
+    { "item" : "adaptivecells", "count" : 2 },
+    { "item" : "aminoacid", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "celeritygene",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

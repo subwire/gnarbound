@@ -1,0 +1,16 @@
+{
+  "id" : "ff11.gearup",
+  "title" : "^#9be3d6;...and finally",
+  "text" : "Next up, you need a ^orange;Cloning Lab^white;. This is where you modify basic seeds into high yield advanced strains. For instance, those seeds I gave you earlier...",
+  "completionText" : "Well done. Try that sucker out! And have some more lead, and some explosive ignus chili. Yea, explosive. Toss 'em at things. Good times.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "clonelab", 1] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "lead", 5], [ "ignuschili",5], [ "clonelab", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff12.gearup"
+}

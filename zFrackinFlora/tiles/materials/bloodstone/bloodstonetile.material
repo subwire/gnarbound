@@ -1,0 +1,12 @@
+{
+  "materialId" : 6567,
+  "materialName" : "bloodstonetile",
+  "frames" : "bloodstonewall.png",
+  "particleColor" : [143, 110, 61, 255],
+  "variants" : 5,
+  "itemDrop" : "bloodstonewall",
+  "description" : "This stuff is literally legendary.",
+  "shortdescription" : "Blood Stone",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "health" : 15
+}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "blisterbushplantseed", "count" : 8 },
+    { "item" : "bioreagentpurple", "count" : 2 },
+    { "item" : "triggerassembly", "count" : 1 },
+    { "item" : "gunhousing", "count" : 2 },
+    { "item" : "geneticmaterial", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "blistergun",
+    "count" : 1
+  },
+  "groups" : [ "mod", "prototyper", "weapons", "all" ]
+}

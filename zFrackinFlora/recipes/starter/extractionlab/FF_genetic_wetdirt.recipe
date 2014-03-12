@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wetdirt", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 2
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

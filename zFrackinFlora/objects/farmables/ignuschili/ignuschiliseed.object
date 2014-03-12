@@ -1,0 +1,82 @@
+{
+  "objectName" : "ignuschiliseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "ow. This is hot.",
+  "shortdescription" : "Ignus Chili Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "20x as spicy as ordinary Chili.",
+  "avianDescription" : "20x as spicy as ordinary Chili.",
+  "floranDescription" : "20x as spicy as ordinary Chili.",
+  "glitchDescription" : "20x as spicy as ordinary Chili",
+  "humanDescription" : "20x as spicy as ordinary Chili.",
+  "hylotlDescription" : "20x as spicy as ordinary Chili.",
+
+  "inventoryIcon" : "ignuschiliseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ignuschiliseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.2,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "ignuschili",
+            "count" : 1
+          },
+          {
+            "name" : "ignuschiliseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "ignuschili",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "ignuschili",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 480],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 480],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

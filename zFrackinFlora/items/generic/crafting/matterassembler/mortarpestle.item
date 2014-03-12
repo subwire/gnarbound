@@ -1,0 +1,7 @@
+{
+  "itemName" : "mortarpestle",
+  "rarity" : "Common",
+  "inventoryIcon" : "mortarpestle.png",
+  "description" : "Grind up things into powder for mixtures.",
+  "shortdescription" : "Mortar and Pestle"
+}

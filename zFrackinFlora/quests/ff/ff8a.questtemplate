@@ -1,0 +1,16 @@
+{
+  "id" : "ff8a.gearup",
+  "title" : "^#9be3d6;Fertilizer",
+  "text" : "Now let's make some ^orange;Fertilizer^white;. You can't accomplish much without it, really. Always have some on hand. You'll need Synthesized Protein, Sulphur and Oil to make it.",
+  "completionText" : "Well done. Take these reefpod seeds. Save them or plant them...it's up to you. And take this fertilizer, too.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "ff_fertilizer", 1] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "reefpodseed", 3], [ "ff_fertilizer", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff9.gearup"
+}

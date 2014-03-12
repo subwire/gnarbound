@@ -1,0 +1,14 @@
+{
+  "materialId" : 6565,
+  "materialName" : "magmatile4",
+  "frames" : "magmatile4.png",
+  "particleColor" : [40, 40, 40, 255],
+  "variants" : 5,
+  "itemDrop" : "magmawall4",
+  "description" : "Solid, unyielding stone.",
+  "shortdescription" : "Cooled Volcanic Stone",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+   "tillableMod" : 31,
+  "soil" : true,
+  "health" : 15
+}

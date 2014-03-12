@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "redwax", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "nutrientpaste",
+    "count" : 3
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "ff2.gearup",
+  "title" : "^#9be3d6;Nutrient Paste Gathering",
+  "text" : "Before we can start creating new plants we'll need ^green;resources^white;. Let's start with ^orange;Nutrient Paste^white;. Take that dirt you just got, and put it in your DNA Extractor. You'll need 25 total.",
+  "completionText" : "Good job. Nutrient Paste has many uses, and you'll soon be using it a lot.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "nutrientpaste", 25] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "cobblestonematerial", 1000], [ "nutrientpaste", 25] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff3.gearup"
+}

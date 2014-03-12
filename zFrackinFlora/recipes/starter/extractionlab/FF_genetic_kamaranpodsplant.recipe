@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "kamaranpodsplant", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 10
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

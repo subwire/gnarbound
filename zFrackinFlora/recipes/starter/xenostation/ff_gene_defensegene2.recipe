@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "synthesizedprotein", "count" : 5 },
+    { "item" : "defensegene1", "count" : 1 },
+    { "item" : "monsterplating", "count" : 3 },
+    { "item" : "ff_fertilizer", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "defensegene2",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

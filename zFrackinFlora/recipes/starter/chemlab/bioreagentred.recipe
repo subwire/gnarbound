@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "aminoacid", "count" : 1 },
+    { "item" : "cellmatter", "count" : 4},
+    { "item" : "regengene1", "count" : 1},
+    { "item" : "sulphur", "count" : 4},
+    { "item" : "mortarpestle", "count" : 1},
+    { "item" : "nutrientpaste", "count" : 12}
+  ],
+  "output" : {
+    "item" : "bioreagentred",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "plain", "objects", "all", "other" ]
+}

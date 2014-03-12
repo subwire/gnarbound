@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "cellresistance1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "aquaticcelerity",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

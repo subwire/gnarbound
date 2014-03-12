@@ -1,0 +1,16 @@
+{
+  "id" : "ff0.gearup",
+  "title" : "^#9be3d6;Frackin'Flora Introduction",
+  "text" : "Before we begin your ^green;Frackin'Flora^white; tutorial, explore a bit. When you have enough resources, we will begin.",
+  "completionText" : "Allright. Let's get started on the path to mad science, shall we? Oh, and have these. I found them lying around. Toss 'em to light up an area for a bit.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "ironore", 25] }
+  ],
+  "moneyRange" : [100, 200],
+  "rewards" : [
+    [ [ "oonfortaglobule", 20], [ "ironore", 25] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff1.gearup"
+}

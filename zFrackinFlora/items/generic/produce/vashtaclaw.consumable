@@ -1,0 +1,14 @@
+{
+  "itemName" : "vashtaclaw",
+  "rarity" : "Common",
+  "inventoryIcon" : "vashtaclaw.png",
+  "description" : "Grants protection from damage.",
+  "shortdescription" : "Vashta Claw",
+  "effects" : [ [
+      {
+        "kind" : "forcefield",
+        "amount" : 0.6,
+        "duration" : 60
+      }
+    ] ]
+}

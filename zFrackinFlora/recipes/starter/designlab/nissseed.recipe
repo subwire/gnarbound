@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "firegene", "count" : 1},
+    { "item" : "immunegene1", "count" : 1},
+    { "item" : "cellmateria", "count" : 8}
+  ],
+  "output" : {
+    "item" : "nissseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "plain", "objects", "all", "tools" ]
+}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "cellmatter", "count" : 2 },
+    { "item" : "flaskempty", "count" : 1 }, 
+    { "item" : "thermometer", "count" : 1 },
+    { "item" : "vialblue", "count" : 1 },
+    { "item" : "cellresistance1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ighantseed",
+    "count" : 5
+  },
+  "groups" : [ "designlab", "plain", "objects", "all", "tools" ]
+}

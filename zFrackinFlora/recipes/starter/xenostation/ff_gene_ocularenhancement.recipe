@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "tissueculture", "count" : 7 },
+    { "item" : "peptidechain", "count" : 3 },
+    { "item" : "cellmatter", "count" : 2 },
+    { "item" : "ff_fertilizer", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "oculargene",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

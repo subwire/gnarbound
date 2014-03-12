@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "rawminerals", "count" : 25 },
+    { "item" : "Ceruliumbar", "count" : 12 },
+    { "item" : "lead", "count" : 20 },
+    { "item" : "haleflowerseed", "count" : 6 },
+    { "item" : "ighantseed", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "banehammer",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "weapons", "all" ]
+}

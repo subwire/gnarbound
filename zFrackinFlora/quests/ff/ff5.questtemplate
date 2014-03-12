@@ -1,0 +1,16 @@
+{
+  "id" : "ff5.gearup",
+  "title" : "^#9be3d6;Tissue Culture",
+  "text" : "And now, the all-important ^orange;Tissue Culture^white;. Obliterate your butter in the extractor to get some. You'll need 25. Other organic matter works, too.",
+  "completionText" : "Without Tissue Culture you won't be able to do much. Many core materials rely on them.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "tissueculture", 25] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "sand", 1000], [ "tissueculture", 25] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff6.gearup"
+}

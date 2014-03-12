@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "explosivegene", "count" : 1 },
+    { "item" : "firegene", "count" : 1 },
+    { "item" : "beakergrey", "count" : 1 },
+    { "item" : "ignuschiliseed", "count" : 3 },
+    { "item" : "bioreagentgrey", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "hellfireplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "plain", "objects", "all", "tools" ]
+}

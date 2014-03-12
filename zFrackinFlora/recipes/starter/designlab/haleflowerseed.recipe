@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "bioreagentgreen", "count" : 1 },
+    { "item" : "flaskgreen", "count" : 1 },
+    { "item" : "diodiahybridseed", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "haleflowerseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "plain", "objects", "all", "tools" ]
+}

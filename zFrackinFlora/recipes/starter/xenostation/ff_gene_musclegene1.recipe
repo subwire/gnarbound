@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "cellmatter", "count" : 4 },
+    { "item" : "peptidechain", "count" : 4 },
+    { "item" : "synthesizedprotein", "count" : 2 },
+    { "item" : "chloroplast1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "musclegene1",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

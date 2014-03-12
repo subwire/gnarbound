@@ -1,0 +1,16 @@
+{
+  "id" : "ff13.gearup",
+  "title" : "^#9be3d6;Bamboo Time",
+  "text" : "Now for a more simple plant. Make some ^orange;Bamboo^white;. Make sure you give it an open area to grow in. They're tall! Check your Design Lab for this one.",
+  "completionText" : "Great! When you harvest them, they can be used to make bamboo furniture and walls.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "bambooseed", 3] }
+  ],
+  "moneyRange" : [300, 300],
+  "rewards" : [
+    [ [ "bambooseed", 3] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff14.gearup"
+}

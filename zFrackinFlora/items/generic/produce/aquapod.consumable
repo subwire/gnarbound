@@ -1,0 +1,15 @@
+{
+  "itemName" : "aquapod",
+  "rarity" : "Common",
+  "inventoryIcon" : "aquapod.png",
+  "description" : "Increases agility in water when eaten.",
+  "shortdescription" : "Aquapod Bulb",
+  "handPosition" : [0, 8],
+  "effects" : [ [
+      {
+        "kind" : "swimboost",
+        "amount" : 3.0,
+        "duration" : 120
+      }
+    ] ]
+}

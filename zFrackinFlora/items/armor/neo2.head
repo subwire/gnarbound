@@ -1,0 +1,28 @@
+{
+  "itemName" : "neohead2",
+  "inventoryIcon" : "icons.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A helmet created by the perfect system.",
+  "shortdescription" : "Neo Helmet2",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : 12
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 1,
+      "amount" : 4
+    }
+  ]
+
+}

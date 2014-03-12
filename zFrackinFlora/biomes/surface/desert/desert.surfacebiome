@@ -1,0 +1,31 @@
+{
+  "name" : "desert",
+  "__merge" : [],
+  "surfaceParameters" : {
+    "__merge" : [],
+    "surfacePlaceables" : {
+        "__merge" : [],
+        "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:potsRare",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "wildblexplantseed" ],[0.35, "wildoldtreeseed" ], [0.35, "wildvextongueseed" ] ],
+              "parameters" : { "startingStage" : 2 }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+
+
+        
+        
+        

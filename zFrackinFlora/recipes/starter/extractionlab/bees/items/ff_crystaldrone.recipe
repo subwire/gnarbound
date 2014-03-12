@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "crystaldrone", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

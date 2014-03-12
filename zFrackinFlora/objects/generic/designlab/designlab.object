@@ -1,0 +1,43 @@
+{
+  "objectName" : "designlab",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/designlab.config",
+    "filter" : [ "designlab" ]
+  },
+  "printable" : false,
+  "description" : "Create new strains.",
+  "shortdescription" : "Gene Design Lab",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 450,
+
+  "apexDescription" : "A Gene Design Lab.",
+  "avianDescription" : "A Gene Design Lab.",
+  "floranDescription" : "A Gene Design Lab.",
+  "glitchDescription" : "Identify. A Gene Design Lab.",
+  "humanDescription" : "A Gene Design Lab.",
+  "hylotlDescription" : "A Gene Design Lab.",
+
+  "learnBlueprintsOnPickup" : [ "clonelab" ],
+
+  "lightColor" : [60, 60, 173],
+  "soundEffect" : "/sfx/objects/fridge_hum.wav",
+  "inventoryIcon" : "designlabicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "designlab.png:<color>.<frame>",
+      "imagePosition" : [-24, 0],
+      "frames" : 4,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ],
+      "collision" : "platform"
+    }
+  ]
+
+}

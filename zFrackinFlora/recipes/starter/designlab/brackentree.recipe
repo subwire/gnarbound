@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "aminoacid", "count" : 5 },
+    { "item" : "ff_fertilizer", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "oldtreeseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "plain", "objects", "all", "tools" ]
+}

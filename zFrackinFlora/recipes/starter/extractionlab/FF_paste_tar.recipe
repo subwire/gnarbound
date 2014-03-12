@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "tar", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "laboil",
+    "count" : 6
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

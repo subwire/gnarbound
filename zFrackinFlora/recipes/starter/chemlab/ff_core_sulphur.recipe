@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "rawminerals", "count" : 8 },
+    { "item" : "nutrientpaste", "count" : 16 }
+  ],
+  "output" : {
+    "item" : "sulphur",
+    "count" : 4
+  },
+  "groups" : [ "chemlab", "objects", "all", "crafting" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "direstone", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "rawminerals",
+    "count" : 6
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

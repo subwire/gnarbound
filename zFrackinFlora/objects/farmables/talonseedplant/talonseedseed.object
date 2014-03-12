@@ -1,0 +1,82 @@
+{
+  "objectName" : "talonseedseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "Genetically improved! Talonseed! 100% tastier nostril!.",
+  "shortdescription" : "Talonseed Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "The talonseed is unusually crunchy, and not entirely pleasant.",
+  "avianDescription" : "There's an old urban legend about Avians eating talonseeds at a banquet...",
+  "floranDescription" : "talonsssseed crunchy, not sssquishy like other mouthsss.",
+  "glitchDescription" : "Philosophical. Does the talonseed look like a beak, or do beaks look like talonseed?",
+  "humanDescription" : "The crop looks like an Avian face. It's a bit disconcerting.",
+  "hylotlDescription" : "talonseeds are surprisingly tasty. One can only assume beaks are nowhere near as palatable.",
+
+  "inventoryIcon" : "talonseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "talonseedseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "talonseed",
+            "count" : 1
+          },
+          {
+            "name" : "talonseedseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "talonseed",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "talonseed",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 480],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 480],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

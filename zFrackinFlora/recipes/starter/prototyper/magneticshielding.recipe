@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 4 },
+    { "item" : "copperbar", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "magneticshielding",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "plain", "objects", "all", "tools" ]
+}

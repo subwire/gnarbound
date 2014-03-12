@@ -1,0 +1,14 @@
+{
+  "itemName" : "vextonguestamen",
+  "rarity" : "Common",
+  "inventoryIcon" : "vextonguestamen.png",
+  "description" : "Protects you from harm for a short time.",
+  "shortdescription" : "Vextongue Stamen",
+  "effects" : [ [
+      {
+        "kind" : "protection",
+        "amount" : 1.0,
+        "duration" : 30
+      }
+    ] ]
+}

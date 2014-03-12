@@ -1,0 +1,7 @@
+{
+  "itemName" : "toxicgene",
+  "rarity" : "Common",
+  "inventoryIcon" : "toxicgene.png",
+  "description" : "Alters cell to produce or resist toxins",
+  "shortdescription" : "Toxin Gene"
+}

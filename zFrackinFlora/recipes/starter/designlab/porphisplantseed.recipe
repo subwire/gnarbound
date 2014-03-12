@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "bioreagentred", "count" : 1 },
+    { "item" : "flaskyellow", "count" : 1 },
+    { "item" : "cellresistance1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "porphisplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "plain", "objects", "all", "tools" ]
+}

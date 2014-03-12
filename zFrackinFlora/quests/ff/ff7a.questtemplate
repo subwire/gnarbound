@@ -1,0 +1,16 @@
+{
+  "id" : "ff7a.gearup",
+  "title" : "^#9be3d6;Lab Equipment",
+  "text" : "Our next bit of work will need some flasks. Build some on the ^orange;Matter Assembler^white;",
+  "completionText" : "Excellent. Take this Oonforta seed, and start growing your throwable light-sources! And save this Steel for later.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "flaskempty", 1] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "oonfortaseed", 1], [ "steelbar", 2], [ "flaskempty", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff8.gearup"
+}

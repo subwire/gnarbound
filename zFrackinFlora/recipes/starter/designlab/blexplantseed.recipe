@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "chloroplast2", "count" : 1 },
+    { "item" : "regengene1", "count" : 1 },
+    { "item" : "vialgreen", "count" : 1 },
+    { "item" : "nervebundle1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "blexplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

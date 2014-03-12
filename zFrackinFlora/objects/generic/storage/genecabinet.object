@@ -1,0 +1,43 @@
+{
+  "objectName" : "genecabinet",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 1000,
+  "description" : "This should be perfect for your lab storage.",
+  "shortdescription" : "Gene Cabinet",
+  "race" : "generic",
+
+  "apexDescription" : "Gene Cabinet.",
+  "avianDescription" : "Gene Cabinet.",
+  "floranDescription" : "Gene Cabinet",
+  "glitchDescription" : "Gene Cabinet",
+  "humanDescription" : "Gene Cabinet",
+  "hylotlDescription" : "Gene Cabinet",
+
+  "inventoryIcon" : "genecabineticon.png",
+  "orientations" : [
+    {
+      "leftImage" : "genecabinetleft.png:default",
+      "rightImage" : "genecabinetright.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

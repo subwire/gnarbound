@@ -1,0 +1,16 @@
+{
+  "id" : "ff9.gearup",
+  "title" : "^#9be3d6;Xeno Research Lab",
+  "text" : "Next up, you need a ^orange;Xeno Research Lab^white;. You'll conduct your research there in order to create new forms of plant life.",
+  "completionText" : "Well done. Now for the Big Kahuna. Some lead and steel should come in handy.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "xenostation", 1] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "lead", 5], [ "steelbar",3], [ "xenostation", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff10.gearup"
+}

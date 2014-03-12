@@ -1,0 +1,7 @@
+{
+  "itemName" : "unstableparticles",
+  "rarity" : "rare",
+  "inventoryIcon" : "unstableparticles.png",
+  "description" : "unshielded particles for weapons",
+  "shortdescription" : "Unstable Particles"
+}

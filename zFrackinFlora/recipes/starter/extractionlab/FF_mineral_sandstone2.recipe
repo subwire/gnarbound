@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sandstoneblock", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "laboil",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

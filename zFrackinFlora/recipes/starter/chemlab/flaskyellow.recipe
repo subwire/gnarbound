@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cellhardening2", "count" : 1 },
+    { "item" : "vialyellow", "count" : 1 },
+    { "item" : "flaskempty", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "flaskyellow",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "plain", "objects", "all", "other" ]
+}

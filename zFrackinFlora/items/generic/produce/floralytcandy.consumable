@@ -1,0 +1,14 @@
+{
+  "itemName" : "floralytcandy",
+  "rarity" : "Common",
+  "inventoryIcon" : "floralytcandy.png",
+  "description" : "Literally engineered to be regenerative candy. Heals a lot!",
+  "shortdescription" : "Floralyt Candy",
+  "effects" : [ [
+      {
+        "kind" : "mollyhealing3",
+        "amount" : 8,
+        "duration" : 6
+      }
+    ] ]
+}

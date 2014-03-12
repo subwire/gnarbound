@@ -1,0 +1,16 @@
+{
+  "itemName" : "lasherstem",
+  "rarity" : "Common",
+  "inventoryIcon" : "lasherstem.png",
+  "description" : "A stem loaded with concentrated rage. Will make you berserk.",
+  "shortdescription" : "Lasher Stem",
+  "learnBlueprintsOnPickup" : [ "lasherhook" ],
+  "handPosition" : [0, 8],
+  "effects" : [ [
+      {
+        "kind" : "berserker",
+        "amount" : 2,
+        "duration" : 60
+      }
+    ] ]
+}

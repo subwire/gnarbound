@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "immunegene1", "count" : 1 },
+    { "item" : "vialyellow", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "defensegene1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "slimeplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

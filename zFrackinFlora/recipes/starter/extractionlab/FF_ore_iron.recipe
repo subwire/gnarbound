@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "lead",
+    "count" : 2
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

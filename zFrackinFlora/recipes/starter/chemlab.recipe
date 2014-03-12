@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 },
+    { "item" : "flaskempty", "count" : 5 },
+    { "item" : "vialempty", "count" : 5 },    
+    { "item" : "copperbar", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "chemlab",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "roboticcraftingtable", "objects", "all", "tools" ]
+}

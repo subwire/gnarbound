@@ -1,0 +1,350 @@
+More Magma Biome additions. 
+  - Hellfire plants now spawn in Magma Biomes (not done)
+
+  
+
+
+
+UNSCHEDULED
+
+
+compatability with StimLab added(not done)
+compatability with StarBooze added (not done)
+compatability with ????(not done)
+added custom tabs to the crafting menu. I'll pretty the rest of the look up at a later time. 
+This should at least minimize the time it takes to find items (not done)
+
+
+
+
+
+
+
+Planned Features
+
+Magma Furniture 
+Magma Armor 
+Added Radioactive weapons 
+some resources now spawn/are harvestable in the wild. Some appear in chests in decent sized lumps.
+radioactive and bloodstone now appear in biomes 
+added new plants
+added radioactive stone to new mini-biome???
+added bloodstone to new mini-biome???
+
+New Plants 
+- Yemur Mould (+ fire resistance/explosion resistance)
+- Victis Vine (+ tempporary teleport tech?)
+- Reticulae (+ temp double jump)
+- Ursa Bush (+ HP boost )
+- Julla Weed (+ HP,+Energy, + Regen)
+- Creeper Tree (- speed, -jump, + damage)
+- Xerxes Leaf (+ speed, jump)
+- Zardoz ( +ugly naked-guy suit )
+- Pain Lily (burning damage, but absurd jump boost)
+- Devourer Weed (eats nearby monsters/attacks? or maybe is NPC/monster itself?)
+- bushes, weeds, grasses for biomes
+
+
+
+
+
+
+3.5.7
+(not done)
+- update PF compatibility patch with the new Erithian Algae
+- increase seed output for the erithian algae, so that fields can be expanded without massive research each time you need 3 seeds
+- fixed stacking bizarro-world issue with extractors. Not sure wtf was up with that crap.
+- changed most wild versions of FF plants to "pot" type smashable items. This way, the player cannotfind seeds unless they make them or find them as loot. The plants should now only give their produce (or perhaps a blueprint!!!)
+- several plants have been changed to unlock via blueprint item. There can now be "secret" incregients from rare spawned plants. MUAHAHAHAAH!
+- added FF plant seeds to some loot tables
+- resources streamlined to suit randomly spawned plants resources
+- more biomes spawn more plabts
+- biomes should now be fully merge compatible, since it now loads dead last
+- "brains" block no longer has two extraction recipes.
+
+(done)
+
+
+
+
+
+
+3.5.6
+
+(done)
+- oonforta now displays as the proper graphic when held.
+- meat chunks heavily nerfed to a 1/1 ratio extraction, rather than 10/1 now that they are readily available through heck biomes
+- added Station Signs from LoneStarX. Craftable at the Matter Assembler
+- flesh strand extraction amount heavily adjusted. Now mimics Flesh Blocks
+- Heck biome brain block and flesh block extraction added
+- expanded the questline and adjusted rewards for individual quests
+- RockBlock mod "dacite" material extraction fixed
+- Tiles reclassified and now appear on the Blocks tab
+- Bamboo items reclassified properly. Will no longer filter under the weapons tab.
+- Slush extraction added
+- modified pussplums and reefpods have had their seed outputs fixed. They should now give their own seed type rather than
+  their lesser vanilla variant.
+- added a Better Merchants mod conversion recipe, which will create bambooshoots from that mods bamboostalks.
+- added the various new bees in the Bees! mod to the extractor. Not yet adjusted, but they will at least extract. 
+- new, stackable, small extractor. you'll now be able to build a heap of them, in far less space overall. Enjoy!
+- added a new plant, Erithian Algae. They are a bio-fuel, placed between coal and uranium in terms of fuel value (3). 
+
+
+3.5.5
+
+DONE
+
+- Codex entries added as a guide for the mod. You can create this for 1 pixel at a crafting table or the Tabula Rasa mod stone.
+- Compatability for extractor with the Bees! mod. Items from that can be broken down into Genetic Material or Nutrient Paste (mostly Genetic Material though) 
+- Hellfire Field detached biome corrected. Aquapod plants should no longer appear. I'd left it in after testing.
+- Fixed Wild lasherplant loading error
+- fixed issue with bamboo shoots conflicting with Better Merchants mod.
+
+
+
+
+
+
+3.5
+
+
+Note: This update adds several new things, but the most notable is the plant spawns. These are NOT fully compatible with
+Variety Biomes, though the compatability patch will work. You simply won't see the plants spawning yet.
+
+This update overwrites the default forest, desert, magma and volcanic worlds for the time being (merging is giving me issues when I 
+attempt to merge tiles in addition to plants spawning. I'll address this after my vacation)
+
+Forest Spawns:   bamboo,  hops, ignus, bracken, oonforta, vextongue, vine
+Desert Spawns: Bracken, Blex, 
+Magma and Volcanic: Ignus, Hellfire
+
+This is a trial run. Once I'm sure things are working appropriately, I'll worry about adding in more biome spawns, more plants, etc.
+
+
+- Energy cost for firing the Particle Pistol and Particle Cannon (heavy versions only) has been reduced slightly.
+
+- Core extracted materials have had their descriptions altered to be less specific.
+
+- Meats have had their Genetic Material rewards adjusted (all lowered. I missed these in the last balance update)
+
+- added moon dust, moon stone, moon rock and mossy packed dirt to the extractor
+
+- Updated the FrackinFlora compatibility patch for Variety Biomes to 1.1.
+
+- Thanks to Freyon, we now have a Persistent Farmables compatability patch. It is included in the zip for the mod. It is optional.
+Don't install it unless you are using Persistent Farmables (and you should be, if you want the most from this mod!). Note that before you DO
+install it, harvest ALL of your plants. This mod will wipe them, as a biproduct of how it functions. Once it is installed, that won't happen
+again. You can safely replant them after.
+
+- The Garden Bot mod, if you didnt notice on the main page of FrackinFlora yet, is also compatible with the mod. That means you 
+can get a little robot to do your gardening for you! Awesome. Check it out. It's pretty bad-ass.
+
+- Fixed wrong reference for Resin in the Lasher plant file. It should now drop 2 resin, once again.
+
+
+
+I'll be going on vacation for a week on Sunday. Thus, no updates for the coming week. Feel free to toss me a message anyhow, and I'll check when I get back :)
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.4   
+(done)
+
+- Added support for the RockBlock mod into the extractor recipes. All types of the stone will return 2 raw mineral per 50 stone (same as Cobblestone)
+- was given Compatability patch for Variety Biomes. You should be able to get Volcanic tiles again
+- fixed issues with bamboo chair and bamboo bed not working due to old Interactable object type
+- fixed Matter Blocks extracted and for item crafting being different from the ones found in-game. The "Green background" version should be all you see
+now.
+
+- More things are coming, I'm just having a bitch of a time getting them to work properly Be patient :)
+
+
+
+
+
+
+
+
+3.2
+
+[done]
+
+- thornitox graphic updated
+- reduced recipe costs for vials, flasks and beakers. They also now use empty vials, flasks and beakers like they were meant to. 
+- synthesized protein now costs twice as much, but also gives double the amount. It also has had its costs changed. It now uses 6 Peptide Chains, but no more Genetic Material. Instead, one empty Vial. 
+- bioreagent recipe reduced.
+- unstable particles now require magnetic shielding
+- had to move the quest from the very start, to slightly after the first tutorial. It was making people using race mods unable to play the game.
+  This will probably conflict with other mods that add quests. Seems there is little to be done about this for the time being until the quests
+  are patched up soon.
+- fixed some typos in the quests.
+
+
+- resin renamed in files to not conflict with ISE mod
+
+- Blex has had two additional variants for grown plants added.
+- fixed extractor recipe for automatos and boltbulbs (seeds and produce)
+- Fertilizer now requires 10 oil instead of 6.
+- Bane Hammer is now devastating against blocks, and it's range has been improved to match it's size.
+- added brain in a jar to the matter assembler. Because reasons, that's why.
+- added microscope to matter assembler, used in Xeno Lab crafting.
+- new graphics for Aquapod
+
+- Matter Blocks can be extracted from certain materials in the Extractor. It's up to you to figure out what will do the trick. 
+- Clone Lab now requires 25 glass instead of 50 to build
+- Design Lab's Lead requirement lowered to 10 (50 raw mineral converted into lead)
+- Matter Assembler now requires Copper in place of Raw Minerals
+- Xeno Station now requires Copper in place of Raw Materials
+- Sulphur(x4) now requires 8 (instead of 12) raw minerals, and has had it's nutrient paste requirement increased to 16 (from 6).
+
+Made the Particle weapons substantially harder to craft. They now have different steps involved in their preparation.
+The following are now required (made at Matter Assembler):
+
+- Gun Housing
+- Trigger Assembly
+- Particle Cannister
+- Particle Core 
+- Electromagnetic Shielding
+- Particle Grenade
+
+And the Chem Lab:
+
+- Unstable Particles (requires Matter Block x1)
+
+
+
+
+
+
+
+
+3.1 
+
+- a few plants recipes accidentally had 5 flasks or vials of Formula as a requirement. This has been reduced to 1. 
+
+- PGI was being required for the Matter Assembler. Fixed.
+
+
+
+
+
+
+3.0
+
+big changes in this one. Let me know, please, on how you feel about the new way I have things working. 
+
+
+
+changed the way quests work again. Now we use a quest.config file instead. The quest fires up at the very start of a new characters game once more. Merged, now. Hopefully this resolves quest mod conflicts.
+particle gun projectiles are significantly less bright now
+blister gun projectiles are significantly more bright now
+adjusted a wide number of recipes, mostly those extracted from seeds, fruits, veggies, etc. Tissue Culture will be a little tougher to come by.
+station light glows reduced, light flickering removed  
+
+Extractor, Design Lab and Xeno Lab have new graphics and are smaller in size. Overall lab size reduced in order to accomodate the new stations below.
+
+
+Cloning Lab added. You'll build the Modified basic seeds here now, instead of the Design Lab. Several Frackin Flora plants are there too such as talonseed, gazelemon and the like. Recipes have been altered.
+
+BioChem Lab added. Chemicals of all sorts are made here now, rather than across random stations. 
+
+(build order is now Extractor, Matter Assembler, Xeno Lab, Chem Lab, Clone Lab, Design Lab)
+
+
+many new material types added for the biochem station (all are variants of Formula, in varying strengths. Not all are used yet, though most are active on one or two things.
+
+changed recipes across the board to accomodate the new resources
+
+Quests have been changed to accomodate the new stations
+
+changed recipe for the Matter Assembler. Now requires raw minerals instead of lead
+
+
+Lead and Sulphur moved to the BioChem Lab
+
+
+
+Recipes are moved/changed as listed below:
+
+Extractor - same as before. Building this unlocks the Matter Assembler.
+
+Matter Assembler - All weapons/gear. All lab equipment. Bio-Reagents moved to BioChem Lab. Need this station to build flasks to craft the BioChem Lab. Building this unlocks the BioChem Lab. 
+
+BioChem Lab - Bio-Reagents, numerous variants of vial formulas, beaker formulas and flask formulas. Plus Lead, Fertilizer and Sulphur. Building this unlocks the Xeno Lab.
+
+Xeno Lab - All "research" items. Bio-Reagents, Lead, Fertilizer and Sulphur moved to BioChem Lab. Building this unlocks the Design Lab and Clone Lab.
+
+Design Lab - All Frackin Flora(FF) plants.
+
+CloneLab - All "Modified" vanilla plants, several hybrid FrackinFlora plants. Eventually, upgraded versions of FF plants may be added.
+
+
+
+
+
+
+
+
+
+
+2.9.7
+
+
+Raised energy cost for the Light particle weapons
+Lowered tissue extracted from desert cacti (done)
+
+New Weapons! (done)
+
+The Bane Hammer and the Hellfire Blade have been added to the weapons in the mod. The Hellfire is a T10
+weapon. Be careful using it indoors. It's quite mean, what with all the flame and lava and death.
+
+The Bane Hammer hits hard, and can break blocks as well as the particle blade. Roughly T7-T8
+
+Both need to be discovered by harvesting particular plants. (You'll need to figure em out, but one is obvious enough)
+
+Lasher plant must first be harvested before unlocking it's grappling hook item.
+
+plant fibres now extract less
+quest reward of plant fibres reduced
+
+The final two quests were sometimes not triggering success on crafting of the weapons. These have now been swapped to additional seed
+crafting quests, with a couple more essential plants.
+
+Some recipes have been adjusted slightly.
+
+
+
+
+2.9.6
+
+
+for this patch you MUST delete the old version and install this in it's place. Overwriting will not work, since some
+files have been removed, and their continued inclusion causes conflicts.
+
+- Added the new Volcanic tiles to the Magma and Volcanic biomes. Seems to function fine for me running Variety 
+biomes mod, though if there are any issues with others please don't hesitate to mention it. If you are 
+currently on a magma world when installing this it could cause problems. I had to create a new character when
+that was the case. Note that these files are NOT merges, and this is intentional for the time being. 
+
+(done)
+
+- removed Volcanic tiles from the crafting menus, since they now occur naturally on magma worlds. 
+
+- Fixed corrupt dirt and sandstone extraction 
+
+- fixed several Modified plants giving the normal variant seeds
+
+- added variant for Bloodstone and 2 variants for Radioactive Stone
+
+- changed quests. They now begin after you finish construction of the Distress Beacon. This should
+hopefully resolve any conflicts with race mods.

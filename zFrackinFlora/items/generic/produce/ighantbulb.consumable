@@ -1,0 +1,16 @@
+{
+  "itemName" : "ighantbulb",
+  "rarity" : "Common",
+  "inventoryIcon" : "ighantbulb.png",
+  "description" : "Eating this supresses hunger. Stop that gut-pain!",
+  "shortdescription" : "Ighant Bulb",
+  "handPosition" : [0, 8],
+  "learnBlueprintsOnPickup" : [ "banehammer" ],
+  "effects" : [ [
+      {
+        "kind" : "fooddepletionsuppressed",
+        "amount" : 1,
+        "duration" : 720
+      }
+    ] ]
+}

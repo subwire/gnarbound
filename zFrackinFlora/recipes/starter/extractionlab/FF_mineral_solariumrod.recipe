@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumrod", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "matteritem",
+    "count" : 1
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

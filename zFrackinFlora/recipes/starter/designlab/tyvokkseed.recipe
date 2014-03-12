@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "slimeplantseed", "count" : 3 },
+    { "item" : "flaskyellow", "count" : 1 },
+    { "item" : "bioreagentgreen", "count" : 1 },
+    { "item" : "vialred", "count" : 1 },
+    { "item" : "ff_resin", "count" : 20 }
+  ],
+  "output" : { "item" : "tyvokkseed", "count" : 1 },
+  "groups" : [ "designlab", "other", "all" ]
+}

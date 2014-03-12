@@ -1,0 +1,54 @@
+{
+  "itemName" : "spikesword5",
+  "level" : 1,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Now Thornitox is getting deadly. Cerulium. Good times.",
+  "shortdescription" : "Cerulium Thornitox Blade",
+  "inspectionKind" : "sword",
+  "kind" : "Broadsword",
+
+  "image" : "spikesword5.png",
+  "firePosition" : [15.5, 4.5],
+  "fireTime" : 0.7,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+
+
+  "primaryStances" : {
+    "projectileType" : "spikeswoosh5",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 200
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -17.0],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-6.0, -17.0],
+      "duration" : 0.2,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -27.5],
+      "duration" : 0.4,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  }
+}

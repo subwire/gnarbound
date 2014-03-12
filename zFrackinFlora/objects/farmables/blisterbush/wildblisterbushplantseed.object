@@ -1,0 +1,86 @@
+{
+  "objectName" : "wildblisterbushplantseed",
+  "rarity" : "Rare",
+  "category" : "farmable",
+  "description" : "Blister Pod. Yea...that sounds tasty.",
+  "shortdescription" : "Blister Pod",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Blister Pod.",
+  "avianDescription" : "A Blister Pod.",
+  "floranDescription" : "A Blister Pod.",
+  "glitchDescription" : "A Blister Pod.",
+  "humanDescription" : "A Blister Pod.",
+  "hylotlDescription" : "A Blister Pod.",
+  
+  "lightColor" : [255, 0, 255],
+  "flickerDistance" : 1.4,
+  "flickerStrength" : 0.2,
+  
+  "inventoryIcon" : "blisterbushseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "blisterbushplantseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.8,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "blisterbushplantseed",
+            "count" : 1
+          },
+          {
+            "name" : "blisterbushplantfood",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          },
+          {
+            "name" : "blisterbushplantfood",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "blisterbushplantfood",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 600],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 600],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

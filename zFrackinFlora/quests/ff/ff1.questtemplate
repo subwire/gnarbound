@@ -1,0 +1,16 @@
+{
+  "id" : "ff1.gearup",
+  "title" : "^#9be3d6;Mad Science Time!",
+  "text" : "To begin your ^green;SCIENCE!^white; you'll need the absolutely essential ^orange;DNA Extraction Lab^white;. Build one on a crafting table.",
+  "completionText" : "Excellent. Now you can pull useful resources from just about anything under the sun!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "extractionlab", 1] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "dirtmaterial", 1000], [ "extractionlab", 1]  ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff2.gearup"
+}

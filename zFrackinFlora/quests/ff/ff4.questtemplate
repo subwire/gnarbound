@@ -1,0 +1,17 @@
+{
+  "id" : "ff4.gearup",
+  "title" : "^#9be3d6;Genetic Material",
+  "text" : "Now let's get some ^orange;Genetic Material^white;. Smash those plant fibres in the extractor and git'r'done. 25, if you please.",
+  "completionText" : "Genetic Material is precious, so stock as much as you can!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "geneticmaterial", 25] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "butter", 3], [ "geneticmaterial", 25], [ "steelbar", 3]  ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff5.gearup"
+}
+

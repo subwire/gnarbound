@@ -1,0 +1,54 @@
+{
+  "itemName" : "banehammer",
+  "level" : 1,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "This interesting hammer will smack ya good.",
+  "shortdescription" : "Banehammer",
+  "inspectionKind" : "sword",
+  "kind" : "Hammer",
+
+  "image" : "banehammer.png",
+  "firePosition" : [30.5, 8.5],
+  "fireTime" : 0.9,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+
+
+  "primaryStances" : {
+    "projectileType" : "particleswoosh2",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 2550
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -27.0],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-6.0, -27.0],
+      "duration" : 0.2,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -27.5],
+      "duration" : 0.4,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  }
+}

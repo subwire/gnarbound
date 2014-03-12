@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cellhardening2", "count" : 1 },
+    { "item" : "geneticmaterial", "count" : 5 },
+    { "item" : "cellmatter", "count" : 7 }
+  ],
+  "output" : {
+    "item" : "cellhardening3",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

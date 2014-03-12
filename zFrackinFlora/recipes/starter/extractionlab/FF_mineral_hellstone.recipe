@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "hellstonematerial", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "rawminerals",
+    "count" : 8
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "ff3.gearup",
+  "title" : "^#9be3d6;Raw Mineral Gathering",
+  "text" : "Now let's get some ^orange;Raw Minerals^white;. Take these cobblestones gift extract it from them. A measly 25 should do.",
+  "completionText" : "Raw Minerals are utilized in a great number of things, once they are broken down into more useful form.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "rawminerals", 25] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "plantfibre", 400], [ "rawminerals", 25] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff4.gearup"
+}

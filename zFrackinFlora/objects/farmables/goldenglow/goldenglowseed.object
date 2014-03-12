@@ -1,0 +1,86 @@
+{
+  "objectName" : "goldenglowseed",
+  "rarity" : "Rare",
+  "category" : "farmable",
+  "description" : "These large flowers have great effects for athletes.",
+  "shortdescription" : "Goldenglow Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Goldenglow Seed.",
+  "avianDescription" : "A Goldenglow Seed.",
+  "floranDescription" : "A Goldenglow Seed.",
+  "glitchDescription" : "A Goldenglow Seed.",
+  "humanDescription" : "A Goldenglow Seed.",
+  "hylotlDescription" : "A Goldenglow Seed.",
+
+  "lightColor" : [255, 204, 0],
+  "flickerDistance" : 0.7,
+  "flickerStrength" : 0.2,
+  
+  "inventoryIcon" : "goldenglowseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "goldenglowseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.2,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "goldenglowseed",
+            "count" : 1
+          },
+          {
+            "name" : "goldenglowleaf",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          },
+          {
+            "name" : "goldenglowleaf",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "goldenglowleaf",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 480],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 480],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 3
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "objectName" : "lasherplantseed",
+  "rarity" : "Rare",
+  "category" : "farmable",
+  "description" : "Lashers are nasty things, and can induce rage.",
+  "shortdescription" : "Lasher Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Lasher Seed.",
+  "avianDescription" : "A Lasher Seed.",
+  "floranDescription" : "A Lasher Seed.",
+  "glitchDescription" : "A Lasher Seed.",
+  "humanDescription" : "A Lasher Seed.",
+  "hylotlDescription" : "A Lasher Seed.",
+  
+  "lightColor" : [1, 1, 1],
+  "flickerDistance" : 0.0,
+  "flickerStrength" : 0.0,
+  
+  "inventoryIcon" : "lasherplantseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lasherplantseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.3,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "lasherplantseed",
+            "count" : 1
+          },
+          {
+            "name" : "lasherstem",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "ff_resin",
+            "count" : 2
+          },
+          {
+            "name" : "lasherstem",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "lasherstem",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 600],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 600],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 3
+  }
+}

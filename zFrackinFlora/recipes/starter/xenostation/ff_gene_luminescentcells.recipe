@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "synthesizedprotein", "count" : 4 },
+    { "item" : "peptidechain", "count" : 5 },
+    { "item" : "cellmateria", "count" : 3 },
+    { "item" : "ff_fertilizer", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "luminescentcells",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

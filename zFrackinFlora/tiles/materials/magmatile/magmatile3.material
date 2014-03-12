@@ -1,0 +1,14 @@
+{
+  "materialId" : 6564,
+  "materialName" : "magmatile3",
+  "frames" : "magmatile3.png",
+  "particleColor" : [143, 110, 61, 255],
+  "variants" : 5,
+  "itemDrop" : "magmawall3",
+  "description" : "Yay. Ash.",
+  "shortdescription" : "Volcanic Ash",
+  "footstepSound" : "/sfx/blocks/footstep_ash.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 2
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "toxicgene", "count" : 1 },
+    { "item" : "vialred", "count" : 1 },
+    { "item" : "chloroplast1", "count" : 1 },
+    { "item" : "defensegene1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "spikeplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

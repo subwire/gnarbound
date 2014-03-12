@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "rawminerals", "count" : 30 },
+    { "item" : "particlecore", "count" : 1 },
+    { "item" : "lead", "count" : 10 },
+    { "item" : "durasteelbar", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "mineralblade",
+    "count" : 1
+  },
+  "groups" : [ "mod", "prototyper", "weapons", "all" ]
+}

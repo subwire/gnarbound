@@ -1,0 +1,82 @@
+{
+  "objectName" : "caprioleplantseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "Grows into Capriole plants, which increase leg muscle strength.",
+  "shortdescription" : "Capriole Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Capriole Seed.",
+  "avianDescription" : "A Capriole Seed.",
+  "floranDescription" : "A Capriole Seed.",
+  "glitchDescription" : "A Capriole Seed.",
+  "humanDescription" : "A Capriole Seed.",
+  "hylotlDescription" : "A Capriole Seed.",
+
+  "inventoryIcon" : "caprioleplantseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "caprioleplantseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.2,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "caprioleplantseed",
+            "count" : 1
+          },
+          {
+            "name" : "capriole",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          },
+          {
+            "name" : "capriole",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "capriole",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 480],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 480],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

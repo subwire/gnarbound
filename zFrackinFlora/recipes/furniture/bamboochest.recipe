@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ff_bambooshoot", "count" : 12 },
+    { "item" : "ff_resin", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "bamboochest",
+    "count" : 1
+  },
+  "groups" : [ "mod", "craftingtable", "roboticcraftingtable", "objects", "all" ]
+}

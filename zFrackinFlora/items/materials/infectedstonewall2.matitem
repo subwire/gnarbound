@@ -1,0 +1,10 @@
+{
+  "itemName" : "infectedstonewall2",
+  "rarity" : "Common",
+  "inventoryIcon" : "infectedstone2.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Radioactive Stone",
+  "description" : "You can't touch this without losing a hand.",
+
+  "materialId" : 6570
+}

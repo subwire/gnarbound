@@ -1,0 +1,83 @@
+{
+  "objectName" : "shockshroomseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "A Shock Shroom seed. Zappy owwie pain.",
+  "shortdescription" : "Shock-Shroom Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Electric Mushrooms.",
+  "avianDescription" : "Electric Toadstools.",
+  "floranDescription" : "Floran hatsss zappy fruitsss.",
+  "glitchDescription" : "Analysis. This fungus is electric.",
+  "humanDescription" : "Ow. Why does this have voltage?.",
+  "hylotlDescription" : "Mushrooms. With voltage. Odd, that.",
+
+  "inventoryIcon" : "shockshroomseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shockshroomseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.3,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "shockshroomseed",
+            "count" : 1
+          },
+          {
+            "name" : "shockshroom",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          },
+          {
+            "name" : "shockshroom",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "shockshroom",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  
+  "growing" : {
+    "0" : {
+      "duration" : [300, 480],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 480],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

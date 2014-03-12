@@ -1,0 +1,126 @@
+{
+  "name" : "bloodstonefield",
+  "caveLiquidType" : [ "blood" ],
+
+  "surfaceParameters" : {
+    "mainBlock" : "bloodstonetile2",
+    "subBlocks" : [ "bloodstonetile", "obsidian" ],
+    "ores" : "surfaceOres",
+
+
+    "statusParameters" : {
+      "temperatureBounds" : [3, 10],
+      "dayNightTemperatureVariability" : -12,
+      "temperatureVariability" : 3
+    },
+
+    "surfacePlaceables" : {
+      "grassMod" : [ "blackash" ],
+      "grassModDensity" : 0.9,
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:potsRare",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:overgroundChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "basicChest" ]
+        },
+
+
+        {
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:overgroundChests",
+
+          "type" : "object",
+          "objectSets" : [
+            {
+              "pool" : [ [1, "statuspod" ] ],
+              "parameters" : { }
+            }
+          ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:overgroundChests",
+
+          "type" : "treasureBox",
+          "treasureBoxSets" : [ "weaponChest" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:tiyDist",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 0.5,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:randomEncounter",
+          "type" : "microdungeon",
+          "microdungeons" : [ "randomencounter", "apexencounter", "avianencounter", "floranencounter", "glitchencounter", "humanencounter" ]
+
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:minibossoverground",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "minibossoverground" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "terrainfeatures" ]
+        },
+        {
+          "mode" : "floor",
+          "priority" : 2.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:denseMedium",
+
+          "type" : "bush",
+          "bushes" : [
+            {
+              "name" : "testbush",
+              "baseHueShiftMax" : 50,
+              "modHueShiftMax" : 50
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+
+

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "blexsap", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "nutrientpaste",
+    "count" : 5
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

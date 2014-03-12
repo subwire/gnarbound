@@ -1,0 +1,54 @@
+{
+  "itemName" : "hellfireblade",
+  "level" : 1,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Forged from the fires of hell itself.",
+  "shortdescription" : "Hellfire Blade",
+  "inspectionKind" : "sword",
+  "kind" : "Broadsword",
+
+  "image" : "hellfireblade.png",
+  "firePosition" : [15.5, 4.5],
+  "fireTime" : 0.7,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+
+
+  "primaryStances" : {
+    "projectileType" : "magmaswoosh",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 5600
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -17.0],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-6.0, -17.0],
+      "duration" : 0.2,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-6.0, -27.5],
+      "duration" : 0.4,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  }
+}

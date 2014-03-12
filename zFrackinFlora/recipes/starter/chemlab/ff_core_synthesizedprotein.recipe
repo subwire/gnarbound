@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "peptidechain", "count" : 6 },
+    { "item" : "vialempty", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "synthesizedprotein",
+    "count" : 4
+  },
+  "groups" : [ "chemlab", "objects", "all", "crafting" ]
+}

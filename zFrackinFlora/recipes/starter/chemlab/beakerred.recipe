@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "regengene3", "count" : 1 },
+    { "item" : "flaskred", "count" : 1 },
+    { "item" : "beakerempty", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "beakerred",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "plain", "objects", "all", "other" ]
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "glarestalkeye",
+  "rarity" : "Common",
+  "inventoryIcon" : "glarestalkeye.png",
+  "description" : "Ew. Ew ew ew. An eye. Eat it and gain POWER!",
+  "shortdescription" : "Glarestalk Eye",
+  "handPosition" : [0, 8],
+  "effects" : [ [
+      {
+        "kind" : "powerboost",
+        "amount" : 2,
+        "duration" : 60
+      }
+    ] ]
+}

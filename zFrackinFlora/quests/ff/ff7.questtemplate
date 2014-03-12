@@ -1,0 +1,16 @@
+{
+  "id" : "ff7.gearup",
+  "title" : "^#9be3d6;The Matter Assembler",
+  "text" : "Now for the good stuff! Let's build a ^orange;Matter Assembler^white;.This clunker makes lab equipment, weapons, gear...all things you need!",
+  "completionText" : "Well done. Take these carrot seeds, but SAVE them. You'll want them later. Trust me.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "prototyper", 1] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "carrotseed", 3], [ "lead", 5], [ "prototyper", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff7a.gearup"
+}

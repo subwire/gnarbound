@@ -1,0 +1,38 @@
+{
+  "objectName" : "plantmine",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "wire",
+  "price" : 800,
+  "description" : "Nasty plant, this one.",
+  "shortdescription" : "Boragon Plant",
+  "race" : "generic",
+
+  "inventoryIcon" : "plantmineicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plantmine.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/generic/plantmines/plantmine.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationParts" : {
+    "switch" : "plantmine.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "firstProjectile" : "smoke",
+  "timer" : 6,
+  "secondProjectile" : "burningstatusprojectile",
+  "detectRadius" : 4
+}

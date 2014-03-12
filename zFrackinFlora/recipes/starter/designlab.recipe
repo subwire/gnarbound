@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 },
+    { "item" : "copperbar", "count" : 6 },
+    { "item" : "silverbar", "count" : 5 },
+    { "item" : "lead", "count" : 10 },
+    { "item" : "glassmaterial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "designlab",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "roboticcraftingtable", "objects", "all", "tools" ]
+}

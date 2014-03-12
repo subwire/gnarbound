@@ -1,0 +1,82 @@
+{
+  "objectName" : "wildvineseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Some kind of boring plant.",
+  "shortdescription" : "Vine Seed",
+  "objectType" : "farmable",
+  "objectItem" : "vineseed",
+
+  "apexDescription" : "<todo>",
+  "avianDescription" : "<todo>.",
+  "floranDescription" : "<todo>",
+  "glitchDescription" : "<todo>",
+  "humanDescription" : "<todo>",
+  "hylotlDescription" : "<todo>",
+
+  "inventoryIcon" : "vineseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vineseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          },
+          {
+            "name" : "vineseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 4
+          }
+        ],
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 300],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 300],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

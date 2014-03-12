@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "rawminerals", "count" : 22 },
+    { "item" : "particlecore", "count" : 1 },
+    { "item" : "gunhousing", "count" : 1 },
+    { "item" : "triggerassembly", "count" : 1 },
+    { "item" : "steelbar", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "mineralpistollite",
+    "count" : 1
+  },
+  "groups" : [ "mod", "prototyper", "weapons", "all" ]
+}

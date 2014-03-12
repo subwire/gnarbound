@@ -1,0 +1,16 @@
+{
+  "id" : "ff6.gearup",
+  "title" : "^#9be3d6;Crude Oil",
+  "text" : "And finally, we make ^orange;Oil^white;. Smash your sand up, and voila! 15 barrels should do.",
+  "completionText" : "I don't imagine you need oil explained to you. Just try not to drink it. It's probably not safe for consumption.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "laboil", 15] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "glassmaterial", 20], [ "laboil", 15] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff7.gearup"
+}

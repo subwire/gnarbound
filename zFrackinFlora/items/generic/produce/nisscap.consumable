@@ -1,0 +1,18 @@
+{
+  "itemName" : "nisscap",
+  "rarity" : "Common",
+  "inventoryIcon" : "nisscap.png",
+  "description" : "Niss posseses the ability to shield you from all cold for several minutes.",
+  "shortdescription" : "Niss Cap",
+  "effects" : [ [
+      {
+        "kind" : "coldprotection",
+        "amount" : 1.0,
+        "duration" : 240
+      },
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

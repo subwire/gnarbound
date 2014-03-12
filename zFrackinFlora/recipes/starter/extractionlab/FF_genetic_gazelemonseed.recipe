@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "gazelemonseed", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 5
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

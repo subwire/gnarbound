@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "matteritem", "count" : 1 },
+    { "item" : "thermometer", "count" : 1 },
+    { "item" : "pipete", "count" : 1 },
+    { "item" : "microspatula", "count" : 1 },
+    { "item" : "magneticshielding", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "unstableparticles",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "plain", "objects", "all", "other" ]
+}

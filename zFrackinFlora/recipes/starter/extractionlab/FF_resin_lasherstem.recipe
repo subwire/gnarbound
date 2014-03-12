@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "lasherstem", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ff_resin",
+    "count" : 10
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

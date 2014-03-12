@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "Rubiumore", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "rawminerals",
+    "count" : 13
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

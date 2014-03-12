@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "celeritygene", "count" : 1 },
+    { "item" : "bioreagentyellow", "count" : 1 },
+    { "item" : "flaskyellow", "count" : 1 },
+    { "item" : "luminescentpaste", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "goldenglowseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "plain", "objects", "all", "tools" ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "vialgreen", "count" : 1 },
+    { "item" : "ff_fertilizer", "count" : 3 },
+    { "item" : "tissueculture", "count" : 40 },
+    { "item" : "nutrientpaste", "count" : 24 }
+  ],
+  "output" : {
+    "item" : "erithianalgaeseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "plain", "objects", "all", "tools" ]
+}

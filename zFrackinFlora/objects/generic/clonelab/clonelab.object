@@ -1,0 +1,41 @@
+{
+  "objectName" : "clonelab",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/clonelab.config",
+    "filter" : [ "clonelab" ]
+  },
+  "printable" : false,
+  "description" : "Create modified versions of plants",
+  "shortdescription" : "Cloning Lab",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 450,
+
+  "apexDescription" : "A Cloning Lab.",
+  "avianDescription" : "A Cloning Lab.",
+  "floranDescription" : "A Cloning Lab.",
+  "glitchDescription" : "Identify. A Cloning Lab.",
+  "humanDescription" : "A Cloning Lab.",
+  "hylotlDescription" : "A Cloning Lab.",
+
+  "learnBlueprintsOnPickup" : [ "xenostation" ],
+  "soundEffect" : "/sfx/objects/fridge_hum.wav",
+  "inventoryIcon" : "clonelabicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "clonelab.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ],
+      "collision" : "platform"
+    }
+  ]
+
+}

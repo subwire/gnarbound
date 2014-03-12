@@ -1,0 +1,12 @@
+{
+  "materialId" : 6568,
+  "materialName" : "bloodstonetile2",
+  "frames" : "bloodstonewall2.png",
+  "particleColor" : [143, 110, 61, 255],
+  "variants" : 5,
+  "itemDrop" : "bloodstonewall",
+  "description" : "The mythical, creepy Blood Stone.",
+  "shortdescription" : "Blood Stone",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "health" : 15
+}

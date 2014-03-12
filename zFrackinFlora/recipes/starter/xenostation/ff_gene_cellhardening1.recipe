@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "aminoacid", "count" : 5 },
+    { "item" : "tissueculture", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "cellhardening1",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

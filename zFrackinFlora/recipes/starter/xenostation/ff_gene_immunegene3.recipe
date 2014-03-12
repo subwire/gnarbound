@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cellresistance2", "count" : 1 },
+    { "item" : "synthesizedprotein", "count" : 10 },
+    { "item" : "immunegene2", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "immunegene3",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

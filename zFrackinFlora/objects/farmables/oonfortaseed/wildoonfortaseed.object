@@ -1,0 +1,82 @@
+{
+  "objectName" : "wildoonfortaseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "The Oonforta grows glowing bulbs on tails that can be tossed for light.",
+  "shortdescription" : "Oonforta Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Oonforta Seed.",
+  "avianDescription" : "A Oonforta Seed.",
+  "floranDescription" : "A Oonforta Seed.",
+  "glitchDescription" : "A Oonforta Seed.",
+  "humanDescription" : "A Oonforta Seed.",
+  "hylotlDescription" : "A Oonforta Seed.",
+  "lightColor" : [90, 90, 90],
+  "inventoryIcon" : "oonfortaseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "oonfortaseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.2,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "oonfortaseed",
+            "count" : 1
+          },
+          {
+            "name" : "oonfortaglobule",
+            "count" : 3
+          }
+        ],
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          },
+          {
+            "name" : "oonfortaglobule",
+            "count" : 3
+          }
+        ],
+        [
+          {
+            "name" : "oonfortaglobule",
+            "count" : 3
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 480],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 480],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 3
+  }
+}

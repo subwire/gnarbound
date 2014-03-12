@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "cellresistance2", "count" : 1 },
+    { "item" : "flaskgreen", "count" : 1 },
+    { "item" : "beakerempty", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "beakergreen",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "plain", "objects", "all", "other" ]
+}

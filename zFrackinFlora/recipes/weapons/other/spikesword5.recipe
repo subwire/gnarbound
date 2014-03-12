@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "thornitox", "count" : 12 },
+    { "item" : "geneticmaterial", "count" : 58 },
+    { "item" : "Ceruliumbar", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "spikesword5",
+    "count" : 1
+  },
+  "groups" : [ "mod", "prototyper", "weapons", "all" ]
+}

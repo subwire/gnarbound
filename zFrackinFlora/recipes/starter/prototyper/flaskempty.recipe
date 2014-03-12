@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "flaskempty",
+    "count" : 5
+  },
+  "groups" : [ "prototyper", "plain", "objects", "all", "tools" ]
+}

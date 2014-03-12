@@ -1,0 +1,82 @@
+{
+  "objectName" : "haleflowerseed",
+  "rarity" : "Legendary",
+  "category" : "farmable",
+  "description" : "This custom-made flower boasts impressive energy restoration ability.",
+  "shortdescription" : "Haleflower Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Haleflower Seed.",
+  "avianDescription" : "A Haleflower Seed.",
+  "floranDescription" : "A Haleflower Seed.",
+  "glitchDescription" : "A Haleflower Seed.",
+  "humanDescription" : "A Haleflower Seed.",
+  "hylotlDescription" : "A Haleflower Seed.",
+
+  "inventoryIcon" : "haleflowerseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "haleflowerseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.2,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "haleflowerseed",
+            "count" : 1
+          },
+          {
+            "name" : "haleflowerpetal",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          },
+          {
+            "name" : "haleflowerpetal",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "haleflowerpetal",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [480, 600],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [480, 600],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 3
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "itemName" : "magneticshielding",
+  "rarity" : "Common",
+  "inventoryIcon" : "magneticshielding.png",
+  "description" : "EM shielded material",
+  "shortdescription" : "Electromagnetic Shielding"
+}

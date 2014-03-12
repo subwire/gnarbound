@@ -1,0 +1,13 @@
+{
+  "itemName" : "gazelemon",
+  "rarity" : "Common",
+  "inventoryIcon" : "gazelemon.png",
+  "description" : "Digesting this will grant clairvoyance.",
+  "shortdescription" : "Gazelemon",
+  "effects" : [ [
+      {
+        "kind" : "hawkeyes",
+        "duration" : 15
+      }
+    ] ]
+}

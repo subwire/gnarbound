@@ -1,0 +1,96 @@
+{
+  "objectName" : "wildhellfireplantseed",
+  "rarity" : "Legendary",
+  "category" : "farmable",
+  "description" : "Feelin hot, hot hot.",
+  "shortdescription" : "Hellfire Plant Seed",
+  "objectType" : "farmable",
+  "objectItem" : "hellfireplantseed",
+  
+  "apexDescription" : "A hellfire plant.",
+  "avianDescription" : "A hellfire plant.",
+  "floranDescription" : "A hellfire plant.",
+  "glitchDescription" : "A hellfire plant.",
+  "humanDescription" : "A hellfire plant.",
+  "hylotlDescription" : "A hellfire plant.",
+  
+  "inventoryIcon" : "hellfireplantseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hellfireplantseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.3,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [255, 100, 0, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0]
+    }
+  },
+  
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "magmabomb",
+            "count" : 1
+          },
+          {
+            "name" : "hellfireplantseed",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [480, 600],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [480, 600],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 3
+  }
+}
+
+
+
+
+
+
+
+

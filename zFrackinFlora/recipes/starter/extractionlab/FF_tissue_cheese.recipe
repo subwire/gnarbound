@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "cheese", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tissueculture",
+    "count" : 15
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

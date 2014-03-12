@@ -1,0 +1,86 @@
+{
+  "objectName" : "tentacleplantseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "Pasaka Vine gives off bioluminesence. Useful to light your way.",
+  "shortdescription" : "Pasaka Vine",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Pasaka Seed.",
+  "avianDescription" : "A Pasaka Seed.",
+  "floranDescription" : "A Pasaka Seed.",
+  "glitchDescription" : "A Pasaka Seed.",
+  "humanDescription" : "A Pasaka Seed.",
+  "hylotlDescription" : "A Pasaka Seed.",
+  
+  "lightColor" : [90, 90, 255],
+  "flickerDistance" : 0.9,
+  "flickerStrength" : 0.2,
+  
+  "inventoryIcon" : "tentacleplantseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tentacleplantseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.3,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "tentacleplantseed",
+            "count" : 1
+          },
+          {
+            "name" : "pasaka",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "plantfibre",
+            "count" : 2
+          },
+          {
+            "name" : "pasaka",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "pasaka",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 480],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 480],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

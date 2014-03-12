@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "shockgene", "count" : 1 },
+    { "item" : "cellhardening1", "count" : 1 },
+    { "item" : "flaskblue", "count" : 1 },
+    { "item" : "cellresistance1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "shockshroomseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "plain", "objects", "all", "tools" ]
+}

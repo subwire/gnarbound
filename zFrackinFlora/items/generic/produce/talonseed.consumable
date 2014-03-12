@@ -1,0 +1,15 @@
+{
+  "itemName" : "talonseed",
+  "rarity" : "Common",
+  "inventoryIcon" : "talonseed.png",
+  "description" : "Talonseed is capable of enhancing natural healing.",
+  "shortdescription" : "Talonseed Sprout",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "mollyhealing1",
+        "amount" : 1,
+        "duration" : 30
+      }
+    ] ]
+}

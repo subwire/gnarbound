@@ -1,0 +1,82 @@
+{
+  "objectName" : "tyvokkseed",
+  "rarity" : "Legendary",
+  "category" : "farmable",
+  "description" : "This plant is a literal powerhouse of energy.",
+  "shortdescription" : "Tyvokk seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "tyvokk seed",
+  "avianDescription" : "tyvokk seed",
+  "floranDescription" : "tyvokk seed",
+  "glitchDescription" : "tyvokk seed",
+  "humanDescription" : "tyvokk seed",
+  "hylotlDescription" : "tyvokk seed",
+
+  "inventoryIcon" : "tyvokkseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tyvokkseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "tyvokkseed",
+            "count" : 1
+          },
+          {
+            "name" : "tyvokkhook",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "tyvokkhook",
+            "count" : 1
+          },
+          {
+            "name" : "ff_resin",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "tyvokkhook",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [480, 600],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [480, 600],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 3
+  }
+}

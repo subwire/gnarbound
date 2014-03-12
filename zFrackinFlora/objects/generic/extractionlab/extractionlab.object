@@ -1,0 +1,46 @@
+{
+  "objectName" : "extractionlab",
+  "rarity" : "Common",
+  "description" : "Extracts materials from organic materials and fertile dirt.",
+  "shortdescription" : "DNA Extraction Lab",
+  "race" : "generic",
+  "subtitle" : "Extracts genetic material.",
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : true,
+  "learnBlueprintsOnPickup" : [ "prototyper" ],
+  "price" : 450,
+  "apexDescription" : "A DNA Extraction Lab.",
+  "avianDescription" : "A DNA Extraction Lab.",
+  "floranDescription" : "A DNA Extraction Lab.",
+  "glitchDescription" : "A DNA Extraction Lab.",
+  "humanDescription" : "A DNA Extraction Lab.",
+  "hylotlDescription" : "A DNA Extraction Lab.",
+
+  "lightColor" : [75, 75, 170],
+
+  "inventoryIcon" : "extractionlabicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "extractionlab.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "frames" : 4,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ],
+      "collision" : "platform"
+    }
+  ],
+  "soundEffect" : "/sfx/objects/electriclight.wav",
+  "recipeGroup" : "extractionlab",
+  "openSounds" : [ "/sfx/objects/screen3.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/extractionlab.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
+
+

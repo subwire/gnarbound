@@ -1,0 +1,118 @@
+{
+  "projectileName" : "particlegrenadeblast",
+  "frames" : "particlegrenadeblast.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "physics" : "grenadezbomb",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 180,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/particlegrenadeexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : 35
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : -18
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : 18
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : -25,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : 25,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : -50,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : -18
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : 50,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : 18
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : -75,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : -18
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : 75,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : 18
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : -120,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : -18
+    },
+    {
+      "action" : "projectile",
+      "type" : "mineralcannonshot2",
+      "fuzzAngle" : 120,
+      "inheritDamageFactor" : 1.001,
+      "angleAdjust" : 18
+    }
+  ],
+  "power" : 550.0,
+  "damageKind" : "default"
+}
+
+

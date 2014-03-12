@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "aminoacid", "count" : 5 },
+    { "item" : "flaskempty", "count" : 2 }, 
+    { "item" : "thermometer", "count" : 1 },
+    { "item" : "luminescentpaste", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "oonfortaseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "plain", "objects", "all", "tools" ]
+}

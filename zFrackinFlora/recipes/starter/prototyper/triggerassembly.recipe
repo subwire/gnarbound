@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 2 },
+    { "item" : "ironbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "triggerassembly",
+    "count" : 1
+  },
+  "groups" : [ "prototyper", "plain", "objects", "all", "tools" ]
+}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "firegene", "count" : 1 },
+    { "item" : "thermometer", "count" : 3 },
+    { "item" : "sulphur", "count" : 10 },
+    { "item" : "mortarpestle", "count" : 1 },
+    { "item" : "pipete", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "explosivegene",
+    "count" : 1
+  },
+  "groups" : [ "xenostation", "objects", "all", "crafting" ]
+}

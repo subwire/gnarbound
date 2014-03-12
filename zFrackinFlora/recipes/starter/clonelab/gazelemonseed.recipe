@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "musclegene1", "count" : 1 },
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "oculemonseed", "count" : 3 },
+    { "item" : "oculargene", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gazelemonseed",
+    "count" : 3
+  },
+  "groups" : [ "clonelab", "plain", "objects", "all", "tools" ]
+}

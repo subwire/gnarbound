@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "organicsynthesis", "count" : 1 },
+    { "item" : "musclegene1", "count" : 1 },
+    { "item" : "vialblue", "count" : 1 },
+    { "item" : "nervebundle1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "caprioleplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

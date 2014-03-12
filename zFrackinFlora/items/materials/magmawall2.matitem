@@ -1,0 +1,10 @@
+{
+  "itemName" : "magmawall2",
+  "rarity" : "Common",
+  "inventoryIcon" : "magmawall2.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Burning Volcanic Rock",
+  "description" : "Burning hot magma stone. Don't touch!",
+
+  "materialId" : 6563
+}

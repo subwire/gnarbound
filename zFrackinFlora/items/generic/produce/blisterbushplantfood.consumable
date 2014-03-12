@@ -1,0 +1,14 @@
+{
+  "itemName" : "blisterbushplantfood",
+  "rarity" : "Common",
+  "inventoryIcon" : "blisterbushplantfood.png",
+  "description" : "You can eat this if you're brave. It'll help your eyesight a great deal.",
+  "shortdescription" : "Blister Sack",
+  "effects" : [ [
+      {
+        "kind" : "glowinitiator",
+        "amount" : 0.75,
+        "duration" : 240
+      }
+    ] ]
+}

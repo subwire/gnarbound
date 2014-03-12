@@ -1,0 +1,7 @@
+{
+  "itemName" : "shockgene",
+  "rarity" : "Common",
+  "inventoryIcon" : "shockgene.png",
+  "description" : "Changes a cell to resist or expel electricity.",
+  "shortdescription" : "Electrocyte Gene"
+}

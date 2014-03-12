@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "leaflarva", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "geneticmaterial",
+    "count" : 2
+  },
+  "groups" : [ "extractionlab", "all" ]
+}

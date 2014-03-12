@@ -1,0 +1,72 @@
+{
+  "objectName" : "bambooseed",
+  "rarity" : "Uncommon",
+  "category" : "farmable",
+  "description" : "It's bamboo. Makes for some nice furniture.",
+  "shortdescription" : "Bamboo",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "Bamboo.",
+  "avianDescription" : "Bamboo.",
+  "floranDescription" : "Bamboo.",
+  "glitchDescription" : "Bamboo.",
+  "humanDescription" : "Bamboo.",
+  "hylotlDescription" : "Bamboo.",
+  
+  "inventoryIcon" : "bambooseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bambooseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.3,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "bambooseed",
+            "count" : 1
+          },
+          {
+            "name" : "ff_bambooshoot",
+            "count" : 2
+          }
+        ],
+        [
+          {
+            "name" : "ff_bambooshoot",
+            "count" : 4
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 480],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 480],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 4
+  }
+}

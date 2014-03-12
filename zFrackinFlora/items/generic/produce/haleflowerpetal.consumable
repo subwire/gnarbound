@@ -1,0 +1,13 @@
+{
+  "itemName" : "haleflowerpetal",
+  "rarity" : "Common",
+  "inventoryIcon" : "haleflowerpetal.png",
+  "description" : "Tastes like bacon, restores energy like fusion.",
+  "shortdescription" : "Hale Flower Petal",
+  "effects" : [ [
+      {
+        "kind" : "energy",
+        "amount" : 400
+      }
+    ] ]
+}

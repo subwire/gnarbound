@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "thornitox", "count" : 12 },
+    { "item" : "slime", "count" : 25 },
+    { "item" : "geneticmaterial", "count" : 38 },
+    { "item" : "titaniumbar", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "spikesword3",
+    "count" : 1
+  },
+  "groups" : [ "mod", "prototyper", "weapons", "all" ]
+}

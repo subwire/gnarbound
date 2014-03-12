@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "luminescentpaste", "count" : 1 },
+    { "item" : "cellhardening1", "count" : 1 },
+    { "item" : "vialpurple", "count" : 1 },
+    { "item" : "nervebundle1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tentacleplantseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

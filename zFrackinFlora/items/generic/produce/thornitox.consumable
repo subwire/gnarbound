@@ -1,0 +1,13 @@
+{
+  "itemName" : "thornitox",
+  "rarity" : "Common",
+  "inventoryIcon" : "thornitox.png",
+  "description" : "Disgusting flavor, but filling. It also makes weapons. That's worrisome.",
+  "shortdescription" : "Thornitox Dongle",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 30
+      }
+    ] ]
+}

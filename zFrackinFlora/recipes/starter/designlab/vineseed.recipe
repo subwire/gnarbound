@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ff_fertilizer", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 1 },
+    { "item" : "cellmatter", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "vineseed",
+    "count" : 3
+  },
+  "groups" : [ "designlab", "objects", "all", "tools" ]
+}

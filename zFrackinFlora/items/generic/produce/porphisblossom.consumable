@@ -1,0 +1,14 @@
+{
+  "itemName" : "porphisblossom",
+  "rarity" : "Common",
+  "inventoryIcon" : "porphisblossom.png",
+  "description" : "Harsh on the system, great on the muscles.",
+  "shortdescription" : "Porphis Blossom",
+  "effects" : [ [
+      {
+        "kind" : "doping",
+        "amount" : 0.60,
+        "duration" : 30
+      }
+    ] ]
+}

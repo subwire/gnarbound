@@ -1,0 +1,7 @@
+{
+  "itemName" : "flaskempty",
+  "rarity" : "Common",
+  "inventoryIcon" : "flaskempty.png",
+  "description" : "Fill it with sciency liquid",
+  "shortdescription" : "Flask"
+}

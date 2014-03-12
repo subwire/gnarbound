@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "ff_fertilizer", "count" : 2 },
+    { "item" : "laboil", "count" : 5 },
+    { "item" : "dirtmaterial", "count" : 25 },
+    { "item" : "glassmaterial", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "clonelab",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "roboticcraftingtable", "objects", "all", "tools" ]
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "ff8.gearup",
+  "title" : "^#9be3d6;BioChem Lab",
+  "text" : "Next up, you need a ^orange;Bio-Chem Lab^white;. You'll make fertilizer, lead, sulphur and useful formulas for gene-engineering there.",
+  "completionText" : "Well done. Take these chili seeds. Save them or plant them...it's up to you. And these synthesized proteins should come in handy, too.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "chemlab", 1] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "chiliseed", 3], [ "synthesizedprotein",5], [ "chemlab", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "ff8a.gearup"
+}

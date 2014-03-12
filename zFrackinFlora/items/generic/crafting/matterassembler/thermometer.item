@@ -1,0 +1,7 @@
+{
+  "itemName" : "thermometer",
+  "rarity" : "Common",
+  "inventoryIcon" : "thermometer.png",
+  "description" : "monitor temperature",
+  "shortdescription" : "Thermometer"
+}

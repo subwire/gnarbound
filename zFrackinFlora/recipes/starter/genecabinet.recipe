@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 7 },
+    { "item" : "copperbar", "count" : 3 },
+    { "item" : "glassmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "genecabinet",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "roboticcraftingtable", "objects", "all", "tools" ]
+}

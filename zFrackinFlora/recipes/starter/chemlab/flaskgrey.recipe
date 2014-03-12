@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "chloroplast2", "count" : 1 },
+    { "item" : "adaptivecells", "count" : 3 },
+    { "item" : "vialgrey", "count" : 1 },
+    { "item" : "flaskempty", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "flaskgrey",
+    "count" : 1
+  },
+  "groups" : [ "chemlab", "plain", "objects", "all", "other" ]
+}

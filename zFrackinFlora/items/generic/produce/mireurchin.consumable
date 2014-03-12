@@ -1,0 +1,15 @@
+{
+  "itemName" : "mireurchin",
+  "rarity" : "Common",
+  "inventoryIcon" : "mireurchin.png",
+  "description" : "Same Urchin flavor, but with narcotic uppers included.",
+  "shortdescription" : "Mire Urchin",
+  "handPosition" : [-8, 0],
+  "effects" : [ [
+      {
+        "kind" : "dopingplant",
+        "amount" : 0.42,
+        "duration" : 25
+      }
+    ] ]
+}

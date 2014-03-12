@@ -1,0 +1,12 @@
+{
+  "materialId" : 6562,
+  "materialName" : "magmatile1",
+  "frames" : "magmatile1.png",
+  "particleColor" : [143, 110, 61, 255],
+  "variants" : 5,
+  "itemDrop" : "magmawall1",
+  "description" : "Burning-hot magma walls. You should probably not touch this.",
+  "shortdescription" : "Volcanic Rock",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "health" : 15
+}
