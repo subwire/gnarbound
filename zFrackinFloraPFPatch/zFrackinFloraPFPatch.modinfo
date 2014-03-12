@@ -1,0 +1,11 @@
+{
+  "name" : "zFrackinFloraPFPatch",
+  "version" : "Beta v. Enraged Koala",
+  "path" : ".",
+  "dependencies" : [ "jte_farming", "zFrackinFlora" ],
+  "metadata": {
+    "author" : "Freyon",
+    "description" : "Compatibility Patch to make Fracking Flora work with Persistent Farming",
+    "support_url" : ""
+  }
+}
