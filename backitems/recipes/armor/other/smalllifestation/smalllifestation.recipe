@@ -1,0 +1,9 @@
+{
+  "input" : [
+{ "item" : "steelbar", "count" : 30 },
+{ "item" : "redstim", "count" : 5 },
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "smalllifestation", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

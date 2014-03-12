@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 400 },
+{ "item" : "Ceruliumbar", "count" : 50 },
+{ "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "gaintsolarpanelback", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

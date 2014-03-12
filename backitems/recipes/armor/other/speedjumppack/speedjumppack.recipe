@@ -1,0 +1,10 @@
+{
+  "input" : [
+{ "item" : "Ceruliumbar", "count" : 20 },
+{ "item" : "jumppack", "count" : 1 },
+{ "item" : "speedpack", "count" : 1 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "speedjumppack", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

@@ -1,0 +1,12 @@
+{
+  "name" : "backitemsmod",
+  "version" : "Beta v. Enraged Koala",
+  "path" : ".",
+  "dependencies" : [ ],
+  "metadata" : {
+    "displayName" : "Back Items Mod",
+    "author" : "Dozer",
+    "description" : "",
+    "version" : "2.1"
+  }
+}

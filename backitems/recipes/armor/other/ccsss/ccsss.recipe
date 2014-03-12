@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 10 },
+	{ "item" : "spaceairtankback", "count" : 1 },
+	{ "item" : "lanternstickback", "count" : 1 },
+	{ "item" : "coalheaterback", "count" : 1 },
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "ccsss", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

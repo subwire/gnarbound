@@ -1,0 +1,9 @@
+{
+  "input" : [
+{ "item" : "Ceruliumbar", "count" : 50 },
+{ "item" : "moltencore", "count" : 1 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "batteryDpackback", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

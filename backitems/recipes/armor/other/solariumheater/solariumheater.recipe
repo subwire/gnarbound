@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "Ceruliumbar", "count" : 50 },
+	{ "item" : "solariumore", "count" : 200 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "solariumheaterback", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

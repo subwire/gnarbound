@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 30 },
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "2shell", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

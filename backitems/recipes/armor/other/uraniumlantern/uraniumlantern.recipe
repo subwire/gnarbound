@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 10 },
+	{ "item" : "uraniumore", "count" : 60 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "xuraniumlanternback", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

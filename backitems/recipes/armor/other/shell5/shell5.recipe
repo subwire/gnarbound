@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "aegisaltbar", "count" : 30 },
+    { "item" : "money", "count" : 2000 }
+  ],
+  "output" : { "item" : "5shell", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

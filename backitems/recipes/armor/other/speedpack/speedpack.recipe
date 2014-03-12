@@ -1,0 +1,9 @@
+{
+  "input" : [
+{ "item" : "titaniumbar", "count" : 40 },
+{ "item" : "greenstim", "count" : 10 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "speedpack", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

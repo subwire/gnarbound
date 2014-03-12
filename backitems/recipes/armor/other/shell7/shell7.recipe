@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Ceruliumbar", "count" : 30 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "7shell", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+{ "item" : "imperviumbar", "count" : 20 },
+{ "item" : "gaintlifestation", "count" : 1 },
+{ "item" : "batteryDpackback", "count" : 1 },
+    { "item" : "money", "count" : 10000 }
+  ],
+  "output" : { "item" : "batterylife", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

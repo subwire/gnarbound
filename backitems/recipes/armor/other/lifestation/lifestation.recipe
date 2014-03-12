@@ -1,0 +1,9 @@
+{
+  "input" : [
+{ "item" : "titaniumbar", "count" : 40 },
+{ "item" : "redstim", "count" : 10 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "lifestation", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

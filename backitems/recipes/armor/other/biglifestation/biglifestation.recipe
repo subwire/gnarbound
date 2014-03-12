@@ -1,0 +1,9 @@
+{
+  "input" : [
+{ "item" : "aegisaltbar", "count" : 50 },
+{ "item" : "redstim", "count" : 15 },
+    { "item" : "money", "count" : 2000 }
+  ],
+  "output" : { "item" : "biglifestation", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "Feroziumbar", "count" : 30 },
+    { "item" : "money", "count" : 2500 }
+  ],
+  "output" : { "item" : "6shell", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "Ceruliumbar", "count" : 15 },
+	{ "item" : "spaceairtankback", "count" : 1 },
+	{ "item" : "solariumheaterback", "count" : 1 },
+	{ "item" : "xsolariumlantern", "count" : 1 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "scsss", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "mod", "all" ]
+}
