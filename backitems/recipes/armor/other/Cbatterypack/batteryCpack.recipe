@@ -1,9 +1,0 @@
-{
-  "input" : [
-{ "item" : "aegisaltbar", "count" : 40 },
-{ "item" : "moltencore", "count" : 1 },
-    { "item" : "money", "count" : 2000 }
-  ],
-  "output" : { "item" : "batteryCpackback", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "mod", "all" ]
-}

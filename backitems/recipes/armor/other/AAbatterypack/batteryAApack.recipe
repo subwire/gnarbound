@@ -1,9 +1,0 @@
-{
-  "input" : [
-{ "item" : "titaniumbar", "count" : 30 },
-{ "item" : "moltencore", "count" : 1 },
-    { "item" : "money", "count" : 1000 }
-  ],
-  "output" : { "item" : "batteryAApackback", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "mod", "all" ]
-}

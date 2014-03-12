@@ -1,9 +1,0 @@
-{
-  "input" : [
-{ "item" : "Ceruliumbar", "count" : 60 },
-{ "item" : "redstim", "count" : 20 },
-    { "item" : "money", "count" : 3000 }
-  ],
-  "output" : { "item" : "gaintlifestation", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "mod", "all" ]
-}

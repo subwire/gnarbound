@@ -1,9 +1,0 @@
-{
-  "input" : [
-{ "item" : "titaniumbar", "count" : 40 },
-{ "item" : "bluestim", "count" : 10 },
-    { "item" : "money", "count" : 1000 }
-  ],
-  "output" : { "item" : "jumppack", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "mod", "all" ]
-}

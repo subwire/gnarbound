@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "aegisaltbar", "count" : 10 },
-	{ "item" : "plutoniumore", "count" : 80 },
-    { "item" : "money", "count" : 2000 }
-  ],
-  "output" : { "item" : "xplutoniumlanternback", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "mod", "all" ]
-}

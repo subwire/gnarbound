@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "Ceruliumbar", "count" : 15 },
-	{ "item" : "solariumore", "count" : 100 },
-    { "item" : "money", "count" : 3000 }
-  ],
-  "output" : { "item" : "xsolariumlantern", "count" : 1 },
-  "groups" : [ "craftingtable", "armors", "mod", "all" ]
-}
